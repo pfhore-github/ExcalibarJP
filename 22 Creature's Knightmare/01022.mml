@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-arcane.dds"/>
+
+</opengl>
+
+<stringset index="137">
+<string index="7">血の斧</string>
+</stringset>
+
+<stringset index="150">
+<string index="27">血の斧</string>
+<string index="28">血の斧</string>
+</stringset>
+
+<items>
+<!-- Axe -->
+<item index="22">
+<shape coll="7" seq="45"/>
+</item>
+</items>
+
+<interface> 
+
+<!-- Spear becomes Axe -->
+<weapon index="7" shape="66" top="358" left="400">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+
+</interface> 
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="68"/>
+<random index="4" sound="4"/>
+<ambient index="25" sound="258"/>
+</sounds>
+
+</marathon>

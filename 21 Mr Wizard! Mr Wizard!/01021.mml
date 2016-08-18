@@ -1,0 +1,78 @@
+<marathon>
+<opengl>
+
+<texture coll="21" bitmap="44" normal_image="emrtextures/portal1.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="77" normal_image="emrtextures/portal2.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="57" normal_image="emrtextures/portal3.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="73" normal_image="emrtextures/tomb.jpg" 
+opac_type="1"
+/>
+<texture coll="7" bitmap="13" normal_image="emrtextures/items/nightvision.jpg" 
+normal_mask="emrtextures/items/tri-powerup-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="15" normal_image="emrtextures/items/sap-generic.jpg" 
+normal_mask="emrtextures/items/sap-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="17" normal_image="emrtextures/items/powerup2.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="18" normal_image="emrtextures/items/heal2-potion.jpg" 
+normal_mask="emrtextures/items/potion-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="54" normal_image="emrtextures/items/invincible.jpg" 
+normal_mask="emrtextures/items/tri-powerup-mask.jpg" opac_type="1"
+/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-nebula.dds"/>
+<texture coll="30" bitmap="1" normal_image="emrtextures/landscapes/daytime-hills.png"/>
+
+</opengl>
+
+<player triple_energy="300"/>
+
+<animated_textures>
+
+<!-- Mauvair portal -->
+<sequence coll="21" numticks="4">
+<frame index="44"/>
+<frame index="77"/>
+<frame index="57"/>
+</sequence>
+
+</animated_textures>
+
+<items>
+<item index="20" type="2">
+<shape coll="7" seq="49"/>
+</item>
+</items>
+
+<scenery>
+<!-- Gargoyle becomes skeleton cage -->
+<object index="44" flags="1" radius="256" height="812">
+<normal>
+<shape coll="26" seq="19"/>
+</normal>
+</object>
+<!-- Satellite becomes Kronos items -->
+<object index="43" flags="1" radius="128" height="550">
+<normal>
+<shape coll="26" seq="25"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

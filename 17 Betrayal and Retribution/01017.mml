@@ -1,0 +1,27 @@
+<marathon>
+<opengl>
+
+<fog on="false"/>
+<texture coll="22" bitmap="25" normal_image="emrtextures/items/boulder3.jpg" 
+normal_mask="emrtextures/items/boulder3-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<scenery>
+<object index="22" flags="1" radius="64" height="250">
+<normal>
+<shape coll="22" seq="23"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

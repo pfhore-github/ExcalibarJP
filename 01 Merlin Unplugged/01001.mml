@@ -1,0 +1,20 @@
+<marathon>
+<!--
+<texture_loading>
+<texture_env index="4" which="2" coll="17"/>
+<texture_env index="4" which="3" coll="22"/>
+</texture_loading>
+-->
+<opengl>
+
+<texture coll="21" bitmap="14" normal_image="emrtextures/bluewater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-nebula.dds"/>
+<texture coll="30" bitmap="1" normal_image="emrtextures/landscapes/daytime-hills.png"/>
+
+</opengl>
+
+</marathon>

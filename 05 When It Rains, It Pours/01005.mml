@@ -1,0 +1,43 @@
+<marathon>
+<opengl>
+
+<fog on="true" depth="6.00" landscapes="false" />
+<fog on="true" type="1" depth="2.00">
+<color red="0.1" green="0.1" blue="0.1"/>
+</fog>
+<texture coll="18" bitmap="12" normal_image="emrtextures/tar.jpg" opac_type="3" 
+opac_scale="1.0" opac_shift="1.0"
+/>
+<texture coll="18" bitmap="40" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/foggy-hills.png"/>
+
+</opengl>
+
+<scenery>
+<object index="11">
+<normal>
+<shape coll="23" seq="21"/>
+</normal>
+</object>
+</scenery>
+
+<!-- Change lava to tar -->
+<faders>
+<fader index="30">
+<color red="0.1" green="0.1" blue="0.1"/>
+</fader>
+<fader index="17">
+<color red="0.1" green="0.1" blue="0.1"/>
+</fader>
+</faders>
+
+<liquids>
+<liquid index="1" submerged="1">
+<damage type="17" flags="1" base="10"/>
+<sound type="5" which="-1"/>
+</liquid>
+</liquids>
+
+</marathon>

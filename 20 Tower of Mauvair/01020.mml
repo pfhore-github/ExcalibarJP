@@ -1,0 +1,64 @@
+<marathon>
+<opengl>
+
+<fog on="false"/>
+
+<texture coll="21" bitmap="15" normal_image="emrtextures/cliff3.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="44" normal_image="emrtextures/portal1.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="77" normal_image="emrtextures/portal2.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="57" normal_image="emrtextures/portal3.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="73" normal_image="emrtextures/fan-kronos1.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="27" normal_image="emrtextures/fan-kronos2.jpg" 
+opac_type="1"
+/>
+<texture coll="21" bitmap="32" normal_image="emrtextures/fan-kronos3.jpg" 
+opac_type="1"
+/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-eye.dds"/>
+
+</opengl>
+
+<liquids>
+<!-- Reduce lava damage a little -->
+<liquid index="1">
+<damage type="17" flags="1" base="15"/>
+</liquid>
+</liquids>
+
+<animated_textures>
+
+<!-- Mauvair portal -->
+<sequence coll="21" numticks="4">
+<frame index="44"/>
+<frame index="77"/>
+<frame index="57"/>
+</sequence>
+
+<!-- Kronos fan -->
+<sequence coll="21" numticks="4">
+<frame index="73"/>
+<frame index="27"/>
+<frame index="32"/>
+</sequence>
+
+</animated_textures>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

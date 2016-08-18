@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="shift_jis" ?>
+<!-- 
+    Basic MML for Excalibur: Morgana's Revenge
+    
+   2006-09-08:
+    - Update stringset for missing files to reflect proper names
+    
+   2006-08-21:
+    - Updated stringset to fix error text when files are missing
+    - Removed most error text overrides
+    
+   2005-11-26:
+    - Added a ton of changes in the past few months, too many to list.
+    
+   2005-07-17:
+    - Make new Skeleton sprite opaque.
+    - Include a clut for transparent Knight and transparent Archer.
+    
+   2005-02-12:
+    - Renamed preferences files to "EMR3 Preferences".
+    
+    2005-02-08:
+    - Renamed physics file to "Magic".
+    - Deleted some MML lines that prevented making the sorcerer transparent, clut 4 of the sorcerer
+    is now transparent.
+    
+    2005-01-01:
+    - Labeled scenery items for easier editing.
+
+    2004-07-14:
+    - Increased magic scroll limit from 99 to 999.
+    - Renamed preferences files to "EMRX".
+    
+    2004-05-14:
+    - Support for higher-resolution textures in accompanying file
+      "textures EMR.mml".
+    - Everything that should be opaque, is opaque.
+    - Knight Melee attacks hurt.
+    - Magic scrolls work.
+
+    The order of evaluation of MML files is not defined.  This file
+    may be evaluated after the high-res textures file, so
+    - Using <txtr_clear/> would wipe out texture changes made by the 
+      textures file (so don't do it).
+    - Duplicating default texture settings here would override
+      changes made in the texture file (so don't do it).
+-->
+
+<marathon>
+
+<!--  THIS IS TO BE ADDED LATER AFTER THE NEXT A1 RELEASE.. 
+    
+
+-->
+<scenario name="Excalibur: Morgana's Revenge" version="EMR 3.0"/>
+
+<!-- FOR TESTING -->
+<!--<cheats on="true" mac_keymod="512">
+<keyword index="00">POWERUP</keyword>
+<keyword index="01">NADE</keyword>
+<keyword index="02">MAP</keyword>
+<keyword index="03">GHOST</keyword>
+<keyword index="04">TREX</keyword>
+<keyword index="05">TINY</keyword>
+<keyword index="06">POISON</keyword>
+<keyword index="07">SNYPER</keyword>
+<keyword index="08">DACHRON</keyword>
+<keyword index="09">HIGHTECH</keyword>
+<keyword index="10">PHASER</keyword>
+<keyword index="11">CROSS</keyword>
+<keyword index="12">SPEAR</keyword>
+<keyword index="13">STAFF</keyword>
+<keyword index="14">SWORD</keyword>
+<keyword index="15">AMMO</keyword>
+<keyword index="16">JUMP</keyword>
+<keyword index="17">MERLIN</keyword>
+<keyword index="18">SAVE</keyword>
+</cheats>
+-->
+<!-- STR# Resource: "Errors" -->
+<stringset index="128">
+<string index="5">"Quest.sceA", "Graphics.shpA", "Visions.imgA" , "Sounds.sndA"のファイルが"EMR"アプリケーションと同じフォルダにあることを確かめて、もう一度起動してください。</string>
+<string index="16">マージされていないマップを検出しました。マーリンは今時間旅行をサポートする物理ファイルを調節しています。</string>
+</stringset>
+
+<!-- STR# Resource: "Filenames" -->
+<stringset index="129">
+<string index="0">Graphics.shpA</string>
+<string index="2">Sounds.sndA</string>
+<string index="4">EMR Preferences</string>
+<string index="5">Quest.sceA</string>
+<string index="6">Chronicle</string>
+<string index="7">Excalibur</string>
+<string index="8">EMR Recording</string>
+<string index="9">Magic</string>
+<string index="10">Minstrel.mp3</string>
+<string index="11">Visions.imgA</string>
+<string index="12">Cavern/Merlin's Prologue</string>
+</stringset>
+
+<!-- STR# Resource: "Top-Level Interface Items" -->
+<stringset index="130">
+<string index="0">Embark</string>
+<string index="1">Persevere</string>
+<string index="2"></string>
+<string index="3">View Journey</string>
+<string index="4">Visit Archives</string>
+<string index="5">Record Journey</string>
+<string index="6"></string>
+<string index="7">Host Net Joust</string>
+<string index="8">Join Net Joust</string>
+<string index="9"></string>
+<string index="10">Preferences</string>
+<string index="11">Preview</string>
+<string index="12">Quit</string>
+</stringset>
+
+<!-- STR# Resource: "Prompts" -->
+<stringset index="131">
+<string index="0">Save beacon as:</string>
+<string index="1">Record journey as:</string>
+<string index="2">Select journey as:</string>
+<string index="3">&lt;IDefault</string>
+</stringset>
+
+
+<!-- STR# Resource: "Key Codes To Names" -->
+<stringset index="133">
+<string index="0">A</string>
+<string index="1">S</string>
+<string index="2">D</string>
+<string index="3">F</string>
+<string index="4">H</string>
+<string index="5">G</string>
+<string index="6">Z</string>
+<string index="7">X</string>
+<string index="8">C</string>
+<string index="9">V</string>
+<string index="10">0x0A</string>
+<string index="11">B</string>
+<string index="12">Q</string>
+<string index="13">W</string>
+<string index="14">E</string>
+<string index="15">R</string>
+<string index="16">Y</string>
+<string index="17">T</string>
+<string index="18">1</string>
+<string index="19">2</string>
+<string index="20">3</string>
+<string index="21">4</string>
+<string index="22">6</string>
+<string index="23">5</string>
+<string index="24">=</string>
+<string index="25">9</string>
+<string index="26">7</string>
+<string index="27">-</string>
+<string index="28">8</string>
+<string index="29">0</string>
+<string index="30">]</string>
+<string index="31">O</string>
+<string index="32">U</string>
+<string index="33">[</string>
+<string index="34">I</string>
+<string index="35">P</string>
+<string index="36">Return</string>
+<string index="37">L</string>
+<string index="38">J</string>
+<string index="39">&apos;</string>
+<string index="40">K</string>
+<string index="41">;</string>
+<string index="42">\</string>
+<string index="43">,</string>
+<string index="44">/</string>
+<string index="45">N</string>
+<string index="46">M</string>
+<string index="47">.</string>
+<string index="48">Tab</string>
+<string index="49">Space</string>
+<string index="50">`</string>
+<string index="51">Delete</string>
+<string index="52">0x34</string>
+<string index="53">Escape</string>
+<string index="54">0x35</string>
+<string index="55">Command</string>
+<string index="56">Shift</string>
+<string index="57">Caps Lock</string>
+<string index="58">Option</string>
+<string index="59">Control</string>
+<string index="60">0x3c</string>
+<string index="61">0x3d</string>
+<string index="62">0x3e</string>
+<string index="63">0x3f</string>
+<string index="64">0x40</string>
+<string index="65">Keypad .</string>
+<string index="66">0x42</string>
+<string index="67">Keypad *</string>
+<string index="68">0x44</string>
+<string index="69">Keypad +</string>
+<string index="70">0x46</string>
+<string index="71">Clear</string>
+<string index="72">0x48</string>
+<string index="73">0x49</string>
+<string index="74">0x4a</string>
+<string index="75">Keypad /</string>
+<string index="76">Enter</string>
+<string index="77">0x4d</string>
+<string index="78">Keypad -</string>
+<string index="79">0x4f</string>
+<string index="80">0x50</string>
+<string index="81">Keypad =</string>
+<string index="82">Keypad 0</string>
+<string index="83">Keypad 1</string>
+<string index="84">Keypad 2</string>
+<string index="85">Keypad 3</string>
+<string index="86">Keypad 4</string>
+<string index="87">Keypad 5</string>
+<string index="88">Keypad 6</string>
+<string index="89">Keypad 7</string>
+<string index="90">0x5a</string>
+<string index="91">Keypad 8</string>
+<string index="92">Keypad 9</string>
+<string index="93">0x5d</string>
+<string index="94">0x5e</string>
+<string index="95">0x5f</string>
+<string index="96">F5</string>
+<string index="97">F6</string>
+<string index="98">F7</string>
+<string index="99">F3</string>
+<string index="100">F8</string>
+<string index="101">F9</string>
+<string index="102">0x66</string>
+<string index="103">F11</string>
+<string index="104">0x68</string>
+<string index="105">F13</string>
+<string index="106">0x6a</string>
+<string index="107">F14</string>
+<string index="108">0x6c</string>
+<string index="109">F10</string>
+<string index="110">0x6e</string>
+<string index="111">F12</string>
+<string index="112">0x70</string>
+<string index="113">F15</string>
+<string index="114">Help</string>
+<string index="115">Home</string>
+<string index="116">Page Up</string>
+<string index="117">Forw. Del.</string>
+<string index="118">F4</string>
+<string index="119">End</string>
+<string index="120">F2</string>
+<string index="121">Page Down</string>
+<string index="122">F1</string>
+<string index="123">Left Arrow</string>
+<string index="124">Right Arrow</string>
+<string index="125">Down Arrow</string>
+<string index="126">Up Arrow</string>
+<string index="127">Power</string>
+</stringset>
+
+<!-- STR# Resource: "Computer Interface" -->
+<stringset index="135">
+<string index="0">クロノス探査機</string>
+<string index="1">クロノス接続開始...</string>
+<string index="2">クロノス汎用翻訳機</string>
+<string index="3">518.6,98.5 &lt;059,1060&gt;</string>
+<string index="4">クロノスコミュニケーションプロトコル</string>
+<string index="5">PgUp/PgDown/矢印キーでスクロール</string>
+<string index="6">Return/Enterキーで了解</string>
+<string index="7">接続切断...</string>
+<string index="8">接続終了</string>
+<string index="9">翻訳機起動</string>
+</stringset>
+
+<!-- STR# Resource: "Join Dialog Messages" -->
+<stringset index="136">
+<string index="0">「参加」をクリックするとＥＭＲのネットワークゲームに参加できます。</string>
+</stringset>
+
+<!-- STR# Resource: "Weapon Names" -->
+<stringset index="137">
+<string index="0">拳骨打撃</string>
+<string index="1">スナイパー・ピストル</string>
+<string index="2">石弓</string>
+<string index="3">ダクロン・ミニガン</string>
+<string index="4">EMF4000-g ハイテク</string>
+<string index="5">ラドン・フェーザーPX5</string>
+<string index="6">エクスキャリバー</string>
+<string index="7">やり</string>
+<string index="8">モードレッドの骸骨</string>
+<string index="9">炎と氷の杖</string>
+</stringset>
+
+<!-- STR# Resource: "Preferences Groupings" -->
+<stringset index="139">
+<string index="0">グラフィック</string>
+<string index="1">プレイヤー</string>
+<string index="2">サウンド</string>
+<string index="3">コントロール</string>
+<string index="4">環境</string>
+</stringset>
+
+<!-- STR# Resource: "Postgame network game stats" -->
+<stringset index="140">
+<string index="0">%d 旗</string>
+<string index="1">%d:%02d</string>
+<string index="2">%d 点</string>
+<string index="3">チーム</string>
+<string index="4">ボールの保持時間</string>
+<string index="5">旗の捕獲</string>
+<string index="6">時間</string>
+<string index="7">ゴール</string>
+<string index="8">陣地にいた時間</string>
+</stringset>
+
+<!-- STR# Resource: "Net Game Setup" -->
+<stringset index="141">
+<string index="0">殺傷制限</string>
+<string index="1">殺傷</string>
+<string index="2">捕獲制限</string>
+<string index="3">旗</string>
+<string index="4">点数制限</string>
+<string index="5">点数</string>
+</stringset>
+
+<!-- STR# Resource: "New Join Dialog Messages" -->
+<stringset index="142">
+<string index="0">君は「%s」プレーに受け入れられました。サーバーが残りのプレーヤーを追加するまで少々おまちください。 </string>
+<string index="1"> 個人対戦 </string>
+<string index="2">君は「共同対戦」プレーに受け入れられました。サーバーが残りのプレーヤーを追加するまで少々おまちください。</string>
+<string index="3">旗取り</string>
+<string index="4">陣地取り</string>
+<string index="5">ボールの取り合い</string>
+<string index="6">ボブから離れろ！</string>
+<string index="7">ラグビー</string>
+<string index="8">鬼ごっこ</string></stringset>
+
+<!-- STR# Resource: "Progress strings for networking" -->
+<stringset index="143">
+<string index="0">プレーヤーへ地図を転送中です。</string>
+<string index="1">プレーヤーへ地図を転送中です。</string>
+<string index="2">サーバーから地図を転送しています。</string>
+<string index="3">サーバーから地図の転送をお待ちください。</string>
+<string index="4">環境データを他のプレーヤーへ転送中です。</string>
+<string index="5">環境データを他のプレーヤーへ転送中です。</string>
+<string index="6">環境データをサーバーから転送しています。</string>
+</stringset>
+
+<!-- STR# Resource: "Difficulty Levels" -->
+<stringset index="145">
+<string index="0">道化師</string>
+<string index="1">従弟</string>
+<string index="2">従者</string>
+<string index="3">騎士</string>
+<string index="4">剣闘士</string>
+</stringset>
+
+<!-- STR# Resource: "Item names" -->
+<stringset index="150">
+<string index="0">拳骨打撃</string>
+<string index="1">スナイパー・ピストル</string>
+<string index="2">スナイパー・ピストル</string>
+<string index="3">スナイパー・弾薬</string>
+<string index="4">スナイパー・弾薬</string>
+<string index="5">石弓</string>
+<string index="6">えびらの矢</string>
+<string index="7">えびらの矢</string>
+<string index="8">ダクロン・ミニガン</string>
+<string index="9">ダクロン弾薬</string>
+<string index="10">ダクロン弾薬</string>
+<string index="11">プラズマパック</string>
+<string index="12">プラズマパック</string>
+<string index="13">EMF4000-g ハイテク</string>
+<string index="14">ミサイルパック</string>
+<string index="15">ミサイルパック</string>
+<string index="16">エクスキャリバー</string>
+<string index="17">水の小瓶</string>
+<string index="18">水の小瓶</string>
+<string index="19">ラドン・フェーザーPX5</string>
+<string index="20">ラドン・エネルギーパック</string>
+<string index="21">ラドン・エネルギーパック</string>
+<string index="22">魔法の巻物</string>
+<string index="23">魔法の巻物</string>
+<string index="24">小さなＡＩモジュール</string>
+<string index="25">T9000グレネードペア</string>
+<string index="26">T9000グレネードペア</string>
+<string index="27">やり</string>
+<string index="28">やり</string>
+<string index="29">SAPアクセスカード</string>
+<string index="30">SAPアクセスカード</string>
+<string index="31">合い鍵</string>
+<string index="32">合い鍵</string>
+<string index="33">明るい青のボール</string>
+<string index="34">モードレッドの骸骨</string>
+<string index="35">紫のボール</string>
+<string index="36">黄色いボール</string>
+<string index="37">茶色のボール</string>
+<string index="38">オレンジのボール</string>
+<string index="39">青のボール</string>
+<string index="40">緑のボール</string>
+<string index="41">炎と氷の杖</string>
+<string index="42">岩の固まり</string>
+<string index="43">岩の固まり</string>
+<string index="44">すばらしい薬</string>
+<string index="45">すばらしい薬</string>
+</stringset>
+
+<!-- STR# Resource: "Item types" -->
+<stringset index="151">
+<string index="0">武器</string>
+<string index="1">弾丸</string>
+<string index="2">消耗品</string>
+<string index="3">アイテム</string>
+<string index="4">薬</string>
+<string index="5">骸骨</string>
+<string index="6">ネットワーク状況</string>
+</stringset>
+
+<!-- STR# Resource: "Colors" -->
+<stringset index="152">
+<string index="0">海</string>
+<string index="1">血</string>
+<string index="2">ワイン</string>
+<string index="3">金</string>
+<string index="4">灰</string>
+<string index="5">炎</string>
+<string index="6">深夜</string>
+<string index="7">森</string>
+</stringset>
+
+<!-- STR# Resource: "Net Statistics Strings" -->
+<stringset index="153">
+<string index="0">殺傷: %d人</string>
+<string index="1">死亡: %d人</string>
+<string index="2">自殺: %d人</string>
+<string index="3">合計</string>
+<string index="4">敵</string>
+<string index="5">殺傷の合計: %d (一分当たり %.2f人)</string>
+<string index="6">死亡の合計: %d (一分当たり %.2f人)</string>
+<string index="7">- 自殺 %d人を含む</string>
+<string index="8">チーム虐殺の合計</string>
+<string index="9"> - 同士討ち %d人を含む</string>
+<string index="10">成績</string>
+<string index="11">チームの成績</string></stringset>
+
+<!-- STR# Resource: "OpenGL-Option Color-Picker Prompts" -->
+<stringset index="200">
+<string index="0">何もない空間の色は？</string>
+<string index="1">日中の地面の色は？</string>
+<string index="2">日中の空の色は？</string>
+<string index="3">夜間の地面の色は？</string>
+<string index="4">夜間の空の色は？</string>
+<string index="5">月の地面の色は？</string>
+<string index="6">月の空の色は？</string>
+<string index="7">宇宙空間の地面の色は？</string>
+<string index="8">宇宙空間の空の色は？</string>
+<string index="9">フォッグの色は？</string>
+</stringset>
+
+<!-- STR# Resource: "Vismaster Oath" -->
+<stringset index="999">
+<string index="0">ここからは、騎士道の宣誓を誓わないといけないぜ。</string>
+<string index="1"></string> <!-- empty string for line break -->
+<string index="2">[QUOTE]『宣誓、</string>
+<string index="3">[QUOTE]全ての悪を破壊し、ダクロンを使えるところでは</string>
+<string index="4">[QUOTE]決して矢を打たず、ピラニアの住むところ以外の</string>
+<string index="5">[QUOTE]水中を全て探索し、Ｔ－ｒｅｘを殺すときは</string>
+<string index="6">[QUOTE]やりと岩以外は絶対に使いませ～ん。』</string>
+</stringset>
+<interface>
+<font index="0" size="9" file="Fonts.ttf" />
+<font index="1" size="9" file="Fonts.ttf" />
+<font index="2" size="9" file="Fonts.ttf" />
+<font index="3" size="9" file="Fonts.ttf" />
+<font index="4" size="9" file="Fonts.ttf" />
+<font index="5" size="11" file="Fonts.ttf" />
+<font index="6" size="9" file="Fonts.ttf" />
+<vidmaster stringset_index="999" />
+<rect index="0" top="326" left="300" bottom="338" right="473"/>
+<rect index="1" top="464" left="398" bottom="475" right="578"/>
+<rect index="2" top="464" left="181" bottom="475" right="361"/>
+<rect index="3" top="338" left="17" bottom="0" right="0"/>
+<rect index="4" top="0" left="0" bottom="0" right="0"/>
+<rect index="5" top="342" left="204" bottom="454" right="384"/>
+<rect index="6" top="342" left="384" bottom="454" right="596"/>
+<rect index="7" top="179" left="101" bottom="210" right="268"/>
+<rect index="8" top="221" left="25" bottom="253" right="238"/>
+<rect index="9" top="263" left="11" bottom="294" right="223"/>
+<rect index="10" top="301" left="38" bottom="333" right="236"/>
+<rect index="11" top="304" left="421" bottom="331" right="563"/>
+<rect index="12" top="386" left="231" bottom="413" right="406"/>
+<rect index="13" top="345" left="363" bottom="372" right="516"/>
+<rect index="14" top="344" left="83" bottom="374" right="271"/>
+<rect index="15" top="206" left="246" bottom="347" right="382"/>
+<rect index="16" top="264" left="522" bottom="291" right="588"/>
+<rect index="17" top="0" left="0" bottom="0" right="0"/>
+
+</interface>
+
+<!--
+Miscellaneous settings for "Excalibur: Morgana's Revenge"
+Note these texture names and which originals they are:
+Camelot - Water
+Jurassic - Lava
+Future - Sewage
+Dream - Jjaro
+Kronos - Pfhor
+-->
+
+<control_panels>
+
+<!--
+** Panel actions **
+0 = activating
+1 = deactivating
+2 = unusable
+
+** Panel related sounds **
+Energy Refuel = 9
+Oxygen Refuel = 10
+Can't Toggle Mech Switch = 11
+Wood Switch On = 12
+Wood Switch Off = 13
+Can't Toggle Buzz Switch = 14
+Chip Insertion = 15
+Key Unlock = 17
+Pod door locked = 26
+Short Circuit = 89
+Wood squeek = 122
+Wood locked = 127
+Computer logout = 142
+Glass breaking = 186
+Light Switch Off = 194
+Light Switch On = 195
+Window won't break = 210
+Wood door locked = 216
+
+** Panel related items **
+Key = 26 (uplink chip)
+SAP Card = 24 (s'pht door key)
+-->
+
+<!-- Camelot key-insertion switch -->
+<panel index="3" item="25">
+<sound  type="0" which="17"/>
+<sound  type="1" which="-1"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Camelot light switch -->
+<panel index="4">
+<sound  type="0" which="195"/>
+<sound  type="1" which="194"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Camelot platform switch -->
+<panel index="5">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Camelot tag switch -->
+<panel index="6">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Camelot destroyable switch (never used) -->
+<panel index="9">
+<sound  type="0" which="89"/>
+<sound  type="1" which="195"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Jurassic chip-insertion switch -->
+<panel index="19" item="24">
+<sound  type="0" which="15"/>
+<sound  type="1" which="16"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Jurassic light switch -->
+<panel index="13">
+<sound  type="0" which="195"/>
+<sound  type="1" which="194"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Jurassic platform switch -->
+<panel index="14">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Jurassic tag switch -->
+<panel index="15">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Jurassic destroyable switch (never used) -->
+<panel index="20">
+<sound  type="0" which="89"/>
+<sound  type="1" which="195"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Future chip-insertion switch -->
+<panel index="30" item="24">
+<sound  type="0" which="15"/>
+<sound  type="1" which="16"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Future light switch -->
+<panel index="24">
+<sound  type="0" which="195"/>
+<sound  type="1" which="194"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Future platform switch -->
+<panel index="25">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Future tag switch -->
+<panel index="26">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Future destroyable switch (never used) -->
+<panel index="31">
+<sound  type="0" which="89"/>
+<sound  type="1" which="195"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Kronos chip-insertion switch -->
+<panel index="41" item="24">
+<sound  type="0" which="15"/>
+<sound  type="1" which="16"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Kronos light switch -->
+<panel index="35">
+<sound  type="0" which="195"/>
+<sound  type="1" which="194"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Kronos platform switch -->
+<panel index="36">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Kronos tag switch -->
+<panel index="37">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Kronos destroyable switch (never used) -->
+<panel index="42">
+<sound  type="0" which="89"/>
+<sound  type="1" which="195"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Dreams chip-insertion switch -->
+<panel index="52" item="25">
+<sound  type="0" which="17"/>
+<sound  type="1" which="-1"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Dreams light switch -->
+<panel index="46">
+<sound  type="0" which="195"/>
+<sound  type="1" which="194"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Dreams platform switch -->
+<panel index="47">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="11"/>
+</panel>
+
+<!-- Dreams tag switch -->
+<panel index="48">
+<sound  type="0" which="12"/>
+<sound  type="1" which="13"/>
+<sound  type="2" which="14"/>
+</panel>
+
+<!-- Dreams destroyable switch (break glass) -->
+<panel index="53">
+<sound  type="0" which="186"/>
+<sound  type="1" which="-1"/>
+<sound  type="2" which="210"/>
+</panel>
+
+</control_panels>
+
+<faders>
+
+<!-- Some of the faders get their priority upped -->
+<fader index="10" priority="50"/>
+<fader index="11" priority="75"/>
+<fader index="13" priority="25"/>
+
+<!-- Orange and long green faders become red -->
+<fader index="16">
+<color red="1" green="0" blue="0"/>
+</fader>
+<fader index="17" priority="25">
+<color red="1" green="0" blue="0"/>
+</fader>
+<fader index="19" priority="25">
+<color red="1" green="0" blue="0"/>
+</fader>
+
+<!-- Static becomes red -->
+<fader index="20" type="0" initial_opacity="0.75" period="7">
+<color red="1" green="0" blue="0"/>
+</fader>
+
+<fader index="22" priority="25"/>
+
+<!-- Burn cyan becomes burn red and faster-->
+<fader index="25" period="5">
+<color red="1" green="0" blue="0"/>
+</fader>
+
+<!-- Dodge yellow becomes red -->
+<fader index="26" initial_opacity="0.75" period="10">
+<color red="1" green="0" blue="0"/>
+</fader>
+
+<!-- Dreams liquid becomes green -->
+<fader index="28">
+<color red="0" green="0.8" blue="0"/>
+</fader>
+
+<!-- Lava becomes redder -->
+<fader index="30">
+<color red="1" green="0.125" blue="0"/>
+</fader>
+
+<!-- Future liquid becomes green -->
+<fader index="31">
+<color red="0" green="0.8" blue="0"/>
+</fader>
+
+<!-- Kronos liquid becomes purple (normally unused) -->
+<fader index="32">
+<color red="0.8" green="0" blue="0.8"/>
+</fader>
+
+</faders>
+
+<weapons>
+<shell_casings index="4" coll="1" seq="27" x0="0.5" y0="0.5" />
+<!-- 
+Weapon order is as follows:
+	Slicing Knuckles (0)
+	Spear (7)
+	Snyper (1)
+	Crossbow (2)
+	Dachron (3)
+	Magic Staff (9)
+	Phaser (5)
+	Hightech (4)
+	Excalibur (6)
+-->
+
+</weapons>
+
+
+<interface>
+
+<!-- Weapon display -->
+<!-- The fusion gun has become the crossbow -->
+<weapon index="2">
+<ammo index="0" type="2"
+left="405" top="360"
+across="1" down="8"
+delta_x="44" delta_y="9"
+bullet_shape="43" empty_shape="44"
+/>
+</weapon>
+
+<!-- The assault rifle has become the Dachron minigun -->
+<weapon index="3">
+<ammo index="0" type="2"
+left="390" top="380"
+across="13" down="4"
+delta_x="4" delta_y="12"
+bullet_shape="33" empty_shape="34"
+right_to_left="true"
+/>
+<ammo index="1" type="0"/>
+</weapon>
+
+<!-- The rocket has become the hightech weapon -->
+<weapon index="4">
+<ammo index="0" type="2"
+left="385" top="360"
+across="2" down="1"
+delta_x="16" delta_y="49"
+bullet_shape="49" empty_shape="50"
+right_to_left="true"
+/>
+<ammo index="1" type="1"
+left="385" top="420"
+across="20" down="0"
+delta_x="34" delta_y="20"
+bullet_shape="21" empty_shape="1"
+right_to_left="true"
+/>
+</weapon>
+
+<!-- The flamethrower has become the phaser -->
+<weapon index="5" top="370" left="470">
+<ammo index="0" type="1"
+left="563" top="376"
+across="105"
+delta_x="12" delta_y="46"
+bullet_shape="10" empty_shape="1"
+/>
+</weapon>
+
+<!-- The alien weapon has become the Excalibur -->
+<weapon index="6">
+<ammo index="0" type="1"
+left="424" top="383"
+across="8"
+delta_x="10" delta_y="34"
+bullet_shape="22" empty_shape="1"
+right_to_left="true"
+/>
+</weapon>
+
+<!-- The shotgun has become the spear and rocks -->
+<weapon index="7"
+left="405" multiple="false">
+<ammo index="0" type="0"
+/>
+<ammo index="1" type="2"
+left="385" top="360"
+across="1" down="5"
+delta_x="20" delta_y="15"
+bullet_shape="45" empty_shape="46"
+right_to_left="true"
+/>
+</weapon>
+
+<!-- The SMG has become the Magic Staff -->
+<weapon index="9">
+<ammo index="0" type="1"
+left="425" top="382"
+across="32" down="0"
+delta_x="25" delta_y="50"
+bullet_shape="7" empty_shape="1"
+right_to_left="true"
+/>
+</weapon>
+
+</interface>
+
+<!-- Maximum count changes -->
+<items>
+<!-- Snyper ammo -->
+<item index="2" maximum="40"/>
+<!-- Bundle of Arrows -->
+<item index="4" maximum="10"/>
+<!-- Dachron ammo -->
+<item index="6" maximum="20"/>
+<!-- Plasma paks ammo -->
+<item index="7" maximum="10"/>
+<!-- Missile paks ammo -->
+<item index="9" maximum="4"/>
+<!-- Magic scrolls -->
+<item index="14" type="3" singular="22" plural="23" maximum="999">
+<shape coll="7" seq="34"/>
+</item>
+<!-- Phaser paks ammo -->
+<item index="16" maximum="8"/>
+<!-- Spear -->
+<item index="22" maximum="1"/>
+<!-- Water vials ammo -->
+<item index="23" maximum="10"/>
+<!-- SAP Card -->
+<item index="24" maximum="10" singular="29" plural="30"/>
+<!-- Skeleton Key -->
+<item index="25" maximum="10" singular="31" plural="32"/>
+<!-- Throwing rocks -->
+<item index="35" maximum="20" singular="42" plural="43"/>
+</items>
+
+<liquids>
+
+<!-- Camelot (water) -->
+<liquid index="0">
+<sound type="0" which="108"/>
+<sound type="1" which="109"/>
+<sound type="2" which="110"/>
+<sound type="3" which="108"/>
+<sound type="4" which="108"/>
+<sound type="5" which="0"/>
+<sound type="6" which="4"/>
+<sound type="7" which="110"/>
+<sound type="8" which="109"/>
+</liquid>
+	
+<!-- Jurassic (lava) -->
+<liquid index="1">
+<damage type="17" flags="1" base="20"/>
+<sound type="0" which="119"/>
+<sound type="1" which="115"/>
+<sound type="2" which="116"/>
+<sound type="3" which="119"/>
+<sound type="4" which="119"/>
+<sound type="5" which="2"/>
+<sound type="6" which="4"/>
+<sound type="7" which="116"/>
+<sound type="8" which="115"/>
+</liquid>
+
+<!-- Morgana/Kronos (lava) -->
+<liquid index="2" submerged="1">
+<damage type="17" flags="1" base="20"/>
+<sound type="0" which="119"/>
+<sound type="1" which="115"/>
+<sound type="2" which="116"/>
+<sound type="3" which="119"/>
+<sound type="4" which="119"/>
+<sound type="5" which="2"/>
+<sound type="6" which="4"/>
+<sound type="7" which="116"/>
+<sound type="8" which="115"/>
+</liquid>
+
+<!-- Future (sewage) -->
+<liquid index="3">
+<sound type="0" which="110"/>
+<sound type="1" which="109"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="110"/>
+<sound type="4" which="108"/>
+<sound type="5" which="0"/>
+<sound type="6" which="4"/>
+<sound type="7" which="110"/>
+<sound type="8" which="109"/>
+</liquid>
+
+<!-- Dreams (water) -->
+<liquid index="4" submerged="2">
+<sound type="0" which="110"/>
+<sound type="1" which="109"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="110"/>
+<sound type="4" which="108"/>
+<sound type="5" which="0"/>
+<sound type="6" which="4"/>
+<sound type="7" which="110"/>
+<sound type="8" which="109"/>
+</liquid>
+
+</liquids>
+
+<overhead_map>
+<!-- Polygons -->
+<color index="0" red="0" green="0.1831" blue="0"/>
+<color index="1" red="0.6667" green="0.6667" blue="0.6667"/>
+<color index="2" red="0.3047" green="0.3945" blue="0.4961"/>
+<color index="3" red="0.4844" green="0.1055" blue="0"/>
+<color index="4" red="0.3047" green="0.3945" blue="0.4961"/>
+<color index="5" red="0.3047" green="0.3945" blue="0.4961"/>
+<color index="6" red="0.4844" green="0.1055" blue="0"/>
+<!-- Annotations -->
+<color index="16" red="0" green="0.9333" blue="0"/>
+<!-- Map title -->
+<color index="17" red="0" green="0.78" blue="0"/>
+
+<!-- Shown in map mode -->
+<assign_live monster="1" type="1"/>
+<assign_live monster="2" type="-1"/>
+<assign_live monster="3" type="-1"/>
+<assign_live monster="4" type="1"/>
+<assign_live monster="5" type="1"/>
+<assign_live monster="6" type="1"/>
+<assign_live monster="7" type="1"/>
+<assign_live monster="8" type="0"/>
+<assign_live monster="9" type="1"/>
+<assign_live monster="10" type="1"/>
+<assign_live monster="11" type="1"/>
+<assign_live monster="12" type="0"/>
+<assign_live monster="13" type="0"/>
+<assign_live monster="14" type="0"/>
+<assign_live monster="15" type="0"/>
+<assign_live monster="16" type="1"/>
+<assign_live monster="17" type="1"/>
+<assign_live monster="18" type="1"/>
+<assign_live monster="19" type="1"/>
+<assign_live monster="20" type="1"/>
+<assign_live monster="21" type="1"/>
+<assign_live monster="22" type="1"/>
+<assign_live monster="23" type="1"/>
+<assign_live monster="24" type="1"/>
+<assign_live monster="25" type="1"/>
+<assign_live monster="26" type="1"/>
+<assign_live monster="27" type="1"/>
+<assign_live monster="28" type="1"/>
+<assign_live monster="29" type="1"/>
+<assign_live monster="30" type="1"/>
+<assign_live monster="31" type="1"/>
+<assign_live monster="32" type="1"/>
+<assign_live monster="33" type="1"/>
+<assign_live monster="34" type="1"/>
+<assign_live monster="35" type="-1"/>
+<assign_live monster="36" type="-1"/>
+<assign_live monster="37" type="-1"/>
+<assign_live monster="38" type="1"/>
+<assign_live monster="39" type="1"/>
+<assign_live monster="40" type="-1"/>
+<assign_live monster="41" type="0"/>
+<assign_live monster="42" type="-1"/>
+<assign_live monster="43" type="-1"/>
+<assign_live monster="44" type="-1"/>
+<assign_live monster="45" type="-1"/>
+<assign_live monster="46" type="1"/>
+
+<assign_dead coll="12" type="-1"/>
+<assign_dead coll="13" type="-1"/>
+
+</overhead_map>
+
+<motion_sensor>
+
+<!-- Shown on radar -->
+<assign monster="1" type="1"/>
+<assign monster="2" type="2"/>
+<assign monster="3" type="2"/>
+<assign monster="4" type="1"/>
+<assign monster="5" type="1"/>
+<assign monster="6" type="1"/>
+<assign monster="7" type="1"/>
+<assign monster="8" type="0"/>
+<assign monster="9" type="1"/>
+<assign monster="10" type="1"/>
+<assign monster="11" type="1"/>
+<assign monster="12" type="0"/>
+<assign monster="13" type="0"/>
+<assign monster="14" type="0"/>
+<assign monster="15" type="0"/>
+<assign monster="16" type="1"/>
+<assign monster="17" type="1"/>
+<assign monster="18" type="1"/>
+<assign monster="19" type="1"/>
+<assign monster="20" type="1"/>
+<assign monster="21" type="1"/>
+<assign monster="22" type="1"/>
+<assign monster="23" type="1"/>
+<assign monster="24" type="1"/>
+<assign monster="25" type="1"/>
+<assign monster="26" type="1"/>
+<assign monster="27" type="1"/>
+<assign monster="28" type="1"/>
+<assign monster="29" type="1"/>
+<assign monster="30" type="1"/>
+<assign monster="31" type="1"/>
+<assign monster="32" type="1"/>
+<assign monster="33" type="1"/>
+<assign monster="34" type="1"/>
+<assign monster="35" type="2"/>
+<assign monster="36" type="2"/>
+<assign monster="37" type="2"/>
+<assign monster="38" type="1"/>
+<assign monster="39" type="1"/>
+<assign monster="40" type="2"/>
+<assign monster="41" type="0"/>
+<assign monster="42" type="2"/>
+<assign monster="43" type="2"/>
+<assign monster="44" type="2"/>
+<assign monster="45" type="2"/>
+<assign monster="46" type="1"/>
+
+</motion_sensor>
+
+<sounds breathing="-1">
+</sounds>
+
+<!-- 	PLATFORMS
+		Note: All the platforms do crushing damage.
+-->
+<platforms>
+
+<!-- POD DOOR -->
+<platform index="0"
+	start_extend="24" stop_extend="148" start_contract="25" stop_contract="147"
+	moving="-1" uncontrollable="26" obstructed="26">
+<damage type="16" flags="0" base="10" random="10"/>
+</platform>
+
+<!-- SPACESHIP DOOR -->
+<platform index="1"
+	start_extend="114" stop_extend="148" start_contract="114" stop_contract="147"
+	moving="-1" uncontrollable="26" obstructed="26">
+</platform>
+
+<!-- WOOD PLATFORM -->
+<platform index="2" 
+	start_extend="190" stop_extend="125" start_contract="191" stop_contract="121"
+	moving="23" uncontrollable="127" obstructed="192">
+<damage type="16" flags="0" base="10" random="10"/>
+</platform>
+
+<!-- SILENT PLATFORM -->
+<platform index="3"
+	start_extend="-1" stop_extend="-1" start_contract="-1" stop_contract="-1"
+	moving="-1" uncontrollable="-1" obstructed="-1">
+<damage type="16" flags="0" base="30" random="10"/>
+</platform>
+
+<!-- STEEL PLATFORM -->
+<platform index="4"
+	start_extend="27" stop_extend="28" start_contract="27" stop_contract="28"
+	moving="10" uncontrollable="192" obstructed="192">
+<damage type="16" flags="0" base="60" random="10"/>
+</platform>
+
+<!-- ELEVATOR -->
+<platform index="5"
+	start_extend="146" stop_extend="148" start_contract="145" stop_contract="147"
+	moving="11" uncontrollable="149" obstructed="149">
+<damage type="16" flags="0" base="20" random="4"/>
+</platform>
+
+<!-- WOODEN DOOR -->
+<platform index="6"
+	start_extend="122" stop_extend="236" start_contract="0" stop_contract="121"
+	moving="-1" uncontrollable="216" obstructed="192">
+<damage type="16" flags="0" base="10" random="10"/>
+</platform>
+
+<!-- BAY DOOR -->
+<platform index="7"
+	start_extend="32" stop_extend="33" start_contract="32" stop_contract="33"
+	moving="11" uncontrollable="149" obstructed="149">
+<damage type="16" flags="0" base="30" random="4"/>
+</platform>
+
+<!-- STONE PLATFORM -->
+<platform index="8"
+	start_extend="187" stop_extend="188" start_contract="187" stop_contract="188"
+	moving="24" uncontrollable="-1" obstructed="179">
+<damage type="16" flags="0" base="50" random="10"/>
+</platform>
+
+</platforms>
+
+<!--<player_name>Kronos Knight</player_name>-->
+
+<!--<player oxygen="10800" oxygen_deplete="5" oxygen_replenish="1">-->
+<player>
+<!-- Magic-staff bolt makes red instead of static -->
+<damage index="10" fade="5"/>
+
+<!-- Micromissiles yellow instead of green -->
+<damage index="22" fade="10"/>
+
+<!-- Evil arrows red instead of green -->
+<damage index="23" fade="5"/>
+
+<!--<powerup extravision="120" infravision="1800"/>-->
+
+<!-- Fix Phaser idle sequence -->
+<shape type="2" subtype="5" value="41"/>
+
+</player>
+
+<scenery>
+<!-- Jurassic items -->
+<object index="0" />   <!-- Dead Grogs -->
+<object index="1" />   <!-- Blood -->
+<object index="2" />   <!-- Bones -->
+<object index="3" />   <!-- Actinium Crystal -->
+<object index="4" />   <!-- Small plant -->
+<object index="5" />   <!-- Crystals -->
+<object index="6" />   <!-- Icicle -->
+<object index="7" />   <!-- Stalactite -->
+<object index="8" radius="256" height="800"/>   <!-- Large boulder -->
+<object index="9" radius="128" height="400"/>   <!-- Small boulder -->
+<object index="10" radius="128" height="900"/>  <!-- Palm trees -->
+<object index="11" radius="256" height="900"/>  <!-- Forest trees -->
+<object index="12" radius="64" height="512"/>   <!-- Time beacon --> 
+
+<!-- Camelot items -->
+<object index="13" flags="1" radius="128" height="800"/>  	<!-- White Armor -->
+<object index="14" />   <!-- Boneheads -->
+<object index="15" />   <!-- Stalactite -->
+<object index="16" flags="1" radius="128" height="800"/>  	<!-- Boulder -->
+<object index="17" />   <!-- Bones -->
+<object index="18" />   <!-- Blood puddles -->
+<object index="19" flags="2" radius="20" height="100"/>  	<!-- Candle -->
+<object index="20" />   <!-- Small Plant -->
+<object index="21" flags="1" radius="128" height="800"/>  	<!-- Black Armor -->
+<object index="22" flags="1" radius="64" height="400"/>  	<!-- Time beacon -->
+<object index="23" />   <!-- Water puddles -->
+<object index="24" flags="1" radius="128" height="1024"/>   <!-- Pillar -->
+<object index="25" flags="1" radius="128" height="900"/>   	<!-- Forest trees -->
+<object index="26" flags="3" radius="32" height="600"/>  	<!-- Candleabra -->
+<object index="27" />   <!-- Crystals -->
+
+<!-- Future items -->
+<object index="28" />   <!-- Yellow light -->
+<object index="29" />   <!-- White light -->
+<object index="30" flags="1" radius="128" height="400"/>  	<!-- Trash can -->
+<object index="31" flags="1" radius="128" height="1024"/>  	<!-- Satellite Dish -->
+<!-- Animate Satellite -->
+<object index="31" flags="3">
+<normal>
+<shape coll="24" seq="19"/>
+</normal>
+</object>
+<!-- Light post -->
+<object index="32" flags="1" radius="16" height="1024">
+<normal>
+<shape coll="24" seq="21"/>
+</normal>
+</object>
+<object index="33" flags="1" radius="128" height="300"/>  	<!-- Potted Plant -->
+<object index="34" />   <!-- Trash -->
+<!-- Animate Actinium crystals -->
+<object index="35" flags="2" radius="64" height="250">
+<normal>
+<shape coll="24" seq="20"/>
+</normal>
+</object>
+<object index="36" />   <!-- GAT parts -->
+<object index="37" />   <!-- Office junk -->
+<object index="38" flags="1" radius="64" height="400"/>  	<!-- Fire hydrant -->
+
+<!-- Morgana/Kronos items -->
+<object index="39" flags="1" radius="128" height="900"/>  	<!-- Forest trees -->
+<object index="40" flags="1" radius="170" height="600"/>  	<!-- Kronos chair -->
+<object index="41" />   <!-- Kronos light -->
+<object index="42" />   <!-- Ferns -->
+<object index="43" flags="1" radius="128" height="1024"/>  	<!-- Satellite -->
+<object index="44" flags="1" radius="170" height="600"/>  	<!-- Gargoyle -->
+<object index="45" flags="1" radius="128" height="800"/>  	<!-- Black armor -->
+<object index="46" />   <!-- Blood -->
+<object index="47" />   <!-- Crystals -->
+<object index="48" />   <!-- Bones -->
+<object index="49" flags="1" radius="32" height="600"/>  	<!-- Candleabra -->
+
+<!-- Dreams items -->
+<object index="50" flags="5" radius="170" height="-128" destruction="66"/>	<!-- Ceiling light -->
+<object index="51" flags="1" radius="128" height="1024"/>  					<!-- Trees -->
+<object index="52" flags="1" radius="128" height="800"/>  					<!-- Gargoyle -->
+<object index="53" flags="1" radius="128" height="800"/>  					<!-- Light pillars -->
+<object index="54" flags="1" radius="256" height="1024"/>  					<!-- Dragon statue -->
+<object index="55" flags="1" radius="64" height="400"/>  					<!-- Light beacon -->
+<object index="56" />   <!-- Actinium Crystals -->
+<object index="57" flags="1" radius="128" height="400"/>  					<!-- Boulder -->
+<object index="58" />   <!-- Bones -->
+<object index="59" />   <!-- Plant -->
+<object index="60" />   <!-- Crystals -->
+</scenery>
+
+<infravision>
+<color index="0" red="1" green="0" blue="0"/>
+<color index="1" red="0.942" green="0.9333" blue="0.1395"/>
+<color index="2" red="0" green="0" blue="1"/>
+<color index="3" red="0" green="1" blue="1"/>
+</infravision>
+
+</marathon>

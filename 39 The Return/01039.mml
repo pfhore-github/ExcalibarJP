@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+
+<opengl>
+
+<fog on="true" depth="12.00" landscapes="false" />
+<texture coll="17" bitmap="8" normal_image="emrtextures/w5b17.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="25" normal_image="emrtextures/w5b25.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="50" normal_image="emrtextures/w1b50-globe.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="55" normal_image="emrtextures/w5b17a.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="56" normal_image="emrtextures/w5b17b.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="57" normal_image="emrtextures/w5b17c.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="69" normal_image="emrtextures/w2b10.jpg" opac_type="1"
+/>
+<texture coll="22" bitmap="25" normal_image="emrtextures/items/tombstone.jpg" 
+normal_mask="emrtextures/items/tombstone-mask.jpg" opac_type="1"
+/>
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/foggy-hills.png"/>
+
+</opengl>
+
+<player oxygen_deplete="2" oxygen_replenish="2" />
+
+
+<scenery>
+<object index="18" flags="0" radius="-1" height="-1">
+<normal>
+<shape coll="22" seq="19"/>
+</normal>
+</object>
+<object index="23" flags="0" radius="-1" height="-1">
+<normal>
+<shape coll="22" seq="28"/>
+</normal>
+</object>
+</scenery>
+
+<!-- STR# Resource: "Weapon Names" -->
+<stringset index="137">
+<string index="9">氷の破片の杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">氷の破片の杖</string>
+</stringset>
+
+<overhead_map>
+
+<!-- Clones (Ghouls) are enemies -->
+<assign_live monster="15" type="1"/>
+
+</overhead_map>
+
+<motion_sensor>
+
+<!-- Clones (Ghouls) are enemies -->
+<assign monster="15" type="1"/>
+
+</motion_sensor>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

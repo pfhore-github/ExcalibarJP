@@ -1,0 +1,895 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#INFORMATION
+$C6$I
+
+
+このレベルを脱出する古い方法はこのターミナルの方法によるものだった。だが、それは変わった。あなたは今は戸を開けたら直ちに脱出し、最終ムービーが再生するはずである。このテキストはゲームからは読むことができないはずである。
+#INTERLEVEL TELEPORT 256
+#ENDTERMINAL 0
+;
+#TERMINAL 1
+#UNFINISHED
+#LOGON 157
+$C1FHQ チャンネル 19A
+#INFORMATION
+$C4ホーム・司令室へようこそ。ここ、戦隊本部でのあなたの滞在が不便の多く過ぎたというわけではないことを願っています。 私が私たちが先週にずっと行っていた長くて退屈なインタビューを謝りますが、あなたが確認したかもしれない通り、将来の時空連続体を通したどんな今後の攻撃も阻むのためには私たちができるだ多くの知性を集めて格納するのが最重要なのです。
+
+あなたの冒険から残された兵器と弾薬は、このビルの反汚染判事室に集められて、収納されました。 私たちの科学者は、時間旅行の効果について調査するためにそれらを点検するでしょう。
+
+ＡＩマーリンは適切な時代に剣、エクスカリバーを返す臨界の指示を残しました。 したがって、私たちは、時代を通して最後の1回の旅行にあなたを送るようにコンピュータ室のテレポーターにプログラムしました。 エクスカリバーを取ってください、そして、それをアバロン島に返してください。 このタスクがいったん完了すると、上階へのあなたのアクセスは承諾されるでしょう。(そこでは、あなたが屋根に続くことができます)。 私たちは、車で家まで送るためにヘリコプターで飛ばせています。 
+
+$I- 将軍ランス・Ｔ・ジョンストン
+#TAG 8
+#LOGOFF 158
+#ENDTERMINAL 1
+;
+#TERMINAL 2
+#UNFINISHED
+#LOGON 138
+#INFORMATION
+$C1HUD 転送...
+
+$C3> "マーリン後遺"実行
+$C5モジュール1ロード...
+
+$C0このメッセージは、あなたがいったんアバロン島の水域に近づくと起動されるようにあなたのHUDに記録されてプログラムされました。 クロノスにおけるあなたの往復の間、私は再具体化するプロセスを開始しました。 私は変化を終了する際にあなたの助けを必要とするでしょう。 私のエネルギーと本質は私がここ数年間存在している電子状態から断ち切られました。 私はアバロン島の下の氷の洞窟にあった凍っている身体に再入しました。 あなたの助けで、私は、目覚めて生きた存在へと変化するでしょう。
+
+私は、あなたがここ、アバロン島で3つのタスクを実行する必要があります。
+#PICT 11001
+エクスカリバーはあなたによく役立ちましたが、もうアバロン島の魔法の水に返すべき時間です。 そこでアバロン島の止水の中に静かに休息するでしょう。 
+
+これはあなたの3つのタスクの1番目です。 湖のそばにいったんエクスカリバーを受け取ると、私の存在は生活肉に変化を始めて戻すでしょう。 あなたは湖の近くでコテージで私の具体化を目撃できます。
+
+湖の最も深い水域に剣を必ず投げ込んでください。 そして、湖の夫人はそれを受けるだけでしょう。 
+
+その後の指示のためにコテージで私を探してください。
+
+$C1** プログラム終了 **
+#LOGOFF 138
+#ENDTERMINAL 2
+;
+#TERMINAL 3
+#UNFINISHED
+#LOGON 138
+#INFORMATION
+$C1マーリンは話します...
+
+$C4
+いつか、エクスキャリバーは再び立ち上がり、新しい英雄は戦いでそれを振るうでしょう。 その日が来るまで、剣はドラゴン腕の中で休むでしょう。
+
+私の変化は始まりました。 あなたの次のタスクは啓蒙のクリスタルを捜し出すことです。 この不思議な球は特別なエネルギーを維持します。 この水晶があるとき、善霊のものはエネルギーで魔法をかけられます。 悪い精神のものは破壊されます。 誠実に部屋に入ってください、そして、次に、一度魔法をかけられたコテージに戻ってください。 エネルギー充電は私の変化を肉に促進するでしょう。
+
+この2番目のタスクの完成のときに私に戻ってください。
+#LOGOFF 138
+#ENDTERMINAL 3
+;
+#TERMINAL 4
+#UNFINISHED
+#LOGON 138
+#INFORMATION
+$C1マーリンは話します...
+
+$C4私の変化はほとんど完了しています。私は何年も前にモルガナが私にかけた凍結の呪文から自由になりました。
+
+アバロンのホールに特別な魔法の杖があります。ホールへの鍵はレディーの湖の部屋に置かれています。鍵を取ってホールの鍵を開け、杖の取ってください。杖を使用して、あなたの前で陰の命を霊妙な存在に投げかけてください。 この最後の呪文は私の変化を終了させるでしょう。
+
+湖の夫人がエクスカリバーを受けるまで、杖は働かないでしょう、そして、それはある程度時間がかかるかもしれません。 剣がいったん下降すると、それはあなたが命の杖を使用できる時です。 すべてがうまく行くと、あなたとの次のコミュニケーションは生きているマーリンから来ているでしょう。
+#TAG 2
+#LOGOFF 138
+#ENDTERMINAL 4
+;
+#TERMINAL 5
+#UNFINISHED
+#LOGON 138
+#INFORMATION
+$C4$I私の変化は完全です。 私は自由で、そして、自由に陸を旅行できて、とても長い間の後に… あまりに長く…最終的に、私は最愛のヘーゼルを見るでしょう。 心から彼女が私のメッセージを受け取ったことを願っています。 私はすぐ、見つけるつもりです。
+
+あなた方、私の友人にとって、私の謝意は永遠です。
+
+これを取ってください。 それはあなた自身の時間まであなたを返すでしょう。 あなたは、モルガナの暗い魔法の不吉な把握力から人類を解放したので、英雄として戻るでしょう。 いつもすばらしいプライドをもってこれらの時代を顧みてください。 そして、覚えていてください、そして、それが彼が忘れるべきである人間の破滅であるので、いつも覚えていてください。
+
+機会を待っていて、眠っていた状態で横たえられるだけであって、悪が本当に決して破壊されないのを理解してください。 本当の騎士の身分の経路に続いてください、そして、暗黒の種子から起こる悪と戦い続けてください。 真実で生活してください。そうすれば、エクスカリバーのパワーはいつも中からあなたを照らすでしょう。
+
+勇敢な騎士、それは名誉です。
+
+- マーリン
+#LOGOFF 138
+#ENDTERMINAL 5
+;
+#TERMINAL 6
+#UNFINISHED
+#LOGON 157
+$C1FHQ チャンネル 19A
+#INFORMATION
+$C1
+$C5あなたは現在、上階に続くことができます。 連盟ライブラリ、およびすべてのターボエレベーターへのあなたのアクセスは承諾されました。 現在、アプローチには連盟ヘリコプターがあります。 パイロットが選ぶ場所にあなたをお連れするよう命令されました。 準備ができていたら屋根に続いてください。
+$C1
+ダイセー, AI 
+連盟執行補助
+#LOGOFF 158
+#ENDTERMINAL 6
+;
+#TERMINAL 7
+#UNFINISHED
+#LOGON 159
+$C1連盟ライブラリ - キオスク 001
+#PICT 13602
+$C4Excalibur: Morgana's Revenge (EMR) はMarathon Map Makers Guildによってあなたへと届けられました。あなたのフィードバックを$Uhttp://excaliburworld.com/support.html$uへと送るのを忘れないでください、そしてゲームの感想を私たちに知らせてください。
+
+Aleph One用EMR 3.0はInfinity用EMR 2.0のメジャーアップグレードで、何人かの多量の仕事がなければできませんでした。EMRの背後の魔法を探索するにはライブラリ内を数分過ごしてください。
+
+このキオスクはEMR3.0への直接の貢献をハイライトします。貢献の詳細や、EMR1.0とEMR2.0への貢献は他のキオスクを訪れてください。
+Bill Catambay
+EMR's Sworded Creator
+#PICT 13602
+$C1
+
+$C4運営と監督
+$C5Bill Catambay
+
+$C4テクスチャ "チャンピオン"
+$C5Rich Bushey
+Bill Catambay$C4
+
+テクスチャ "騎士"
+$C5Candace Sherriff
+Bob Chamot
+#PICT 131
+$C1
+$C4グラフィック "チャンピオン"
+$C5Rich Bushey
+Bill Catambay$C4
+
+グラフィック "騎士"
+$C5Bob Chamot$C4
+$C5Robert "Tycho" Kreps
+Diane Love
+
+$C4
+Richは男だ！彼はEMR３の新しいグラフィックの大部分を作った。Billはあなたの基本Photoshop作業所で、写真の操作とグラフィックの調整を行う。
+
+Tychoはラドングレネードの煙と爆発のグラフィックとEMRのアイコンを。
+
+Dianeはグレーデンの映像を作った
+#PICT 131
+$C1
+$C4サウンド "チャンピオン"
+$C5Bill Catambay$C4
+
+サウンド "騎士"
+$C5Glen Ditchfield
+Bob Chamot
+Chris Veres
+
+$C4
+BillはEMRの全ての音を16ビットに変換し、いくつかの音を置換して、いくつかの音を加えた。
+
+GlenはLinuxでの音を助け、いくつかの変換を行った。Bobはナレーションをした。 ChrisはEMR2.0に貢献された音の16ビットバージョンを提供した。
+#PICT 131
+$C1
+$C4音楽 "チャンピオン"
+$C5James Bisset$C4
+
+音楽 "騎士"
+$C5Bill Catambay
+Dane Smith
+Robert Stever
+Solra Bizna$C4
+
+James はEMR音楽のマエストロでいくつかのオリジナルの譜面を作った。
+
+BillはGarageBandを始動して数個のオリジナルトラックを作った。Dane Smithは自分でオリジナルの譜面を作った。  RobertはいくつかのＭＩＤＩを提供し、Solraが自分のオリジナルの仕事を送った。
+#PICT 131
+$C1
+$C4マップ "チャンピオン"
+$C5Bill Catambay$C4
+
+マップ "騎士"
+$C5Bob Chamot
+Battle Cat
+$C4
+
+Billは新しいAleph Oneの特徴に組み入れるために全てのEMRのレベルを改訂して、多くの場合は、レベルを拡張してストーリーを修正した。彼はいくつかの新しいレベルも加えた。
+
+Bobは最後に向かって進み、EMRにはプレーヤーがホバーバイクを操縦できるレベルが必要だと決意した。GATs out of Hellは彼の仕事です。
+
+Battle Catは自分のベルリンネットマップ構造を使う許可を提供した。
+#PICT 131
+$C1
+$C4Windows バージョン - "チャンピオン"
+$C5Robert Stever
+Glen Ditchfield
+
+$C4ベータテスター - "チャンピオン"
+$C5Bill Catambay
+Glen Ditchfield
+John Sumner
+Bob Chamot
+
+$C4ベータテスター- "騎士"
+$C5Michael O'Brien
+Chris Veres
+$C4
+RobertはEMR3.0のWindowsインストーラーを作った。 Glenは音の変換を行った。
+
+ベータテスターへ多くの感謝！全てのフィードバックは大いに賞賛された！
+#PICT 131
+
+$C4スクリプト"チャンピオン"
+$C5Bill Catambay
+Jon Irons
+Bob Chamot
+Solra Bizna
+
+$C4スクリプト "騎士"
+$C5Loren Petrich
+Glen Ditchfield
+$C4
+Billは大量のLuaコーディングと全てのMMLスクリプトを実装した。
+
+Jon、Solra、BobはBillがLuaでスピードを上げるのに重要な助言を提供し、自分のスクリプトを提供した。  Lore とGlenはEMR3.0を「離陸させる」初期ＭＭＬの大半を書いた。
+#PICT 131
+$C4
+
+$B$UA L E P H   O N E   開発者$b$u
+
+Aleph Oneオープンソースプロジェクトをそのような成功にする彼らの時間を買って出たAleph Oneプログラマのすべてを感謝申し上げます。 彼らの努力がなければ、EMR3.0が全くないでしょう。 Alexei、Gregory、James、Solraなどの数人の開発者が、EMRのいくつかのきわどい特徴を許容した要求を指示するために応じました。 また、Aleph Oneリソースを編集する助けとCranberryに関してMike Benonisに感謝します。
+
+Aleph One web サイトはここです。
+$Uhttp://source.bungie.org/$u.
+#LOGOFF 160
+#ENDTERMINAL 7
+;
+#TERMINAL 8
+#UNFINISHED
+#LOGON 159
+$C1連盟ライブラリ - キオスク002
+#PICT 128
+$C4
+EMR 1.0は元々1997年に元のMarahotnエンジン用にリリースされました。2000年にリリースされたEMR2.0は、Marathon Infinityエンジンで動くようにアップグレードされ、新しいテクスチャ、武器、マップ、サウンドを含んでいました。EMR3.0はAleph Oneエンジンで動くさらなるアップグレードで新しいテクスチャ、武器、マップ、小渡、そして特別な特徴を含んでいます。
+
+このキオスクは過去と現在のEMRグラフィック貢献者、スプライト、武器とチャプタースクリーンをささげます。
+
+Bill Catambay
+EMR's Sworded Creator
+#PICT 10401
+$C1$B$U
+$C4$b$uティラノザウルス
+$C5元々のティラノザウルスはDavid Twist、 Bill Catambay、Candace Sherriffによって行われました。.Rich Busheyは新しい高解像度のティラノザウルスをEMR3.0用の追加の歩行フレームを加えて作りました。
+$C4
+ラプトルとディモルフォドン
+$C5これらの獣はChilton Webbによって作られました。
+
+$C4洞窟ボブと射手
+$C5Candace Sherriffがこれらのキャラクタの両方の作成者です、
+
+$C4騎士
+$C5Quanah Harjoは騎士を作り、Jeremy Daleが値の効果を死にかけシークエンスに加えました。
+#PICT 11901
+$C1$B$U
+$C4$b$u魔法使い
+$C5魔法使いはMark Conahanによって作られました。
+$C4
+聖職者
+$C5元々の聖職者はDavid Twistによって作られました Bill CatambayはEMR3でのマリーンを作るために聖職者の改訂版を作りました。
+$C4骸骨ヘビと翼付き火獣
+$C5これらの魔法生物はChilton Webbによって作り上げられた。
+
+$C4モルガナ
+$C5元々の「サウスパーク」形式モルガナはChilton Webb、 Avi Selk、 Bill Catambayによるものです。Rich Busheyは全ての新しい複数視点のモルガナスプライトをEMR3のために作りました。
+#PICT 12800
+$C1$B$U
+$C4$b$uGATとSPAM
+$C5これらの機械悪ガキはすべてQuanah Harjoによって作られました。Bill CatambayはSPAMの死のフレームを作りました。
+$C4
+未来ボブとメンテナンス・マン
+$C5これらの連盟被雇用者はJeremy Daleによって作られました。
+
+$C4ハイテククローン
+$C5フォラージェクローンはMark Conahanによって作られました。
+
+$C4Spewie
+$C5これらのSuper Prolific Environmental Waste Ingestion Eliminators（スーパー・多産・環境・廃棄物・除去生物）はRichard Busheyによって作られました。
+#PICT 11302
+$C1$B$U
+$C4$b$uプレーヤーと海兵隊
+$C5EMRの種種のヒーローはJeremy Daleによって作られた。
+$C4
+木の椅子
+$C5元々の木の椅子はDavid Twistによって行われました。彼はEMR3用の椅子の高解像度バージョンも提供しました。 Bill Catambayは椅子の死にかけと死のフレームを作りました。 
+
+$C4王座とテーブル
+$C5王座のない王国って何でしょう？Jason Parsonsのおかげで、我々は王国があり、そこで食べるテーブルもあります。
+
+$C4木の樽
+$C5爆発樽はStephen Ritchieによって作られました。崩壊バージョンはBill Catambayによって作られました。
+#PICT 11600
+$C1$B$I$U
+$C4$b$u骸骨お化け
+$C5Mill2からHamish Sandersonの許可を得て借りました。
+$C4
+蜘蛛
+$C5別名モルガナの偵察兵、蜘蛛はRichard Busheyによって作られました。
+
+$C4クロノス樽
+$C5爆発樽の金属版はBill Catambayによって作られました。
+
+$C4ピラニア
+$C5この扱いにくい肉食い魚は Richard Busheyによって作られ、EMR3で改訂されました。
+
+$C4火
+$C5自分で、もしくはトーチで、骸骨の上で動く火はBill Catambayによって作られました。
+#PICT 163
+$C1$I$B$U
+$C4$b$u拳骨打撃、改訂版やり、 改訂版魔法の杖、エクスキャリバー、レイルガン、改訂版ハイテク 
+$C5Rich Bushey
+$C4
+スナイパーピストル、ダーチェロンライフル、石弓、ハイテク、魔法の杖
+$C5David Twist
+
+$C4斧
+$C5Bill CatambayとRich Bushey
+
+$C4フェーザー
+$C5Chris Ashton
+
+$C4時限爆弾
+$C5Bill Catambay
+#PICT 131
+$C1$I$B$U
+$C4$b$uスプラッシュ画面:
+
+EMR メニュー、任務、ジュラ紀、 
+モルガナのねぐら、騎士の悪夢、
+勇気、ドロイド、最終決戦
+$C5Richard Bushey
+$C4
+探検、救出
+$C5Rik Asseily
+
+$C4騎士道
+$C5David Twist
+
+$C4$i侵入
+$C5Jeremy Dale
+#LOGOFF 160
+#ENDTERMINAL 8
+;
+#TERMINAL 9
+#UNFINISHED
+#LOGON 159
+$C1連盟ライブラリ - キオスク003
+#PICT 13602
+$C4
+EMRは豪華なマップで、一人用とネットマップの両方があります。私たちは何年以上も混乱状態でたくさんの人手で元々のEMR1.0のマップ制作者がいて、新しいマップとEMR2.0のマップの編集者、そしてさらに新しいマップとEMR3.0での追加があります。
+
+このキオスクは過去と現在のEMRに貢献したすべてのマップ制作者たちに栄誉を与えます。
+
+Bill Catambay
+EMR's Sworded Creator
+#PICT 10000
+$C1
+$C4Prologue
+$C5このレベルは元々はEMR1.0ではWhips and Scorns of Timeと呼ばれていました。それはEMR2.0で完全に作り替えられました。EMR3.0では、トレーニングエリアが削除され、ストーリーの背景を準備するホロデッキに焦点を合わせました。全ての改訂はBill Catambayによって行われました。
+$C4
+Merlin Unplugged
+$C5シナリオの一番最初のレベルはBill Catambayによって作られClaude Erreraによって追加されました。
+
+$C4Oh ##(*$@(*!@!
+$C5最初のジュラ紀のレベルはJeremy Parsons (別名 Br'fin)によるものです。元々のタイトルはOh #$(@#$!!でしたが、EMR1.0ではRun For Your Life!に変えられ、元々のタイトルはEMR2.0とEMR3.0で戻されました。
+#PICT 10701
+$C1
+$C4A River Runs Through It
+$C5これは元々はRussel Flemingによって行われ、Bill Catambayによって編集されました。
+$C4
+Unstable Terrain
+$C5このレベルはDavid Twistによるものです。Grogに行こう！
+
+$C4When It Rains, It Pours
+$C5元々はRussel Flemingによるものです。このマップはBill CatambayによってEMR2.0用に手を加えられ、再びEMR3.0用に行われました。
+
+$C4Ceridwen's Dreams
+$C5最初の夢のレベルでCandace Sherriffによるものです。
+
+$C4Unnatural Selection / 
+When the Raptors Come Home
+$C5これらの重なっている元々はMike Masinterによって作られ、Bill Catambayによって手を加えられました。
+#PICT 11101
+$C1
+$C4No Time For Coffee
+$C5この急ごしらえものはBill Catambayによってあなたにもたらされました。
+$C4
+Bend Sinister
+$C5Greg Ewingによってデザインされたレベルで、Bill Catambayによって修正されました。
+
+$C4The Return
+$C5EMR3.0で全く新しいもので、マンネンハム大虐殺へ戻るこの訪問はBill Catambayによって作られました。
+
+$C4Shores of Camelot
+$C5エクスキャリバーの検索でのキャメロットへの接近はBill Catambayによってデザインされました。
+
+$C4My Life for a Sword
+$C5最初のエクスキャリバーのかいま見は元々はSteve Julianaによってであり、Michael O'Brienによって改訂されました。
+#PICT 11303
+$C1
+$C4Excalibur!
+$C5あなたがついに魔法の剣を手に入れるこのレベルは、Steve JulianとBill Catambayによるものです。
+$C4
+Bread Crumbs
+$C5他の夢のレベルはCandace Sherriffによってであり、Bill Catambayによって編集されました。
+
+$C4Over the River and Through the Woods
+$C5元々はDave Santoroによってデザインされ、Bill Catambayによって加えられました。
+
+$C4Siege Perilous
+$C5David Twistによってデザインされ、Bill Catambayによって加えられました。
+
+$C4Betrayal and Retribution
+$C5このタワーマップ（編集が本当に厄介だった）は元々Dave Santoroによってデザインされました。
+#PICT 11907
+$C4I'll Be Lurking For You
+$C5元々はSteve Wilderによってデザインされ、Bill Catambayによって加えられました。
+$C4
+Le Mort de Tous
+$C5元々はEvan Knopp,によってデザインされ、Bill Catambayによって編集されました。
+
+$C4Tower of Mauvair
+$C5Bill Catambayによって作られました。
+
+$C4Mr. Wizard! Mr. Wizard!
+$C5Bill Catambayによって作られました。
+
+$C4Knightmare
+$C5最後の夢連続で、Candace Sherriffによるものです。
+
+$C4The Audience is Listening
+$C5クロノスへの帰還、Ben Matasarによる、Bill Catambayによって編集されました。
+#PICT 12600
+$C4
+I Don't Like Spiders & Snakes
+$C5EMR2.0で導入され、Bill Catambayいよって作られました。
+$C4
+Castle of Pain and Sorrows
+$C5元々はSTef Bondierによってデザインされ、Bill Catambayによって編集されました。
+
+$C4For the Love of Mother
+$C5元々はJeremy Daleによってデザインされ、Bill Catambayによって編集されました。
+
+$C4Noah's Ark
+$C5クロノスでの最後のバトルで、Bill Catambayによります。
+
+$C4World of Hazelle
+$C5EMR3.0での全く新しいもので、アバロンの霧へのこの魔法の訪問はBill Catambayによります。
+#PICT 12800
+$C4
+Where Did All My Weapons Go?
+$C5これもEMR3.0で新しいもので、アルファマーリンスターベースはBill Catambayによるものです。
+$C4
+Staying Up Late
+$C5元々はNeil Justussonによってデザインされ、Bill Catambayによって編集されました。
+
+$C4Slime Raider II
+$C5EMR 2.0で導入され、Bill Catambayによって作られました。
+
+$C4Down Under
+$C5元々はSriranga Veeraraghavanによってデザインされ、Bill Catambayによって編集されました。
+
+$C4HQ Storm
+$C5Bill Catambayによって作られました。
+#PICT 13402
+$C4
+Like a GAT Out of Hell
+$C5EMR 3.0,で新しいもので、Bob Chamotによるホバーバイクの特別レベルです。
+$C4
+Double Vision
+$C5元々はRobert Deiningerによってデザインされ、Chris Veresによって加えられ、Bill Catambayによってさらに編集されました。
+
+$C4The Keep
+$C5薄気味悪い岩ゴーレムの既基地はBill Catambayによるものです。
+
+$C4Anahl Nathraq
+$C5モルガナの船に乗り込み、ヤハラでの荒々しい戦いは、元々のデザインはMark Conahanにより、Bill Catambayによって編集されました。
+#PICT 11903
+$C4
+Back to the Future IV
+$C5連盟基地への帰還の旅で再びクロノスに乗り込み、ホロデッキプログラムを楽しむのは、Bill Catambayによるもので、Claude Erreraによって加えられました。Tinyを助けましたか？
+$C4
+A Sword of Homecoming
+$C5元々はEpilogueと呼ばれ、EMR3.0で大きく拡張され名前を変えられました。このレベルではあなたはエクスキャリバーを故郷の地に返し、マーリンを生き返らせるの手伝います。Bill Catambayによって作られました。
+#LOGOFF 160
+#ENDTERMINAL 9
+;
+#TERMINAL 10
+#UNFINISHED
+#LOGON 159
+$C1連盟ライブラリ - キオスク004
+#PICT 128
+$C4EMR3.0の前のEMR 2.0は2000年にMarathon Infinityエンジンの元でリリースされました。EMRをM1karaInfinityエンジンへろ移植するのは大きな仕事でした。私たちのマップエディタの選択肢はPfhorteからForgeへと変わりました。
+
+EMR2.0は新しいテクスチャセット、新しい武器、新しい音、さらにそれ以上のものをもたらしました。このキオスクはEMR2.0の生産に参加したそれらの勇敢な人に敬意を表します。
+
+Bill Catambay
+EMR's Sworded Creator
+#INFORMATION
+$C4$B$U
+M A R A T H O N   I N F I N I T Y   C O N V E R S I O N$b$u
+
+新しいスプライト、新しいフェーザー武器を含め、多くのグラフィックがEMR2.0で導入されました。以下はグラフィックの貢献者です。
+
+        $C5Richard Bushey       Candace Sherriff
+        Chris Ashton         Stephen Ritchie
+        Bill M Catambay      Claude Errera
+        Solomon Shorser      Tony Ritchie
+        Antonio de Llamas    Hamish Sanderson$C4
+#INFORMATION
+$C4$B$U
+M A R A T H O N   I N F I N I T Y   C O N V E R S I O N$b$u
+
+オリジナルのEMR1.0地図をMarathon Infinityエンジンに移植するために多くの勤勉な仕事をした多くのマップ制作者がいました。 この努力は、テクスチャの張り直し、音、敵、およびオブジェクトを調整して、Marathon Infinityの特徴を利用する特徴を加えることを含んでいます。
+$C0
+            $C5Bill M Catambay     Jason Parsons
+$C0            $C5Candace Sherriff    Michael O'Brien
+$C0            $C5Gareth Wood         Christopher Veres
+$C0            $C5STef Bondier        Dave Santoro
+$C0            $C5Jason Miller        Gabe Rosenkoetter
+$C0            $C5Richard Bushey      Gregory Bloom
+$C0            $C5Brendan Ebner       Neil Justusson
+$C0            $C5Tim Thomas          Ben Matasar
+$C0            $C5Eric Case           David Twist
+$C0            $C5Claude Errera$C4
+#INFORMATION
+$C4$B$U
+M A R A T H O N   I N F I N I T Y   C O N V E R S I O N$b$u
+
+マップ編集に加えて、多くの元々のターミナルテキストはMarathon Infinity用に更新されました。以下はこれらのターミナルを更新したキープレーヤーです、
+
+$C0            $C5Bill M Catambay
+$C0            $C5Michael O'Brien
+$C0            $C5Gregory Bloom
+$C0            $C5Christopher Veres
+$C0            $C5Candace Sherriff
+$C0            $C5Richard Bushey
+$C0            $C5Esther Bisset
+$C0            $C5Adam Weinstein
+$C0            $C5Claude Errera
+$C0            $C5Simon Rowland$C4
+#INFORMATION
+$C4$B$U
+M A R A T H O N   I N F I N I T Y   C O N V E R S I O N$b$u
+
+以下のリストは他のキープレーヤーや役割をEMR1.0からEMR2.0への変換で演じた貢献者です。
+
+$C5        監督              Bill M Catambay
+        元々の音楽        James Bisset
+        テクスチャ生成       Candace Sherriff
+
+        タイトルスクリーン         Richard Bushey
+        インストーラー             Charles Lechasseur
+        ターミナルグラフィック    Richard Bushey
+
+        物理モデル        Bill M Catambay
+        ストーリー編集             Bill M Catambay
+
+        音編集            Bill M Catambay
+                                 Christopher Veres
+#INFORMATION
+$C4$B$U
+M A R A T H O N   I N F I N I T Y   C O N V E R S I O N$b$u
+
+最終的に、このリストはEMR3.0へ道を開いて、EMR2.0をベータテストするのを助けた人を含みます。
+
+        $C5Christopher Veres         Alex Feingold
+        Adam Weinstein            Michael O'Brien
+        Gareth Wood               Claude Errera
+        Solomon Shorser           Chris Casey
+        James Bisset              Aaron Davies
+        Antonio de Llamas         Brett Dixon
+        Candace Sherriff          Julie K Newsome
+        Bill M Catambay           Richard Bushey
+        Andrew Ramin              Hromada Nathan Ainsworth
+        Stephen Ritchie           STef Bondier
+        Charles Lechasseur        Jason Parsons
+        Lee Heida                 David Twist
+        Jamie White               Doug Black
+        Dale Critchley            T.J. Elliott$C4
+#LOGOFF 160
+#ENDTERMINAL 10
+;
+#TERMINAL 11
+#UNFINISHED
+#LOGON 159
+$C1連盟ライブラリ - キオスク004
+#PICT 128
+$C4EMRの焦点が筋と統合ソロのレベルにありましたが、EMRはネットの地図のホストなしで完全でなかったでしょう。 EMR2.0の生産の間、M&MとRoot Beerから生きていて、早朝まで大虐殺で栄えて、私たちのネットの地図をテストして、改良するのを扱う私の家の上に地方のMMMGがしばしばあるでしょう、。 
+
+このキオスクはEMRのネットの地図と彼らの創造者について表現します。
+
+
+
+
+Bill Catambay
+EMR's Sworded Creator
+#PICT 131
+$C1
+$C4Da Bomb!! 
+$C5元々のデザインはJason Parsonsによるもので、Bill Catambayによって加えられました。
+
+$C4Dinosaur Teeth
+$C5元々のデザインはMark Conahanによるものです。
+
+$C4Lava Float Trip
+$C5元々のデザインはGabe Rosenkoetterによるものです。
+
+$C4Rock, Paper, Scissors
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Fire Pit
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+#PICT 131
+$C1
+$C4Raptor Pit
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Mordred's Gulch
+$C5新しくEMR3.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Camelot 66
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Food Fight!
+$C5元々はJohn Vizcarraによってデザインされました。
+
+$C4Castle Island
+$C5元々はEric VenetとBill Catambayによってデザインされました。
+#PICT 131
+$C1
+$C4Morgana's Arena
+$C5元々はBill Catambayによってデザインされました。
+
+$C4Merlin's Arena
+$C5元々はBill Catambayによってデザインされました。
+
+$C4Mauvair's Arena
+$C5元々はBill Catambayによってデザインされました。
+
+$C4Knight Feud
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Jousting for Fun and Profit
+$C5元々はJason Parsonsによってデザインされました。
+
+$C4Drop In Anytime!
+$C5元々はMike Elnessによってデザインされました。
+#PICT 131
+$C1
+$C4Casa de Tortura
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Roof Rats
+$C5元々はBill Catambayによってデザインされました。
+
+$C4City of Screaming Angels
+$C5新しくEMR 2.0で加えられ、Candace Sherriffによって作られました。
+
+$C4Private Property
+$C5元々はMark Conahanによってデザインされました。
+
+$C4Infinity
+$C5元々はBen Matasarによってデザインされました。
+
+$C4Pedestrian Walkway
+$C5元々はGabe Rosenkoetterによってデザインされました。
+#PICT 131
+$C1
+$C4Trunk Full of Funk
+$C5元々はEric Caseによってデザインされました。
+
+$C4Ice Palace
+$C5新しくEMR2.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Full Court Duress
+$C5新しくEMR3.0によって加えられ、Bill Catambayによって作られました。
+
+$C4Berlin II
+$C5新しくEMR3.0によって加えられ、Battle Catのマップに基づいていて、Bill CatambayによってEMR用にテクスチャを張られて改訂されました。
+
+$C4Wizard 2258
+$C5新しくEMR3.0によって加えられ、Bill Catambayによって作られ、Halo's Wizardとthe year of the Worldsoft coupに基づいています。
+#LOGOFF 160
+#ENDTERMINAL 11
+;
+#TERMINAL 12
+#UNFINISHED
+#LOGON 159
+$C1連盟ライブラリ - キオスク005
+#PICT 161
+$C4
+EMRはMMMGがEMR1.0をリリースした1997年に最初に、マラソン場面に当りました。 この始めがなければ、EMR2かEMR3がたぶん決してありませんでした。
+
+このキオスクは元のEMR貢献者に敬意を表します。
+
+
+
+
+
+
+
+Bill Catambay
+EMR's Sworded Creator
+#INFORMATION
+$C4$B$U
+O R I G I N A L   E M R   C R E W$b$u
+
+以下は元々のEMRマップ制作者のリストです。
+
+ $C5     STef Bondier        Eric Case
+     Bill Catambay       Mark Conahan
+     Jeremy Dale         Robert Deininger
+     Mike Elness         Greg Ewing
+     Russel Fleming      Steve Juliana
+     Neil Justusson      Evan Knop
+     Michael Masinter    Ben Matasar
+     Jeremy Parsons      Jason Parsons
+     Gabe Rosenkoetter   Dave Santoro
+     David Twist         Sriranga Veeraraghavan
+      Eric Venet          John Vizcarra
+      Steve Wilder$C4
+#INFORMATION
+$C4$B$U
+O R I G I N A L   E M R   C R E W$b$u
+
+以下は元々のEMRのグラフィック貢献者のリストです。
+
+ $C5     Rik Asseily         STef Bondier
+     Richard Bushey      Cory Bystrom
+     Bill Catambay       Mark Conahan
+     Jeremy Dale         Mason Gup
+     Quanah S Harjo      Jason Parsons
+     Stephen Ritchie     Tony Ritchie
+     Avi Selk            Candace Sherriff
+     David Twist         Chilton Webb
+     Edmund Zavada$C4
+#INFORMATION
+$C4$B$U
+O R I G I N A L   E M R   C R E W$b$u
+
+以下は元々のEMRの雑多な援助をした貢献者のリストです。
+
+$C5      監督           Bill Catambay
+      音楽              James Bisset
+      サウンド  
+         Rik Asseily        Bill Catambay
+         Jeremy Dale        Simon Rowland
+         Candace Sherriff   Bob Sinclair
+         David Twist
+      物理               Bill Catambay
+                            Evan Knopp
+      ターミナルテキスト         Bill Catambay
+                            Simon Rowland
+      フランス語テキスト        STef Bondier
+      チーフ編集者       Bill Catambay
+      EMRインストーラー         Charles Lechasseur
+#INFORMATION
+$C4$B$U
+O R I G I N A L   E M R   C R E W$b$u
+
+以下はオリジナルのEMRベータテスターのリストです。
+
+ $C5      Evan Knop             Nigel Stanger 
+      Jason Parsons         Phil Pandrus 
+      Eric B Venet          Bill Catambay 
+      Simon Rowland         Candace Sherriff 
+      Claude Errera         John Wood 
+      Cory                  Nick Lewis 
+      Russel Fleming        John M. Vizcarra 
+      Dan "Face"            Neil Justusson 
+      Ed Zavada             Matt Liebhold 
+      Michael O'Brien       Wendy Mortensen 
+      Gabe Rosenkoetter     STef Bondier 
+      Courtney Evans        James Bisset 
+      Charles Lechasseur    David Twist 
+      Jack Miller           Jeff Webb 
+      Andreas Ronning       Daniel Wheland 
+      Adrian Bourke
+#LOGOFF 160
+#ENDTERMINAL 12
+;
+#TERMINAL 13
+#UNFINISHED
+#LOGON 159
+$C1秘密ターミナル0001-A
+#PICT 13602
+$C3エクスカリバー: モルガナの復讐は愛の本当の作業です。 このシナリオは地図、グラフィックス、物理、音、音楽、Lua、およびMMLで働く根強い努力と数夜から遅く無数の集まりました。 すべての間、ゲームエディタで無数の制限とバグと戦いました。
+
+EMRは、自分のマップを作ることができることがスリルであった初期のMarathonの時代から、AnvilとForgeのMarathon Infinityの時代を通して、そのかっこいい新機能のすべてがあるAleph Oneエンジンまでのかなりの旅行です。 しかしながら、私をいつも最も驚かせたことはマラソン共同体から気前よく提供された、物凄い量の創造的な助けです、米国から世界中まで。 このシナリオにかかわる人々はすさまじいです。
+
+#PICT 13603
+$C3James BissetはEMRのためにオリジナルの譜面をいくつか書き、背景音楽トラックも書きました。音楽譜面は以下のものを含みます。
+$C1The Return - "Kirin's Lament"
+Shores of Camelot	- "Camelot Remix"
+I'll Be Lurking For You	- "Morgana Reprise" Spiders & Snakes - "Wishing Remix"
+Love of Mother - "Morgana's Lament"
+Down Under - "Morgana Dance Remix"
+Double Vision - "Future Chase Remix"
+
+$C3
+彼のwebでの自己紹介より
+
+  $I "When I was younger, I would go 
+    into the hills at night and talk 
+    quite seriously to the moon, or 
+    write impossibly righteous songs 
+    which put the world to rights."
+#INFORMATION
+$C5$I
+Hello? Testing... Wun... Wun... Wun Choo... Wun Choo... OK?
+
+OK. Excuse me for interrupting - quiet in the horn section please -   
+this studio is costing an arm and a leg, we're over budget, we've still to record the final overture and that bloody fiddle player has gone missing! So, has anyone seen the annoying Scottish $%*^!? He was last seen chatting to a rather delightfully put together extra with a very short skirt and a very long bow.
+
+Can I have some volunteers to track him down please? Yes - the double bass, Fraser? OK. The percussion guy... yes you. Andy. Right. One more, OK the singer with the hair. Rory? Sorry - Ruaridh. Right, that's three of you. You've got ten minutes to find the bugger, grab him by his sound post and GET HIM BACK HERE!
+
+Red light in ten minutes everyone. Thank you.
+
+
+- James Bisset, Manchester, United Kingdom
+  $Uhttp://jamesbisset.com/$u
+#PICT 13604
+$C4$INever say never.  Don't ever say no to a reasonable invitation to do something that might be fun. 
+
+The greatest enjoyment I had playing Marathon was the unfolding story that revealed itself starting in Marathon 1, continuing throughout M2 and left open in M3... and seeing the game really explode visually with the amazing artwork by Craig Mullins, that stoked my desire to explore that world with the tools that were released with Marathon Infinity.
+
+Many thanks to those folks that inspired me to stick it out and add to the expanding universe. I hope you share that excitement with our adventure.
+
+ - Rich Bushey
+#PICT 13609
+
+
+$C6$I"Does anyone besides me find translucent lava ... odd?  And have I complained enough about the brick ceilings?"
+
+  $C3 - Glen Ditchfield
+     Beta Tester, Nit Inspector
+
+$C6
+"Lorak, the audio chat's broken again."
+   $C3- :sigma.SB
+     Solra Bizna, Lua functions
+
+$C6"I hope you enjoyed the game as much as we did creating it."$C3
+   - Robert Stevers, Windows Installer
+$C6
+"They who wait (and watch) also serve." 
+$C3   - Jesse Giles, Jacksonville Tester$C6
+#PICT 13608
+$C4$I
+Imbria looked at me, seeing what I was doing, and laughed.
+
+"Is there a single one of those glowing boxes on which you haven't placed the record of that brave knight's adventure with Merlin and Morgana?"
+
+I replied with a smile, "I was privileged and proud to be part of the team that recorded that tale. Besides, my job is to repair and improve these people's machines, and placing EMR upon them is always an improvement!"
+
+  -- from a true story
+
+Michael O'Brien, writer, designer, beta-tester, and procrastinator
+#PICT 13610
+#PICT 13606
+#PICT 13607
+$C4$IIn this adventure, no doubt you've seen majestic sceneries, fought scary adversaries, evaded devious traps, listened to soothing or edgy music and read intricate pieces of storylines.  Many people contributed their artistic, literary or architectural talents to this effort.
+
+No matter how hard I try, my sceneries are never majestic, my monsters never scary, my traps never devious, and my music never soothing.  However, I did write programs and tools to empower those with talents and to enable them to create even bolder adventures like EMR. 
+
+To every wizard his wand.  And they all need a wandmaker.
+
+- Charles Lechasseur, software developer 
+  and part-time wandmaker
+#PICT 13605
+#INFORMATION
+ふう、ＥＭＲ3.0の翻訳を軽い気持ちで始めたがあまりの分量にびっくりしてる。このほかにLuaとMMLの翻訳もある。
+
+これを書いてる時点では進捗度は75％ぐらい。
+
+翻訳者 ペンネームpfhore
+#LOGOFF 160
+#ENDTERMINAL 13

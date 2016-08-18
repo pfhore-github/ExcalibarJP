@@ -1,0 +1,11 @@
+;
+#TERMINAL 0
+#UNFINISHED
+#LOGON 159
+立入禁止$C1
+#INFORMATION
+$C1$I
+このエリアはＣＴＦ対決の立ち入り禁止区域としてデザインされました。
+#PICT 10001
+#LOGOFF 160
+#ENDTERMINAL 0

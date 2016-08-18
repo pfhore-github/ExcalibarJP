@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+
+<texture_loading>
+<texture_env index="2" which="2" coll="26"/>
+</texture_loading>
+
+<opengl>
+
+<texture coll="19" bitmap="9" normal_image="emrtextures/flowergrass.jpg"
+opac_type="1"
+/>
+<texture coll="19" bitmap="13" normal_image="emrtextures/clear.jpg"
+normal_mask="emrtextures/clear.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="57" normal_image="emrtextures/fan-future1.jpg"
+normal_mask="emrtextures/fan-mask1.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="33" normal_image="emrtextures/fan-future2.jpg"
+normal_mask="emrtextures/fan-mask2.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="38" normal_image="emrtextures/fan-future3.jpg"
+normal_mask="emrtextures/fan-mask3.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="56" normal_image="emrtextures/bluewater.jpg"
+normal_mask="emrtextures/bluewater-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="36" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<interface>
+<!-- Magic Staff becomes hoverbike -->
+<weapon index="9" shape="70" top="358" left="400">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+</interface>
+
+<scenery>
+<!-- Crystals become gargoyle (scenery swap) -->
+<object index="35" radius="128" height="600">
+<normal>
+<shape coll="26" seq="9"/>
+</normal>
+</object>
+<!-- Reset satellite (for some reason it doesn't reset properly after Homecoming) -->
+<object index="31" radius="128" height="700">
+<normal>
+<shape coll="24" seq="19"/>
+</normal>
+</object>
+</scenery>
+
+<player oxygen_deplete="0">
+<shape type="2" subtype="9" value="38"/>
+<shape type="4" subtype="9" value="38"/>
+</player>
+
+<interface> 
+
+<!-- Magic Staff becomes hoverbike -->
+<weapon index="9" shape="71" top="353" left="390">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+</interface>
+
+<items>
+<!-- Wand becomes Hoverbike -->
+<item index="34">
+<shape coll="7" seq="53"/>
+</item>
+</items>
+
+<faders>
+
+<!-- Set Future liquid to Clear -->
+<liquid index="2" opacity="0"/>
+
+</faders>
+
+<stringset index="137">
+<string index="9"></string>
+</stringset>
+
+<stringset index="150">
+<string index="41">ホバーバイクのコントロール</string>
+</stringset>
+
+<overhead_map>
+<color index="4" red="0" green="0.18359375" blue="0"/>
+</overhead_map>
+
+<liquids>
+<!-- Set Future liquid to Clear, no damage -->
+<liquid index="3" submerged="2">
+<damage type="-1" base="0"/>
+<effect type="0" which="-1"/>
+<effect type="1" which="-1"/>
+<effect type="2" which="-1"/>
+<effect type="3" which="-1"/>
+<sound type="0" which="-1"/>
+<sound type="1" which="-1"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="-1"/>
+<sound type="4" which="-1"/>
+<sound type="5" which="-1"/>
+<sound type="6" which="-1"/>
+<sound type="7" which="-1"/>
+<sound type="8" which="-1"/>
+</liquid>
+</liquids>
+
+<animated_textures>
+<sequence coll="19" numticks="4">
+<frame index="57"/>
+<frame index="33"/>
+<frame index="38"/>
+<frame index="33"/>
+</sequence>
+</animated_textures>
+
+</marathon>

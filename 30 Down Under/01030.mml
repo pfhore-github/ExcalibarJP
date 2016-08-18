@@ -1,0 +1,33 @@
+<marathon>
+<opengl>
+
+<texture coll="19" bitmap="68" normal_image="emrtextures/fan-future1.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="78" normal_image="emrtextures/fan-future2.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="79" normal_image="emrtextures/fan-future3.jpg" 
+opac_type="1"
+/>
+
+</opengl>
+
+<animated_textures>
+<sequence coll="19" numticks="4">
+<frame index="68"/>
+<frame index="78"/>
+<frame index="79"/>
+<frame index="78"/>
+</sequence>
+</animated_textures>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

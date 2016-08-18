@@ -1,0 +1,40 @@
+<marathon>
+
+<!-- Load texture set to support Camelot water -->
+<texture_loading>
+<texture_env index="2" which="2" coll="17"/>
+<texture_env index="2" which="3" coll="22"/>
+</texture_loading>
+
+<opengl>
+
+<texture coll="19" bitmap="9" normal_image="emrtextures/tile-aged.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="79" normal_image="emrtextures/green-wall.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<player oxygen_deplete="1" oxygen_replenish="1" />
+
+<scenery>
+<!-- Trash can becomes black office can -->
+<object index="30" radius="32" height="300">
+<normal>
+<shape coll="24" seq="24"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+<ambient index="2" sound="239"/>
+<ambient index="8" sound="238"/>
+<ambient index="16" sound="240"/>
+</sounds>
+
+</marathon>

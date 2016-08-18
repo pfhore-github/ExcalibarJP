@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<texture_loading>
+<texture_env index="4" which="2" coll="10"/>
+</texture_loading>
+
+<opengl>
+
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/nighthills.png"/>
+
+</opengl>
+
+<interface>
+<weapon index="9">
+<ammo index="0" type="1"
+left="425" top="382"
+across="16" down="0"
+delta_x="25" delta_y="50"
+bullet_shape="7" empty_shape="1"
+right_to_left="true"
+/>
+</weapon>
+</interface>
+
+<scenery>
+<object index="44" flags="1" radius="256" height="812">
+<normal>
+<shape coll="26" seq="19"/>
+</normal>
+</object>
+<object index="40" flags="1" radius="256" height="1024">
+<normal>
+<shape coll="26" seq="20"/>
+</normal>
+</object>
+<object index="43" flags="1" radius="256" height="1024">
+<normal>
+<shape coll="26" seq="23"/>
+</normal>
+</object>
+<object index="41" flags="0">
+<normal>
+<shape coll="26" seq="22"/>
+</normal>
+</object>
+</scenery>
+
+<stringset index="137">
+<string index="9">死者召還の杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">死者召還の杖</string>
+</stringset>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

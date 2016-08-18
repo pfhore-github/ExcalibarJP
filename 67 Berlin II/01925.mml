@@ -1,0 +1,19 @@
+<marathon>
+<opengl>
+
+<fog on="false" />
+
+</opengl>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="4"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+<ambient index="3" sound="240"/>
+<ambient index="9" sound="238"/>
+<ambient index="22" sound="237"/>
+</sounds>
+
+</marathon>

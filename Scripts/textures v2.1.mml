@@ -1,0 +1,1050 @@
+<!--
+    High-resolution texture support for Excalibur: Morgana's Revenge
+    
+-->
+<marathon>
+<opengl>
+
+<!-- Walls 1 CAMELOT -->
+
+<texture coll="17" bitmap="0" normal_image="emrtextures/w1b0.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="1" normal_image="emrtextures/w1b1.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="2" normal_image="emrtextures/w1b2s0.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="3" normal_image="emrtextures/w1b3.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="4" normal_image="emrtextures/w1b4.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="5" normal_image="emrtextures/w1b5.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="6" normal_image="emrtextures/w1b6.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="7" normal_image="emrtextures/w1b7.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="8" normal_image="emrtextures/w1b8.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="9" normal_image="emrtextures/w1b9.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="10" normal_image="emrtextures/stone-wall3.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="11" normal_image="emrtextures/forest.jpg" 
+normal_mask="emrtextures/forest-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="12" normal_image="emrtextures/w1b12.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="13" normal_image="emrtextures/w1b13.jpg" 
+normal_mask="emrtextures/w1b13-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="14" normal_image="emrtextures/w1b14.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="15" normal_image="emrtextures/w1b15.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="16" normal_image="emrtextures/w1b16.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="17" normal_image="emrtextures/w1b17.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="18" normal_image="emrtextures/w1b18.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="19" normal_image="emrtextures/bluewater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+<texture coll="17" bitmap="20" normal_image="emrtextures/w1b20.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="21" normal_image="emrtextures/w1b21.jpg" 
+normal_mask="emrtextures/w1b21-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="22" normal_image="emrtextures/thick-forest.jpg" 
+normal_mask="emrtextures/thick-forest-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="23" normal_image="emrtextures/grass-wild.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="24" normal_image="emrtextures/rock-mud.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="25" normal_image="emrtextures/w1b25.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="26" normal_image="emrtextures/w1b26.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="27" normal_image="emrtextures/w1b27.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="28" normal_image="emrtextures/w1b28.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="29" normal_image="emrtextures/w1b29.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="30" normal_image="emrtextures/w1b30.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="31" normal_image="emrtextures/w1b31.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="32" normal_image="emrtextures/w1b32.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="33" normal_image="emrtextures/w1b33.jpg" 
+normal_mask="emrtextures/w1b33-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="34" normal_image="emrtextures/w1b34.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="35" normal_image="emrtextures/w1b35.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="36" normal_image="emrtextures/w1b36.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="37" normal_image="emrtextures/w1b37.jpg" 
+normal_mask="emrtextures/w1b37-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="38" normal_image="emrtextures/w5b33.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="39" normal_image="emrtextures/w4b28.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="40" normal_image="emrtextures/w1b40.jpg" 
+normal_mask="emrtextures/w1b40-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="41" normal_image="emrtextures/w1b41.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="42" normal_image="emrtextures/w1b42.jpg" 
+normal_mask="emrtextures/w1b42-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="43" normal_image="emrtextures/w1b43.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="44" normal_image="emrtextures/w1b44.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="45" normal_image="emrtextures/w1b45.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="46" normal_image="emrtextures/w1b46.jpg" 
+normal_mask="emrtextures/w1b46-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="47" normal_image="emrtextures/w1b47.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="48" normal_image="emrtextures/w1b48.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="49" normal_image="emrtextures/w1b49.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="50" normal_image="emrtextures/w1b50.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="51" normal_image="emrtextures/w1b51.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="52" normal_image="emrtextures/w1b4a.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="53" normal_image="emrtextures/w1b4b.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="54" normal_image="emrtextures/w1b54.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="55" normal_image="emrtextures/w1b5.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="56" normal_image="emrtextures/w1b8a.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="57" normal_image="emrtextures/w1b8b.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="58" normal_image="emrtextures/w1b2s1.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="59" normal_image="emrtextures/w1b2s2.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="60" normal_image="emrtextures/w1b2s3.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="61" normal_image="emrtextures/w1b2s4.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="62" normal_image="emrtextures/w1b2s5.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="63" normal_image="emrtextures/w1b2s6.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="64" normal_image="emrtextures/w1b2s7.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="65" normal_image="emrtextures/w1b2s8.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="66" normal_image="emrtextures/w1b66.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="67" normal_image="emrtextures/spiderweb.jpg" 
+normal_mask="emrtextures/spiderweb-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="68" normal_image="emrtextures/barksmall.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="69" normal_image="emrtextures/w1b69.jpg" opac_type="1"
+/>
+
+<!-- Walls 2 JURASSIC -->
+
+<texture coll="18" bitmap="0" normal_image="emrtextures/w2b0.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="1" normal_image="emrtextures/w2b1.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="2" normal_image="emrtextures/w1b2s0.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="3" normal_image="emrtextures/w1b3.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="4" normal_image="emrtextures/w2b4.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="5" normal_image="emrtextures/w2b5.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="6" normal_image="emrtextures/w2b6.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="7" normal_image="emrtextures/w2b7.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="8" normal_image="emrtextures/w2b8.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="9" normal_image="emrtextures/w2b9.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="10" normal_image="emrtextures/w2b10.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="11" normal_image="emrtextures/w2b11.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="12" normal_image="emrtextures/w2b12.jpg" opac_type="3" 
+opac_scale="1.0" opac_shift="1.0"
+/>
+<texture coll="18" bitmap="13" normal_image="emrtextures/w2b13.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="14" normal_image="emrtextures/w2b14.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="15" normal_image="emrtextures/w2b15.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="16" normal_image="emrtextures/w2b16.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="17" normal_image="emrtextures/w2b17.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="18" normal_image="emrtextures/w2b18.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="19" normal_image="emrtextures/w2b19.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="20" normal_image="emrtextures/w2b20.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="21" normal_image="emrtextures/w1b18.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="22" normal_image="emrtextures/grass-wild.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="23" normal_image="emrtextures/jungle2.jpg" 
+normal_mask="emrtextures/jungle2-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="24" normal_image="emrtextures/jungle.jpg"
+normal_mask="emrtextures/jungle-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="25" normal_image="emrtextures/w2b25.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="26" normal_image="emrtextures/w2b26.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="27" normal_image="emrtextures/w1b29.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="28" normal_image="emrtextures/w1b30.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="29" normal_image="emrtextures/w1b31.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="30" normal_image="emrtextures/w2b30.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="31" normal_image="emrtextures/w2b31.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="32" normal_image="emrtextures/w2b32.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="33" normal_image="emrtextures/w2b33.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="34" normal_image="emrtextures/w2b34.jpg" 
+normal_mask="emrtextures/w2b34-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="35" normal_image="emrtextures/w2b35.jpg" 
+normal_mask="emrtextures/w2b35-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="36" normal_image="emrtextures/jungle.jpg"
+normal_mask="emrtextures/jungle-maskb.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="37" normal_image="emrtextures/w2b37.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="38" normal_image="emrtextures/w1b20.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="39" normal_image="emrtextures/w5b14.jpg" 
+normal_mask="emrtextures/w5b14-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+<texture coll="18" bitmap="40" normal_image="emrtextures/w4b28.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="41" normal_image="emrtextures/w2b41.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="42" normal_image="emrtextures/w2b42.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="43" normal_image="emrtextures/w1b48.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="44" normal_image="emrtextures/w2b44.jpg" 
+normal_mask="emrtextures/w2b44-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="45" normal_image="emrtextures/w2b45.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="46" normal_image="emrtextures/w2b46.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="47" normal_image="emrtextures/w2b47.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="48" normal_image="emrtextures/w2b48.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="49" normal_image="emrtextures/w2b49.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="50" normal_image="emrtextures/w2b50.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="51" normal_image="emrtextures/w2b51.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="52" normal_image="emrtextures/w5b33.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="53" normal_image="emrtextures/bluewater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+<texture coll="18" bitmap="54" normal_image="emrtextures/w4b23.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="55" normal_image="emrtextures/hangingvine.jpg" 
+normal_mask="emrtextures/hangingvine-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="56" normal_image="emrtextures/w2b4a.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="57" normal_image="emrtextures/w2b4b.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="58" normal_image="emrtextures/w1b2s1.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="59" normal_image="emrtextures/w1b2s2.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="60" normal_image="emrtextures/w1b2s3.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="61" normal_image="emrtextures/w1b2s4.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="62" normal_image="emrtextures/w1b2s5.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="63" normal_image="emrtextures/w1b2s6.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="64" normal_image="emrtextures/w1b2s7.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="65" normal_image="emrtextures/w1b2s8.jpg" opac_type="1"
+/>
+
+<!-- Walls 3 FUTURE -->
+<texture coll="19" bitmap="0" normal_image="emrtextures/w3b0.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="1" normal_image="emrtextures/w3b1.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="2" normal_image="emrtextures/w1b2s0.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="3" normal_image="emrtextures/w1b3.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="4" normal_image="emrtextures/w3b4.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="5" normal_image="emrtextures/w3b5.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="6" normal_image="emrtextures/w3b6.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="7" normal_image="emrtextures/w3b7.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="8" normal_image="emrtextures/w3b8.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="9" normal_image="emrtextures/forest.jpg" 
+normal_mask="emrtextures/forest-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="10" normal_image="emrtextures/w3b10.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="11" normal_image="emrtextures/w3b11.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="12" normal_image="emrtextures/w3b12.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="13" normal_image="emrtextures/greenwater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.65" opac_shift="0.65"
+/>
+<texture coll="19" bitmap="14" normal_image="emrtextures/w3b14.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="15" normal_image="emrtextures/w3b15.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="16" normal_image="emrtextures/w3b16.jpg" 
+normal_mask="emrtextures/w3b16-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="17" normal_image="emrtextures/w3b17.jpg" 
+normal_mask="emrtextures/w3b17-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="18" normal_image="emrtextures/w3b18.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="19" normal_image="emrtextures/w3b19.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="20" normal_image="emrtextures/w3b20.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="21" normal_image="emrtextures/w3b21.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="22" normal_image="emrtextures/w3b22.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="23" normal_image="emrtextures/w3b23.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="24" normal_image="emrtextures/w3b24.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="25" normal_image="emrtextures/w3b25.jpg" 
+normal_mask="emrtextures/w3b25-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="26" normal_image="emrtextures/w3b26.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="27" normal_image="emrtextures/w3b27.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="28" normal_image="emrtextures/w3b28.jpg" 
+normal_mask="emrtextures/w3b28-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="29" normal_image="emrtextures/w3b29.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="30" normal_image="emrtextures/w5b33.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="31" normal_image="emrtextures/cola.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="32" normal_image="emrtextures/w3b32.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="33" normal_image="emrtextures/w1b29.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="34" normal_image="emrtextures/w1b30.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="35" normal_image="emrtextures/w1b31.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="36" normal_image="emrtextures/w4b28.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="37" normal_image="emrtextures/w3b37.jpg" 
+normal_mask="emrtextures/w3b37-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="38" normal_image="emrtextures/w3b38.jpg" 
+normal_mask="emrtextures/w3b38-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="39" normal_image="emrtextures/w3b39.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="40" normal_image="emrtextures/w3b40.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="41" normal_image="emrtextures/w3b41.jpg" 
+normal_mask="emrtextures/w3b41-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="42" normal_image="emrtextures/w3b42.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="43" normal_image="emrtextures/w3b43.jpg"
+normal_mask="emrtextures/w3b43-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="44" normal_image="emrtextures/w3b44.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="45" normal_image="emrtextures/w3b45.jpg" 
+normal_mask="emrtextures/w3b45-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="46" normal_image="emrtextures/w3b46.jpg" 
+normal_mask="emrtextures/w3b46-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="47" normal_image="emrtextures/w3b47.jpg"
+normal_mask="emrtextures/w3b47-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="48" normal_image="emrtextures/w3b48.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="49" normal_image="emrtextures/w3b49.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="50" normal_image="emrtextures/w3b50.jpg" 
+normal_mask="emrtextures/w3b50-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="51" normal_image="emrtextures/w3b51.jpg" 
+normal_mask="emrtextures/w3b51-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="52" normal_image="emrtextures/w3b52.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="53" normal_image="emrtextures/w3b53.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="54" normal_image="emrtextures/w3b54.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="55" normal_image="emrtextures/w3b55.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="56" normal_image="emrtextures/w3b56.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="57" normal_image="emrtextures/fan-future1.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="58" normal_image="emrtextures/w1b2s1.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="59" normal_image="emrtextures/w1b2s2.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="60" normal_image="emrtextures/w1b2s3.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="61" normal_image="emrtextures/w1b2s4.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="62" normal_image="emrtextures/w1b2s5.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="63" normal_image="emrtextures/w1b2s6.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="64" normal_image="emrtextures/w1b2s7.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="65" normal_image="emrtextures/w1b2s8.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="66" normal_image="emrtextures/grass-mowed.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="67" normal_image="emrtextures/w3b67.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="68" normal_image="emrtextures/w3b68.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="69" normal_image="emrtextures/w3b69.jpg" 
+normal_mask="emrtextures/w3b69-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="70" normal_image="emrtextures/w3b70.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="71" normal_image="emrtextures/w3b71.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="72" normal_image="emrtextures/w3b72.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="73" normal_image="emrtextures/w3b40a.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="74" normal_image="emrtextures/w3b40b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="75" normal_image="emrtextures/w3b4a.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="76" normal_image="emrtextures/w3b4b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="77" normal_image="emrtextures/w3b77.jpg" 
+normal_mask="emrtextures/w3b77-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="78" normal_image="emrtextures/w3b78.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="79" normal_image="emrtextures/w3b79.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="80" normal_image="emrtextures/w3b80.jpg" opac_type="1"
+/>
+
+<!-- Walls 4  DREAMS -->
+<texture coll="20" bitmap="0" normal_image="emrtextures/w4b0.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="1" normal_image="emrtextures/w4b1.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="2" normal_image="emrtextures/w1b2s0.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="3" normal_image="emrtextures/w1b3.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="4" normal_image="emrtextures/w4b4.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="5" normal_image="emrtextures/w2b8.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="6" normal_image="emrtextures/w4b6.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="7" normal_image="emrtextures/w4b7.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="8" normal_image="emrtextures/w4b8.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="9" normal_image="emrtextures/w4b9.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="10" normal_image="emrtextures/w4b10.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="11" normal_image="emrtextures/w4b11.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="12" normal_image="emrtextures/w2b41.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="13" normal_image="emrtextures/greenwater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+<texture coll="20" bitmap="14" normal_image="emrtextures/w4b14.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="15" normal_image="emrtextures/w4b15.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="16" normal_image="emrtextures/w4b16.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="17" normal_image="emrtextures/w3b23.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="18" normal_image="emrtextures/w4b18.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="19" normal_image="emrtextures/w4b19.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="20" normal_image="emrtextures/w4b20.jpg" 
+normal_mask="emrtextures/w4b20-mask.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="21" normal_image="emrtextures/w4b21.jpg" 
+normal_mask="emrtextures/w4b21-mask.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="22" normal_image="emrtextures/w2b20.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="23" normal_image="emrtextures/w4b23.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="24" normal_image="emrtextures/w4b24.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="25" normal_image="emrtextures/w4b25.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="26" normal_image="emrtextures/w4b26.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="27" normal_image="emrtextures/w4b27.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="28" normal_image="emrtextures/w4b28.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="29" normal_image="emrtextures/w4b29.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="30" normal_image="emrtextures/w4b30.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="31" normal_image="emrtextures/w4b31.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="32" normal_image="emrtextures/w4b32.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="33" normal_image="emrtextures/w4b33.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="34" normal_image="emrtextures/w4b34.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="35" normal_image="emrtextures/w3b43.jpg"
+normal_mask="emrtextures/w3b43-mask.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="36" normal_image="emrtextures/w4b36.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="37" normal_image="emrtextures/w3b38.jpg" 
+normal_mask="emrtextures/w3b38-mask.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="38" normal_image="emrtextures/w4b38.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="39" normal_image="emrtextures/w4b39.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="40" normal_image="emrtextures/w4b40.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="41" normal_image="emrtextures/w4b41.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="42" normal_image="emrtextures/w4b42.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="43" normal_image="emrtextures/w4b43.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="44" normal_image="emrtextures/w4b44.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="45" normal_image="emrtextures/w4b45.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="46" normal_image="emrtextures/w4b46.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="47" normal_image="emrtextures/w4b47.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="48" normal_image="emrtextures/w4b48.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="49" normal_image="emrtextures/w4b49.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="50" normal_image="emrtextures/w4b50.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="51" normal_image="emrtextures/w4b51.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="52" normal_image="emrtextures/w4b52.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="53" normal_image="emrtextures/w4b53.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="54" normal_image="emrtextures/w1b7.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="55" normal_image="emrtextures/w4b55.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="56" normal_image="emrtextures/w4b56.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="57" normal_image="emrtextures/w4b57.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="58" normal_image="emrtextures/w1b2s1.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="59" normal_image="emrtextures/w1b2s2.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="60" normal_image="emrtextures/w1b2s3.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="61" normal_image="emrtextures/w1b2s4.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="62" normal_image="emrtextures/w1b2s5.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="63" normal_image="emrtextures/w1b2s6.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="64" normal_image="emrtextures/w1b2s7.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="65" normal_image="emrtextures/w1b2s8.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="66" normal_image="emrtextures/w4b4a.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="67" normal_image="emrtextures/w4b4b.jpg" opac_type="1"
+/>
+
+<!-- Walls 5 KRONOS -->
+<texture coll="21" bitmap="0" normal_image="emrtextures/w5b0.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="1" normal_image="emrtextures/w5b1.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="2" normal_image="emrtextures/w1b2s0.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="3" normal_image="emrtextures/w1b3.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="4" normal_image="emrtextures/w3b4.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="5" normal_image="emrtextures/w2b12.jpg" opac_type="3" 
+opac_scale="0.65" opac_shift="0.65"
+/>
+<texture coll="21" bitmap="6" normal_image="emrtextures/w5b6.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="7" normal_image="emrtextures/w1b48.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="8" normal_image="emrtextures/w1b6.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="9" normal_image="emrtextures/w1b5.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="10" normal_image="emrtextures/forest.jpg" 
+normal_mask="emrtextures/forest-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="11" normal_image="emrtextures/w2b10.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="12" normal_image="emrtextures/w5b12.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="13" normal_image="emrtextures/stone-wall3.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="14" normal_image="emrtextures/w5b14.jpg" 
+normal_mask="emrtextures/w5b14-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+<texture coll="21" bitmap="15" normal_image="emrtextures/w5b15.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="16" normal_image="emrtextures/w5b16.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="17" normal_image="emrtextures/w5b17.jpg" 
+normal_mask="emrtextures/w5b17-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="18" normal_image="emrtextures/w5b18.jpg" 
+normal_mask="emrtextures/w5b18-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="19" normal_image="emrtextures/w1b7.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="20" normal_image="emrtextures/w2b8.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="21" normal_image="emrtextures/w2b19.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="22" normal_image="emrtextures/w1b37.jpg" 
+normal_mask="emrtextures/w1b37-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="23" normal_image="emrtextures/thick-forest.jpg" 
+normal_mask="emrtextures/thick-forest-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="24" normal_image="emrtextures/grass.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="25" normal_image="emrtextures/w5b25.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="26" normal_image="emrtextures/w3b51.jpg" 
+normal_mask="emrtextures/w3b51-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="27" normal_image="emrtextures/w5b27.png" opac_type="1"
+/>
+<texture coll="21" bitmap="28" normal_image="emrtextures/w5b28.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="29" normal_image="emrtextures/w5b29.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="30" normal_image="emrtextures/w5b30.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="31" normal_image="emrtextures/w5b31.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="32" normal_image="emrtextures/w3b23.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="33" normal_image="emrtextures/w5b33.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="34" normal_image="emrtextures/w1b29.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="35" normal_image="emrtextures/w1b30.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="36" normal_image="emrtextures/w1b31.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="37" normal_image="emrtextures/w5b37.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="38" normal_image="emrtextures/w5b38.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="39" normal_image="emrtextures/w5b39.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="40" normal_image="emrtextures/w5b40.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="41" normal_image="emrtextures/w5b41.jpg" 
+normal_mask="emrtextures/w5b41-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="42" normal_image="emrtextures/w5b42.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="43" normal_image="emrtextures/w5b43.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="44" normal_image="emrtextures/w4b28.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="45" normal_image="emrtextures/w5b45a.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="46" normal_image="emrtextures/w5b46.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="47" normal_image="emrtextures/w5b47.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="48" normal_image="emrtextures/w5b48.jpg" 
+glow_image="emrtextures/w5b48.jpg" glow_mask="emrtextures/w5b48-glow.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="49" normal_image="emrtextures/w5b49a.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="50" normal_image="emrtextures/w5b50.jpg" 
+normal_mask="emrtextures/w5b50-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="51" normal_image="emrtextures/w5b51.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="52" normal_image="emrtextures/w5b52.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="53" normal_image="emrtextures/w5b53.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="54" normal_image="emrtextures/w1b43.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="55" normal_image="emrtextures/w5b55.jpg" 
+normal_mask="emrtextures/w5b55-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="56" normal_image="emrtextures/w5b56a.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="57" normal_image="emrtextures/w5b57.jpg" 
+glow_image="emrtextures/w5b57.jpg" glow_mask="emrtextures/w5b57-glow.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="58" normal_image="emrtextures/w1b2s1.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="59" normal_image="emrtextures/w1b2s2.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="60" normal_image="emrtextures/w1b2s3.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="61" normal_image="emrtextures/w1b2s4.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="62" normal_image="emrtextures/w1b2s5.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="63" normal_image="emrtextures/w1b2s6.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="64" normal_image="emrtextures/w1b2s7.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="65" normal_image="emrtextures/w1b2s8.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="66" normal_image="emrtextures/w3b45.jpg" 
+normal_mask="emrtextures/w3b45-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="67" normal_image="emrtextures/w5b45b.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="68" normal_image="emrtextures/w5b49b.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="69" normal_image="emrtextures/w5b49c.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="70" normal_image="emrtextures/w5b49d.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="71" normal_image="emrtextures/kronos-floor.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="72" normal_image="emrtextures/w5b72.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="73" normal_image="emrtextures/kronos-grate.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="74" normal_image="emrtextures/w5b74.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="75" normal_image="emrtextures/w3b4a.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="76" normal_image="emrtextures/w3b4b.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="77" normal_image="emrtextures/w5b77.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="78" normal_image="emrtextures/w5b56b.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="79" normal_image="emrtextures/w5b79.jpg"
+glow_image="emrtextures/w5b79.jpg" glow_mask="emrtextures/w5b79-glow.jpg" opac_type="1"
+/>
+
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/daytime-hills.png"/>
+<texture coll="27" bitmap="1" normal_image="emrtextures/landscapes/space-nebula.dds"/>
+<texture coll="28" bitmap="0" normal_image="emrtextures/landscapes/cityscape-night.dds"/>
+<texture coll="28" bitmap="1" normal_image="emrtextures/landscapes/space-arcane.dds"/>
+<texture coll="29" bitmap="0" normal_image="emrtextures/landscapes/redsky-landscape.jpg"/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-clouds.dds"/>
+<texture coll="30" bitmap="1" normal_image="emrtextures/landscapes/sunsethills.png"/>
+
+</opengl>
+
+<landscapes>
+<landscape coll="27" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1"/>
+<landscape coll="28" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1"/>
+<landscape coll="30" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1"/>
+</landscapes>
+
+<animated_textures>
+
+<!-- Save/Comm Terminals -->
+
+<sequence coll="17" numticks="3">
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="52"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="53"/>
+<frame index="52"/>
+</sequence>
+
+<sequence coll="18" numticks="3">
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="56"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="57"/>
+<frame index="56"/>
+</sequence>
+
+<sequence coll="19" numticks="3">
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="75"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="75"/>
+</sequence>
+
+<sequence coll="20" numticks="3">
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="66"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="67"/>
+<frame index="66"/>
+</sequence>
+
+<sequence coll="21" numticks="3">
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="4"/>
+<frame index="75"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="76"/>
+<frame index="75"/>
+</sequence>
+
+<!-- Rechargers -->
+<sequence coll="17" numticks="3">
+<frame index="2"/>
+<frame index="58"/>
+<frame index="59"/>
+<frame index="60"/>
+<frame index="61"/>
+<frame index="62"/>
+<frame index="63"/>
+<frame index="64"/>
+<frame index="65"/>
+</sequence>
+
+<sequence coll="18" numticks="3">
+<frame index="2"/>
+<frame index="58"/>
+<frame index="59"/>
+<frame index="60"/>
+<frame index="61"/>
+<frame index="62"/>
+<frame index="63"/>
+<frame index="64"/>
+<frame index="65"/>
+</sequence>
+
+<sequence coll="19" numticks="3">
+<frame index="2"/>
+<frame index="58"/>
+<frame index="59"/>
+<frame index="60"/>
+<frame index="61"/>
+<frame index="62"/>
+<frame index="63"/>
+<frame index="64"/>
+<frame index="65"/>
+</sequence>
+
+<sequence coll="20" numticks="3">
+<frame index="2"/>
+<frame index="58"/>
+<frame index="59"/>
+<frame index="60"/>
+<frame index="61"/>
+<frame index="62"/>
+<frame index="63"/>
+<frame index="64"/>
+<frame index="65"/>
+</sequence>
+
+<sequence coll="21" numticks="3">
+<frame index="2"/>
+<frame index="58"/>
+<frame index="59"/>
+<frame index="60"/>
+<frame index="61"/>
+<frame index="62"/>
+<frame index="63"/>
+<frame index="64"/>
+<frame index="65"/>
+</sequence>
+
+<!-- Miscellaneous -->
+<sequence coll="17" numticks="6">
+<frame index="8"/>
+<frame index="57"/>
+<frame index="56"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="55"/>
+<frame index="56"/>
+<frame index="57"/>
+<frame index="8"/>
+<frame index="8"/>
+<frame index="8"/>
+<frame index="8"/>
+<frame index="8"/>
+</sequence>
+
+<sequence coll="19" numticks="2">
+<frame index="40"/>
+<frame index="73"/>
+<frame index="74"/>
+</sequence>
+
+<sequence coll="21" numticks="30">
+<frame index="45"/>
+<frame index="67"/>
+</sequence>
+
+<sequence coll="21" numticks="10">
+<frame index="49"/>
+<frame index="68"/>
+<frame index="69"/>
+<frame index="70"/>
+</sequence>
+
+<sequence coll="21" numticks="45">
+<frame index="56"/>
+<frame index="78"/>
+</sequence>
+
+</animated_textures>
+
+</marathon>

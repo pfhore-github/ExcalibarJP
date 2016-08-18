@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="27" bitmap="1" normal_image="emrtextures/landscapes/nighthills.png"/>
+
+</opengl>
+
+<scenery>
+<object index="23">
+<normal>
+<shape coll="22" seq="28"/>
+</normal>
+</object>
+</scenery>
+
+<stringset index="137">
+<string index="9">氷の破片の杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">氷の破片の杖</string>
+</stringset>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

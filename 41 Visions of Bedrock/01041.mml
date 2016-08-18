@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<texture_loading>
+<texture_env index="1" which="2" coll="22"/>
+</texture_loading>
+
+<opengl>
+<texture coll="7" bitmap="56" normal_image="emrtextures/items/flag1.jpg" 
+normal_mask="emrtextures/items/flag1-mask.jpg" 
+glow_image="emrtextures/items/flag1.jpg" 
+glow_mask="emrtextures/items/flag1-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="57" normal_image="emrtextures/items/flag2.jpg" 
+normal_mask="emrtextures/items/flag2-mask.jpg" 
+glow_image="emrtextures/items/flag2.jpg" 
+glow_mask="emrtextures/items/flag2-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="58" normal_image="emrtextures/items/flag3.jpg" 
+normal_mask="emrtextures/items/flag3-mask.jpg" 
+glow_image="emrtextures/items/flag3.jpg" 
+glow_mask="emrtextures/items/flag3-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="59" normal_image="emrtextures/items/flag4.jpg" 
+normal_mask="emrtextures/items/flag4-mask.jpg" 
+glow_image="emrtextures/items/flag4.jpg" 
+glow_mask="emrtextures/items/flag4-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="60" normal_image="emrtextures/items/flag5.jpg" 
+normal_mask="emrtextures/items/flag5-mask.jpg"
+glow_image="emrtextures/items/flag5.jpg" 
+glow_mask="emrtextures/items/flag5-mask.jpg" opac_type="1"
+/>
+<texture coll="18" bitmap="40" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+</opengl>
+
+<stringset index="137">
+<string index="9"></string>
+</stringset>
+
+<stringset index="150">
+<string index="22">競争の標石</string>
+<string index="23">競争の標石</string>
+<string index="31">石車のカギ</string>
+<string index="32">石車のカギ</string>
+<string index="41">石車の制御</string>
+</stringset>
+
+<player>
+<shape type="2" subtype="9" value="42"/>
+<shape type="4" subtype="9" value="42"/>
+</player>
+
+<interface>
+<!-- Magic Staff becomes flintmobile -->
+<weapon index="9" shape="73" top="353" left="400">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+</interface>
+
+<overhead_map>
+<!-- Raptors, Trex and Dimorph are now friends -->
+<assign_live monster="16" type="0"/>
+<assign_live monster="17" type="0"/>
+<assign_live monster="20" type="0"/>
+<assign_live monster="25" type="0"/>
+</overhead_map>
+
+<motion_sensor>
+<!-- Raptors, Trex and Dimorph are now friends -->
+<assign monster="16" type="0"/>
+<assign monster="17" type="0"/>
+<assign monster="20" type="0"/>
+<assign monster="25" type="0"/>
+</motion_sensor>
+
+<items>
+<!-- Magic Scroll becomes flag milestone -->
+<item index="14">
+<shape coll="7" seq="48"/>
+</item>
+</items>
+
+<scenery>
+<!-- Light beacon becomes tree trunk (scenery swap) -->
+<object index="12" radius="64" height="1024">
+<normal>
+<shape coll="22" seq="30"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<ambient index="3" sound="258"/>
+</sounds>
+
+</marathon>

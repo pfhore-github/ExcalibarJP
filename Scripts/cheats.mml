@@ -1,0 +1,1 @@
+<marathon>    <player oxygen_deplete="-1" vulnerability="-1" guided="true">    </player><!-- Show everything that can be shown in the overhead map --> <overhead_map mode="0">  <items on="true"/>  <aliens on="true"/> </overhead_map></marathon>

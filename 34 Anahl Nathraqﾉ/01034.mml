@@ -1,0 +1,73 @@
+<marathon>
+<opengl>
+
+<fog on="true" type="1" depth="2.00">
+<color red="0" green="0.7" blue="0.3"/>
+</fog>
+<texture coll="19" bitmap="14" normal_image="emrtextures/w3b14b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="36" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="49" normal_image="emrtextures/floorswitch2.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="53" normal_image="emrtextures/w3b53b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="54" normal_image="emrtextures/w3b54b.jpg" opac_type="1"
+/>
+<texture coll="28" bitmap="0" normal_image="emrtextures/landscapes/cityscape-dusk.jpg"/>
+<texture coll="28" bitmap="1" normal_image="emrtextures/landscapes/space-clouds.dds"/>
+<texture coll="7" bitmap="15" normal_image="emrtextures/items/siniestra-card.jpg" 
+normal_mask="emrtextures/items/card-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<items>
+<!-- Night vision potion becomes Tiny module -->
+<item index="12" type="3" maximum="1" singular="24" plural="24">
+<shape coll="7" seq="56"/>
+</item>
+</items>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+<ambient index="22" sound="242"/>
+</sounds>
+
+<faders>
+
+<!-- Set Future liquid to Actinium gas -->
+<liquid index="2" opacity="0.5"/>
+<fader index="31" type="2">
+<color red="0" green="0.7" blue="0.3"/>
+</fader>
+
+</faders>
+
+<liquids>
+<!-- Set Future liquid to Actinium gas -->
+<liquid index="3" submerged="2">
+<damage type="17" flags="0" base="50"/>
+<effect type="0" which="-1"/>
+<effect type="1" which="-1"/>
+<effect type="2" which="-1"/>
+<effect type="3" which="-1"/>
+<sound type="0" which="-1"/>
+<sound type="1" which="-1"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="-1"/>
+<sound type="4" which="-1"/>
+<sound type="5" which="-1"/>
+<sound type="6" which="1"/>
+<sound type="7" which="-1"/>
+<sound type="8" which="-1"/>
+</liquid>
+
+</liquids>
+
+</marathon>

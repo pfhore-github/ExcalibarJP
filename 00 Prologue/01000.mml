@@ -1,0 +1,27 @@
+<marathon>
+<opengl>
+
+<texture coll="27" bitmap="1" normal_image="emrtextures/landscapes/space-eye.dds"/>
+
+</opengl>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+</sounds>
+
+<platforms>
+
+<!-- ELEVATOR -->
+<platform index="5"
+	start_extend="146" stop_extend="148" start_contract="145" stop_contract="147"
+	moving="11" uncontrollable="149" obstructed="147">
+<damage type="16" flags="0" base="20" random="4"/>
+</platform>
+
+</platforms>
+
+</marathon>

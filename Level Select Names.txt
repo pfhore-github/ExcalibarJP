@@ -1,0 +1,112 @@
+128 Master
+129 LUA Globals
+130 LUA Solo Levels
+131 LUA Net Levels
+133 LUA CTF Net levels
+137 Dreams Logon
+143 MNeton(8-bit).RSRC
+144 MNoff(8-bit).RSRC
+226 Mauvair Logoff
+227 Mauvair Logon
+228 Mauvair
+501 LUA Advancement #1
+502 LUA Advancement #2
+503 LUA Advancement #3
+504 LUA Advancement #4
+505 LUA Advancement #5
+506 LUA Advancement #6
+507 LUA Advancement #7
+508 LUA Advancement #2.5
+601 MML Advancement #1
+602 MML Advancement #2
+603 MML Advancement #3
+604 MML Advancement #4
+605 MML Advancement #5
+606 MML Advancement #6
+607 MML Advancement #7
+608 MML Advancement #2.5
+1501 S1501 - Mission
+1502 S1502 - Jurassic
+1504 S1504 - Expedition
+1507 S1507 - Deliverance
+1511 S1511 - Knighthood
+1515 S1515 - Siege
+1518 S1518 - Morgana's Lair
+1522 S1522 - Nightmare
+1524 S1524 - Valour
+1528 S1528 - Droids
+1530 S1530 - Infiltration
+1534 S1534 - Showdown
+1756 End screen 1
+1757 End screen 2
+1758 End screen 3
+2924 LUA Full Court Duress
+
+10201 Magic Crystal
+10400 Unstable Terrain
+10402 Dimorphodon anle will be u
+10500 When It Rains It Pours
+10600 Ceridwen's Revenge
+10700 Unnatural Selection
+10702 VOX Translator -- ON
+10704 VOX Translator -- OFF
+10800 Raptors Come Home
+10900 No Time for Coffee
+11000 Bend Sinister
+11100 Shores of Camelot
+11200 Life for a Sword
+11300 Excalibur!
+11500 Over the River
+11600 Siege Perilous
+11700 Betrayal & Retribution
+11800 Lurking
+11900 Map Checkpoint
+11901 Bonewing
+11902 SkullSnake
+11903 Morgana and Pet
+11904 Will-O-Wisp
+11905 Archer
+11906 Mauvair
+11907 Sorcerors Thinking
+11908 Memoirs Logon
+11909 Lava Cliff
+11910 Memoirs Logoff
+12000 Tower of Mauvair
+12101 Mac OS
+12102 Forge splash screen
+12103 Olorin himself
+12104 Bridge Info
+12105 Santa Fe logon
+12106 Santa Fe Captain
+12200 Creature's Nightmare
+12300 Audience is Listening
+12301 Audience Is Listening
+12400 Spiders & Snakes
+12500 Castle of Pain
+12600 Love of Mother
+12700 Noah's Ark
+12800 Staying Up Late
+12806 Forraje Clone Costs
+12900 Slime Raider II
+13100 Opening Term, CinemaScope
+13101 HEL 7-36
+13102 Job Fair Term.RSRC
+13103 HEL 7-36 Remote Station
+13104 Graviton Dynamo2
+13105 TTR Term, Vector.RSRC
+13106 DV Graviton Dynamo Maint
+13107 DV Graviton Switches
+13108 Reina Siniestra.RSRC
+13109 Re_Sin Pan and Scan.RSRC
+13110 Warning!3.RSRC
+13111 Crusher.RSRC
+13300 The Keep
+13405 PICT_13405
+13500 El Fin
+13501 Tiny
+13602 Bill
+13603 James
+13604 Rich
+13610 PICT_13610
+13700 World of Hazel
+13800 Weapons

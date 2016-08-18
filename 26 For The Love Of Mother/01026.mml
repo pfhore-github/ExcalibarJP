@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="21" bitmap="23" normal_image="emrtextures/w2b20.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="38" normal_image="emrtextures/items/magic-card.jpg" 
+normal_mask="emrtextures/items/magic-card-mask.jpg" 
+glow_image="emrtextures/items/magic-card.jpg" 
+glow_mask="emrtextures/items/magic-card-glow.jpg" opac_type="1"
+/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-arcane.dds"/>
+
+</opengl>
+
+<items>
+<item index="24">
+<shape coll="7" seq="50"/>
+</item>
+</items>
+
+<stringset index="137">
+<string index="9">過充電の杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">過充電の杖</string>
+</stringset>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

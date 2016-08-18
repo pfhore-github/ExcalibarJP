@@ -1,0 +1,571 @@
+<marathon>
+<!--
+	opac_type 0: forced black and white (default Infinity behavior)
+	opac_type 1: uniform opacity (use grayscale mask, or white if none specified)
+	opac_type 2: averages all 3 colors and makes that the mask value
+	opac_type 3: uses the maximum of the three colors as the mask value
+
+	opac_scale: opacity multiplier (default is 1); values less than 1 make it more transparent
+
+	opac_shift: shift value for the opacity; how much to add after multiplying
+
+	NOTES: Make flames, energy-weapon bolts, and hit sparks semitransparent
+
+			Pure flames get type 3 
+
+			Aleph One no longer has built-in default opacity settings, so default of
+			opac_type = 0 can be assumed for all.
+-->
+
+<opengl>
+
+<!-- Fire -->
+<texture coll="2" bitmap="42" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="51" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="52" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="53" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="54" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="55" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="65" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="66" opac_type="3" opac_scale="0.8"/>
+<texture coll="2" bitmap="67" opac_type="3" opac_scale="0.8"/>
+
+<!-- SPAM bolt -->
+<texture coll="3" bitmap="26" opac_type="3" opac_scale="1.5"/>
+<texture coll="3" bitmap="27" opac_type="3" opac_scale="1.5"/>
+<texture coll="3" bitmap="28" opac_type="3" opac_scale="1.5"/>
+<texture coll="3" bitmap="29" opac_type="3" opac_scale="1.5"/>
+
+<!-- SPAM spark -->
+<texture coll="3" bitmap="30" opac_type="3"/>
+<texture coll="3" bitmap="31" opac_type="3"/>
+<texture coll="3" bitmap="32" opac_type="3"/>
+<texture coll="3" bitmap="33" opac_type="3"/>
+
+<!-- Rocket contrail -->
+<texture coll="4" bitmap="0" opac_type="1" opac_scale="0.25"/>
+<texture coll="4" bitmap="1" opac_type="1" opac_scale="0.25"/>
+<texture coll="4" bitmap="2" opac_type="1" opac_scale="0.25"/>
+<texture coll="4" bitmap="3" opac_type="1" opac_scale="0.25"/>
+<texture coll="4" bitmap="5" opac_type="1" opac_scale="0.5"/>
+
+<!-- Rocket -->
+<texture coll="4" bitmap="6" opac_type="0"/>
+<texture coll="4" bitmap="7" opac_type="0"/>
+<texture coll="4" bitmap="8" opac_type="0"/>
+<texture coll="4" bitmap="9" opac_type="0"/>
+<texture coll="4" bitmap="10" opac_type="0"/>
+
+<!-- Fireball -->
+<texture coll="4" bitmap="4" opac_type="3" opac_scale="0.9"/>
+<texture coll="4" bitmap="11" opac_type="3" opac_scale="0.9"/>
+<texture coll="4" bitmap="12" opac_type="3" opac_scale="0.9"/>
+<texture coll="4" bitmap="13" opac_type="3" opac_scale="0.9"/>
+
+<!-- Rocket explosion -->
+<texture coll="4" bitmap="14" opac_type="3"/>
+<texture coll="4" bitmap="15" opac_type="3"/>
+<texture coll="4" bitmap="16" opac_type="3"/>
+<texture coll="4" bitmap="17" opac_type="3"/>
+<texture coll="4" bitmap="35" opac_type="3" opac_scale=".8"/>
+<texture coll="4" bitmap="36" opac_type="3" opac_scale=".7"/>
+<texture coll="4" bitmap="37" opac_type="3" opac_scale=".6"/>
+<texture coll="4" bitmap="101" opac_type="3" opac_scale=".5"/>
+<texture coll="4" bitmap="102" opac_type="3" opac_scale=".4"/>
+<texture coll="4" bitmap="103" opac_type="3" opac_scale=".3"/>
+
+<!-- Bullet hit -->
+<texture coll="4" bitmap="18" opac_type="3" opac_scale="0.9"/>
+<texture coll="4" bitmap="19" opac_type="3" opac_scale="0.8"/>
+<texture coll="4" bitmap="20" opac_type="3" opac_scale="0.7"/>
+<texture coll="4" bitmap="21" opac_type="3" opac_scale="0.6"/>
+<texture coll="4" bitmap="22" opac_type="3" opac_scale="0.5"/>
+
+
+<!-- Lightning bolt -->
+<texture coll="4" bitmap="23" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="24" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="25" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="26" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="27" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="28" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="29" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="30" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="31" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="32" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="33" opac_type="1" opac_scale="0.8"/>
+<texture coll="4" bitmap="34" opac_type="1" opac_scale="0.8"/>
+
+<!-- Blood splatter -->
+<texture coll="4" bitmap="38" opac_type="3"/>
+<texture coll="4" bitmap="39" opac_type="3"/>
+<texture coll="4" bitmap="40" opac_type="3"/>
+<texture coll="4" bitmap="41" opac_type="3"/>
+<texture coll="4" bitmap="42" opac_type="3"/>
+
+<!-- Micromissile -->
+<texture coll="4" bitmap="43" opac_type="0"/>
+<texture coll="4" bitmap="44" opac_type="0"/>
+<texture coll="4" bitmap="45" opac_type="0"/>
+<texture coll="4" bitmap="46" opac_type="0"/>
+<texture coll="4" bitmap="47" opac_type="0"/>
+
+<!-- Fire burst -->
+<texture coll="4" bitmap="48" opac_type="3" opac_scale="0.9"/>
+<texture coll="4" bitmap="49" opac_type="3" opac_scale="0.8"/>
+<texture coll="4" bitmap="50" opac_type="3" opac_scale="0.6"/>
+<texture coll="4" bitmap="51" opac_type="3" opac_scale="0.5"/>
+
+<!-- Arrow -->
+<texture coll="4" bitmap="52" opac_type="0"/>
+<texture coll="4" bitmap="53" opac_type="0"/>
+<texture coll="4" bitmap="54" opac_type="0"/>
+<texture coll="4" bitmap="55" opac_type="0"/>
+<texture coll="4" bitmap="56" opac_type="0"/>
+
+<!-- Flamethrower flames -->
+<!-- coll 4, bitmaps 57 thru 62 uses external images defined in sprites.mml -->
+
+<!-- Dying in flames -->
+<texture coll="4" bitmap="63" opac_type="3" opac_scale="0.9"/>
+<texture coll="4" bitmap="64" opac_type="3" opac_scale="0.8"/>
+<texture coll="4" bitmap="65" opac_type="3" opac_scale="0.8"/>
+<texture coll="4" bitmap="66" opac_type="3" opac_scale="0.7"/>
+
+<!-- Burnt body -->
+<texture coll="4" bitmap="67" opac_type="0"/>
+
+<!-- Grenade explosion -->
+<texture coll="4" bitmap="68" opac_type="3"/>
+<texture coll="4" bitmap="69" opac_type="3"/>
+<texture coll="4" bitmap="70" opac_type="3" opac_scale=".8"/>
+<texture coll="4" bitmap="71" opac_type="3" opac_scale=".7"/>
+<texture coll="4" bitmap="72" opac_type="3" opac_scale=".6"/>
+<texture coll="4" bitmap="73" opac_type="3" opac_scale=".5"/>
+
+<!-- Freeze spell -->
+<texture coll="4" bitmap="74" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="75" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="76" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="81" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="82" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="83" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="84" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="85" opac_type="2" opac_scale="0.8"/>
+<texture coll="4" bitmap="86" opac_type="2" opac_scale="0.7"/>
+<texture coll="4" bitmap="87" opac_type="2" opac_scale="0.6"/>
+<texture coll="4" bitmap="88" opac_type="2" opac_scale="0.5"/>
+<texture coll="4" bitmap="89" opac_type="2" opac_scale="0.4"/>
+
+<!-- Photon stuff -->
+<texture coll="4" bitmap="77" opac_type="3"/>
+<texture coll="4" bitmap="78" opac_type="3"/>
+<texture coll="4" bitmap="79" opac_type="3"/>
+
+<!-- Star projectile -->
+<!-- coll 4, bitmaps 80 uses external images defined in sprites.mml -->
+
+<!-- High-tech plasma -->
+<texture coll="4" bitmap="90" opac_type="3"/>
+<texture coll="4" bitmap="91" opac_type="3"/>
+<texture coll="4" bitmap="92" opac_type="3"/>
+<texture coll="4" bitmap="93" opac_type="3"/>
+<texture coll="4" bitmap="94" opac_type="3"/>
+<texture coll="4" bitmap="95" opac_type="3"/>
+<texture coll="4" bitmap="96" opac_type="3"/>
+
+<!-- Rock -->
+<texture coll="4" bitmap="97" opac_type="0"/>
+<texture coll="4" bitmap="98" opac_type="0"/>
+<texture coll="4" bitmap="99" opac_type="0"/>
+<texture coll="4" bitmap="100" opac_type="0"/>
+
+<!-- Magic spell -->
+<texture coll="4" bitmap="104" opac_type="3"/>
+
+<!-- Plasma grenade -->
+<!-- coll 4, bitmaps 105 thru 114 uses external images defined in sprites.mml -->
+
+<!-- Foot, Bombs and Sword -->
+<!-- coll 4, bitmaps 115, 117, 119-123 uses external images defined in sprites.mml -->
+
+<!-- Knight hit spark -->
+<texture coll="5" bitmap="65" opac_type="3"/>
+<texture coll="5" bitmap="66" opac_type="3"/>
+
+<!-- Knight bolt -->
+<texture coll="5" bitmap="67" opac_type="1" opac_scale="0.9"/>
+<texture coll="5" bitmap="68" opac_type="1" opac_scale="0.9"/>
+<texture coll="5" bitmap="69" opac_type="1" opac_scale="0.9"/>
+<texture coll="5" bitmap="70" opac_type="1" opac_scale="0.9"/>
+
+<!-- Make a transparent knight clut --> 
+<texture coll="5" clut="6" bitmap="0" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="1" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="2" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="3" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="4" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="5" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="6" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="7" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="8" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="9" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="10" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="11" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="12" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="13" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="14" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="15" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="16" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="17" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="18" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="19" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="20" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="21" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="22" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="23" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="24" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="25" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="26" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="27" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="28" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="29" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="30" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="31" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="32" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="33" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="34" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="35" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="36" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="37" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="38" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="39" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="40" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="41" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="42" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="43" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="44" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="45" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="46" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="47" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="48" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="49" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="50" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="51" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="52" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="53" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="54" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="55" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="56" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="57" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="58" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="59" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="60" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="61" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="5" clut="6" bitmap="62" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+
+<!-- GAT blood -->
+<texture coll="8" bitmap="53" opac_type="3"/>
+<texture coll="8" bitmap="54" opac_type="3"/>
+<texture coll="8" bitmap="55" opac_type="3"/>
+<texture coll="8" bitmap="56" opac_type="3"/>
+<texture coll="8" bitmap="57" opac_type="3"/>
+
+<!-- Make a transparent archer clut --> 
+<texture coll="9" clut="5" bitmap="0" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="1" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="2" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="3" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="4" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="5" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="6" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="7" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="8" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="9" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="10" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="11" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="12" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="13" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="14" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="15" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="16" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="17" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="18" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="19" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="20" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="21" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="22" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="23" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="24" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="25" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="26" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="27" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="28" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="29" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="30" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="31" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="32" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="33" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="34" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="35" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="36" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="37" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="38" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="39" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="40" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="41" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="42" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="43" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="44" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="45" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="46" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="47" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="48" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="49" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="50" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="51" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="52" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="53" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="54" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="55" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="56" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="57" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="58" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="59" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="60" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="61" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="62" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="63" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="64" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="65" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="66" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="67" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="68" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="69" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="70" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="71" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="72" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="73" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="74" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="9" clut="5" bitmap="75" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+
+<!-- Clone blood splat -->
+<texture coll="10" bitmap="33" opac_type="3"/>
+<texture coll="10" bitmap="34" opac_type="3"/>
+<texture coll="10" bitmap="35" opac_type="3"/>
+
+<!-- Raptor blood splat -->
+<texture coll="11" bitmap="23" opac_type="3"/>
+<texture coll="11" bitmap="24" opac_type="3"/>
+<texture coll="11" bitmap="42" opac_type="3"/>
+<texture coll="11" bitmap="43" opac_type="3"/>
+
+<!-- Raptor goo -->
+<texture coll="11" bitmap="44" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="45" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="46" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="47" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="48" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="49" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="50" opac_type="3" opac_scale="0.5"/>
+<texture coll="11" bitmap="51" opac_type="3" opac_scale="0.5"/>
+
+<!-- Cavebob blood splat -->
+<texture coll="12" bitmap="54" opac_type="3"/>
+<texture coll="12" bitmap="55" opac_type="3"/>
+<texture coll="12" bitmap="56" opac_type="3"/>
+<texture coll="12" bitmap="57" opac_type="3"/>
+
+<!-- Futurebob blood splat -->
+<texture coll="13" bitmap="47" opac_type="3"/>
+<texture coll="13" bitmap="48" opac_type="3"/>
+<texture coll="13" bitmap="49" opac_type="3"/>
+
+<!-- Monster blood splat -->
+<texture coll="14" bitmap="22" opac_type="3"/>
+<texture coll="14" bitmap="23" opac_type="3"/>
+<texture coll="14" bitmap="24" opac_type="3"/>
+
+<!-- Trex blood -->
+<texture coll="15" bitmap="23" opac_type="3"/>
+<texture coll="15" bitmap="24" opac_type="3"/>
+<texture coll="15" bitmap="25" opac_type="3"/>
+
+<!-- Sorcerer blood -->
+<texture coll="16" bitmap="41" opac_type="3"/>
+<texture coll="16" bitmap="46" opac_type="3"/>
+<texture coll="16" bitmap="51" opac_type="3"/>
+
+<!-- Make the "Invisible" Sorcerer translucent --> 
+<texture coll="16" clut="4" bitmap="0" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="1" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="2" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="3" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="4" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="5" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="6" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="7" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="8" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="9" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="10" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="11" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="12" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="13" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="14" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="15" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="16" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="17" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="18" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="19" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="20" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="21" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="22" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="23" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="24" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="25" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="26" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="27" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="28" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="29" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="30" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="31" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="32" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="33" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="34" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="35" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+<texture coll="16" clut="4" bitmap="36" opac_type="3" opac_scale="0.1" opac_shift="0.1"/>
+
+<!-- Make a new transparent sorcerer clut --> 
+<texture coll="16" clut="5" bitmap="0" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="1" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="2" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="3" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="4" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="5" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="6" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="7" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="8" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="9" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="10" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="11" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="12" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="13" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="14" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="15" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="16" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="17" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="18" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="19" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="20" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="21" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="22" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="23" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="24" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="25" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="26" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="27" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="28" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="29" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="30" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="31" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="32" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="33" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="34" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="35" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="16" clut="5" bitmap="36" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+
+<!-- Morgana blood -->
+<texture coll="31" bitmap="15" opac_type="3"/>
+<texture coll="31" bitmap="16" opac_type="3"/>
+<texture coll="31" bitmap="17" opac_type="3"/>
+<texture coll="31" bitmap="18" opac_type="3"/>
+
+<!-- Morgana bolt -->
+<texture coll="31" bitmap="30" opac_type="3"/>
+<texture coll="31" bitmap="31" opac_type="3"/>
+<texture coll="31" bitmap="32" opac_type="3"/>
+<texture coll="31" bitmap="33" opac_type="3"/>
+<texture coll="31" bitmap="34" opac_type="3"/>
+
+<!-- Make a transparent Cleric clut for Merlin --> 
+<texture coll="31" clut="4" bitmap="0" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="1" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="2" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="3" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="4" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="5" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="6" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="7" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="8" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="9" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="40" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+<texture coll="31" clut="4" bitmap="41" opac_type="3" opac_scale="0.3" opac_shift="0.3"/>
+
+<!-- Make liquids, splashes, and puddles semitransparent -->
+
+<!-- Camelot -->
+<texture coll="22" bitmap="0" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="1" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="2" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="3" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="4" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="5" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="6" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="7" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="8" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="9" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="10" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="11" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="12" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="28" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="22" bitmap="29" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+
+<!-- Jurassic -->
+<texture coll="23" bitmap="0" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="23" bitmap="1" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="23" bitmap="2" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="23" bitmap="3" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="23" bitmap="4" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="23" bitmap="5" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+
+<!-- Future -->
+<texture coll="24" bitmap="0" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="1" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="2" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="3" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="4" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="5" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="6" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="7" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="8" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="9" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="10" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="11" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="24" bitmap="12" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+
+<!-- Dreams -->
+<texture coll="25" bitmap="0" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="1" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="2" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="3" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="4" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="5" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="6" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="7" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="8" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="9" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="10" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="11" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="25" bitmap="12" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+
+<!-- Morgana/Kronos -->
+<texture coll="26" bitmap="0" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="26" bitmap="1" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="26" bitmap="2" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="26" bitmap="3" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="26" bitmap="4" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+<texture coll="26" bitmap="5" opac_type="3" opac_scale="0.5" opac_shift="0.5"/>
+
+</opengl>
+
+</marathon>

@@ -1,0 +1,98 @@
+<marathon>
+<texture_loading>
+<texture_env index="4" which="2" coll="17"/>
+<texture_env index="4" which="3" coll="22"/>
+</texture_loading>
+
+<opengl>
+
+<fog on="false" />
+
+<texture coll="7" bitmap="15" normal_image="emrtextures/items/sap-generic.jpg" 
+normal_mask="emrtextures/items/sap-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="34" normal_image="emrtextures/w1b29a.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="44" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="57" normal_image="emrtextures/w3b32.jpg" opac_type="1"
+/>
+<texture coll="26" bitmap="29" normal_image="emrtextures/items/kronos-table.jpg" 
+normal_mask="emrtextures/items/ktable-mask.jpg" opac_type="1"
+/>
+<texture coll="26" bitmap="30" normal_image="emrtextures/items/kronos-table.jpg" 
+normal_mask="emrtextures/items/ktable-mask.jpg" opac_type="1"
+/>
+<texture coll="26" bitmap="43" normal_image="emrtextures/items/kchair-green.jpg" 
+normal_mask="emrtextures/items/kchair-mask.jpg" opac_type="1"
+/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-arcane.dds"/>
+
+</opengl>
+
+<scenery>
+<!-- Gargoyle becomes purple chair -->
+<object index="44" flags="1" radius="128" height="550">
+<normal>
+<shape coll="26" seq="26"/>
+</normal>
+</object>
+<!-- Crystals becomes Kronos ship -->
+<object index="47">
+<normal>
+<shape coll="26" seq="24"/>
+</normal>
+</object>
+<!-- Trees becomes Kronos items -->
+<object index="39" flags="1" radius="128" height="550">
+<normal>
+<shape coll="26" seq="25"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+<ambient index="13" sound="241"/>
+<ambient index="22" sound="239"/>
+<ambient index="27" sound="237"/>
+</sounds>
+
+<faders>
+
+<!-- Set Kronos liquid to radiation -->
+<liquid index="2" opacity="0.5"/>
+<fader index="32">
+<color red="0.7" green="0" blue="0.7"/>
+</fader>
+
+</faders>
+
+<liquids>
+
+<!-- Set Kronos liquid to radiation -->
+<liquid index="2" submerged="2">
+<damage type="17" flags="1" base="30"/>
+<effect type="0" which="-1"/>
+<effect type="1" which="-1"/>
+<effect type="2" which="-1"/>
+<effect type="3" which="-1"/>
+<sound type="0" which="-1"/>
+<sound type="1" which="-1"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="-1"/>
+<sound type="4" which="-1"/>
+<sound type="5" which="-1"/>
+<sound type="6" which="12"/>
+<sound type="7" which="-1"/>
+<sound type="8" which="-1"/>
+</liquid>
+
+</liquids>
+
+</marathon>

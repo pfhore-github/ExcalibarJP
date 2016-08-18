@@ -1,0 +1,76 @@
+<marathon>
+<opengl>
+
+<texture coll="20" bitmap="4" normal_image="emrtextures/w1b4.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="13" normal_image="emrtextures/clear.jpg" 
+normal_mask="emrtextures/clear.jpg" opac_type="1"/>
+<texture coll="20" bitmap="24" normal_image="emrtextures/w1b29.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="25" normal_image="emrtextures/w1b30.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="26" normal_image="emrtextures/w1b31.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="28" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="66" normal_image="emrtextures/w1b4a.jpg" opac_type="1"
+/>
+<texture coll="20" bitmap="67" normal_image="emrtextures/w1b4b.jpg" opac_type="1"
+/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-cluster.dds"/>
+<texture coll="7" bitmap="15" normal_image="emrtextures/items/siniestra-card.jpg" 
+normal_mask="emrtextures/items/card-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<player oxygen_deplete="3" oxygen_replenish="0"/>
+
+<!-- Make Golems not show up in map mode -->
+<overhead_map>
+<assign_live monster="8" type="-1"/>
+<assign_live monster="9" type="-1"/>
+</overhead_map>
+
+<faders>
+<!-- Set Dreams liquid to Clear -->
+<liquid index="3" opacity="0"/>
+</faders>
+
+<items>
+<!-- Night vision potion becomes Tiny module -->
+<item index="12" type="3" maximum="1" singular="24" plural="24">
+<shape coll="7" seq="56"/>
+</item>
+</items>
+
+<liquids>
+<!-- Set Dreams liquid to Clear, no damage -->
+<liquid index="4" submerged="3">
+<damage type="-1" base="0"/>
+<effect type="0" which="-1"/>
+<effect type="1" which="-1"/>
+<effect type="2" which="-1"/>
+<effect type="3" which="-1"/>
+<sound type="0" which="-1"/>
+<sound type="1" which="-1"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="-1"/>
+<sound type="4" which="-1"/>
+<sound type="5" which="-1"/>
+<sound type="6" which="1"/>
+<sound type="7" which="-1"/>
+<sound type="8" which="-1"/>
+</liquid>
+</liquids>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

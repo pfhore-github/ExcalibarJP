@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="17" bitmap="9" normal_image="emrtextures/w1b5-tapestry2.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="32" normal_image="emrtextures/letter.jpg" 
+normal_mask="emrtextures/parchment-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="39" normal_image="emrtextures/w1b5-tapestry.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="47" normal_image="emrtextures/w1b47b.jpg" opac_type="1"
+/>
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/castle-hills.jpg"/>
+
+<fog on="true" depth="6.00" landscapes="false" />
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/foggy-hills.png"/>
+
+</opengl>
+
+<scenery>
+
+<object index="15" flags="1" radius="64" height="250">
+<normal>
+<shape coll="22" seq="23"/>
+</normal>
+</object>
+
+<object index="23" flags="0" radius="-1" height="-1">
+<normal>
+<shape coll="22" seq="19"/>
+</normal>
+</object>
+
+</scenery>
+
+<stringset index="137">
+<string index="9">ドラゴンの息の杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">ドラゴンの杖</string>
+</stringset>
+
+<interface>
+
+<!-- Magic staff is now Staff of Dragon's Breath -->
+<weapon index="9">
+<ammo index="0" type="1"
+left="425" top="382"
+across="150" down="0"
+delta_x="25" delta_y="50"
+bullet_shape="7" empty_shape="1"
+right_to_left="true"
+/>
+</weapon>
+</interface>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

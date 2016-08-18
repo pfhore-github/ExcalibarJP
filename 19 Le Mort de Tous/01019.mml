@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="21" bitmap="74" normal_image="emrtextures/w2b20.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="44" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<stringset index="137">
+<string index="9">テレポートの杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">テレポートの杖</string>
+</stringset>
+
+<overhead_map>
+
+<!-- Sorcerers are now friends -->
+<assign_live monster="4" type="0"/>
+<assign_live monster="5" type="0"/>
+<assign_live monster="6" type="0"/>
+<!-- Cavebobs and Maint Man (Giant Spider) are enemies -->
+<assign_live monster="12" type="1"/>
+<assign_live monster="41" type="1"/>
+
+</overhead_map>
+
+<motion_sensor>
+
+<!-- Sorcerers are now friends -->
+<assign monster="4" type="0"/>
+<assign monster="5" type="0"/>
+<assign monster="6" type="0"/>
+<!-- Cavebobs and Maint Man (Giant Spider) are enemies -->
+<assign monster="12" type="1"/>
+<assign monster="41" type="1"/>
+
+</motion_sensor>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+<ambient index="27" sound="258"/>
+</sounds>
+
+</marathon>

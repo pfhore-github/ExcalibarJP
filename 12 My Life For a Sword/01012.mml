@@ -1,0 +1,43 @@
+<marathon>
+<opengl>
+
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/castle-hills.jpg"/>
+
+</opengl>
+
+<player oxygen_deplete="1" oxygen_replenish="1" />
+
+<scenery>
+<object index="20">
+<normal>
+<shape coll="22" seq="19"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+<platforms>
+
+<!-- Excalibur platform -->
+<platform index="1"
+	start_extend="62" stop_extend="-1" start_contract="62" stop_contract="-1"
+	moving="-1" uncontrollable="-1" obstructed="-1">
+</platform>
+
+<!-- WOOD PLATFORM -->
+<platform index="2" 
+	start_extend="190" stop_extend="125" start_contract="191" stop_contract="121"
+	moving="23" uncontrollable="127" obstructed="192">
+<damage type="16" flags="0" base="10" random="10"/>
+</platform>
+
+</platforms>
+
+</marathon>

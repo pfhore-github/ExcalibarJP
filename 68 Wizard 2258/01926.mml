@@ -1,0 +1,22 @@
+<marathon>
+<opengl>
+
+<fog on="false" />
+<texture coll="21" bitmap="44" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="4"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+<ambient index="22" sound="240"/>
+<ambient index="13" sound="238"/>
+<ambient index="8" sound="258"/>
+</sounds>
+
+</marathon>

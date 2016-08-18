@@ -1,0 +1,26 @@
+<marathon>
+<texture_loading>
+<texture_env index="1" which="2" coll="17"/>
+<texture_env index="1" which="3" coll="22"/>
+</texture_loading>
+<opengl>
+
+<texture coll="18" bitmap="39" normal_image="emrtextures/bluewater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.5" opac_shift="0.5"
+/>
+<texture coll="18" bitmap="55" normal_image="emrtextures/w3b51.jpg" 
+normal_mask="emrtextures/w3b51-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<!-- CHANGE SPACESHIP DOOR -->
+<platforms>
+<platform index="1"
+	start_extend="45" stop_extend="218" start_contract="45" stop_contract="218"
+	moving="-1" uncontrollable="-1" obstructed="-1">
+</platform>
+</platforms>
+
+</marathon>

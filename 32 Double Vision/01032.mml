@@ -1,0 +1,39 @@
+<marathon>
+<texture_loading>
+<texture_env index="2" which="2" coll="17"/>
+<texture_env index="2" which="3" coll="22"/>
+</texture_loading>
+
+<opengl>
+
+<texture coll="19" bitmap="52" normal_image="emrtextures/plate1.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="68" normal_image="emrtextures/floorswitch.jpg" opac_type="1"
+/>
+<texture coll="24" bitmap="30" normal_image="emrtextures/items/streetlight-yellow.jpg"
+normal_mask="emrtextures/items/streetlight-yellow-mask.jpg"
+opac_type="1"
+/>
+
+</opengl>
+
+<items>
+<!-- Night vision potion becomes Tiny module -->
+<item index="12" type="3" maximum="1" singular="24" plural="24">
+<shape coll="7" seq="56"/>
+</item>
+</items>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+<ambient index="13" sound="237"/>
+<ambient index="9" sound="238"/>
+<ambient index="27" sound="240"/>
+<ambient index="7" sound="258"/>
+</sounds>
+
+</marathon>

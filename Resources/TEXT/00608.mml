@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+</opengl>
+
+<interface motion_sensor="true"/>
+
+<weapons>
+<!-- 
+Weapon order is as follows:
+	Slicing Knuckles (0)
+	Snyper (1)
+	Axe (7)
+	Crossbow (2)
+	Dachron (3)
+	Magic Staff (9)
+	Phaser (5)
+	Hightech (4)
+	Excalibur (6)
+-->
+<order index="0" weapon="0"/>
+<order index="1" weapon="1"/>
+<order index="2" weapon="7"/>
+<order index="3" weapon="2"/>
+<order index="4" weapon="3"/>
+<order index="5" weapon="9"/>
+<order index="6" weapon="5"/>
+<order index="7" weapon="4"/>
+<order index="8" weapon="6"/>
+</weapons>
+
+<stringset index="150">
+<string index="17">りんご</string>
+<string index="18">りんご</string>
+</stringset>
+
+<items>
+<!-- Apples -->
+<item index="23" type="2">
+<shape coll="7" seq="57"/>
+</item>
+</items>
+
+<sounds got_powerup="-1">
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+<ambient index="9" sound="223"/>
+</sounds>
+
+</marathon>

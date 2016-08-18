@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<texture_loading>
+<texture_env index="2" which="2" coll="17"/>
+<texture_env index="2" which="3" coll="22"/>
+</texture_loading>
+
+<opengl>
+
+<texture coll="19" bitmap="4" normal_image="emrtextures/w3b4alt.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="75" normal_image="emrtextures/w3b4alta.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="76" normal_image="emrtextures/w3b4altb.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="8" normal_image="emrtextures/w3b8b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="13" normal_image="emrtextures/bluewater.jpg" 
+normal_mask="emrtextures/bluewater-mask.jpg" 
+opac_type="3" opac_scale="0.65" opac_shift="0.65"
+/>
+<texture coll="19" bitmap="19" normal_image="emrtextures/w1b27.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="20" normal_image="emrtextures/w1b5.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="22" normal_image="emrtextures/w1b34.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="23" normal_image="emrtextures/rock-mud.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="28" normal_image="emrtextures/drapes.jpg" 
+normal_mask="emrtextures/drapes-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="33" normal_image="emrtextures/w1b47b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="35" normal_image="emrtextures/w1b6.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="36" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="38" normal_image="emrtextures/painting1.jpg" 
+normal_mask="emrtextures/painting1-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="42" normal_image="emrtextures/w1b51.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="48" normal_image="emrtextures/w1b26.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="49" normal_image="emrtextures/w1b15.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="50" normal_image="emrtextures/painting2.jpg" 
+normal_mask="emrtextures/painting2-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="51" normal_image="emrtextures/w1b48.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="53" normal_image="emrtextures/flowergrass.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="54" normal_image="emrtextures/flower-hedge.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="66" normal_image="emrtextures/w1b49.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="67" normal_image="emrtextures/barksmall.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="70" normal_image="emrtextures/w1b17.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="79" normal_image="emrtextures/w1b7.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="80" normal_image="emrtextures/w3b80b.jpg" opac_type="1"
+/>
+<texture coll="24" bitmap="26" normal_image="emrtextures/items/candle.jpg"
+normal_mask="emrtextures/items/candle-mask.jpg" opac_type="1"
+/>
+<texture coll="24" bitmap="30" normal_image="emrtextures/items/candleabra1.jpg"
+normal_mask="emrtextures/items/candleabra1-mask.jpg" opac_type="1"
+/>
+<texture coll="24" bitmap="46" normal_image="emrtextures/items/candle2.jpg"
+normal_mask="emrtextures/items/candle2-mask.jpg" opac_type="1"
+/>
+<texture coll="24" bitmap="47" normal_image="emrtextures/items/candle3.jpg"
+normal_mask="emrtextures/items/candle3-mask.jpg" opac_type="1"
+/>
+<texture coll="24" bitmap="48" normal_image="emrtextures/items/candleabra2.jpg"
+normal_mask="emrtextures/items/candleabra2-mask.jpg" opac_type="1"
+/>
+<texture coll="29" bitmap="0" normal_image="emrtextures/landscapes/sunsethills.png"/>
+
+</opengl>
+
+<landscapes>
+<landscape coll="29" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1" azimuth="180"/>
+</landscapes>
+
+<player oxygen_deplete="1" oxygen_replenish="1">
+<shape type="2" subtype="7" value="33"/>
+<shape type="4" subtype="7" value="34"/>
+</player>
+
+<stringset index="137">
+<string index="0">武器無し</string>
+<string index="6">エクスキャリバー</string>
+<string index="7">テレポートの杖</string>
+<string index="9">命の杖</string>
+</stringset>
+
+<stringset index="150">
+<string index="0">武器無し</string>
+<string index="27">テレポートの杖</string>
+<string index="28">テレポートの杖</string>
+<string index="41">命の杖</string>
+</stringset>
+
+<overhead_map>
+
+<!-- Sorcerers and soldiers are now friends -->
+<assign_live monster="4" type="0"/>
+<assign_live monster="5" type="0"/>
+<assign_live monster="9" type="0"/>
+
+</overhead_map>
+
+<motion_sensor>
+
+<!-- Sorcerers and soldiers are now friends -->
+<assign monster="4" type="0"/>
+<assign monster="5" type="0"/>
+<assign monster="9" type="0"/>
+
+</motion_sensor>
+
+<control_panels>
+
+<!-- Future light switch -->
+<panel index="24">
+<sound  type="0" which="141"/>
+<sound  type="1" which="141"/>
+<sound  type="2" which="-1"/>
+</panel>
+<!-- Future tag switch -->
+<panel index="26">
+<sound  type="0" which="-1"/>
+<sound  type="1" which="-1"/>
+<sound  type="2" which="-1"/>
+</panel>
+
+</control_panels>
+
+<items>
+<item index="22">
+<shape coll="7" seq="25"/>
+</item>
+<item index="23">
+<shape coll="7" seq="33"/>
+</item>
+<item index="35">
+<shape coll="7" seq="39"/>
+</item>
+</items>
+
+<platforms>
+<!-- STEEL PLATFORM -->
+<platform index="4"
+	start_extend="27" stop_extend="28" start_contract="27" stop_contract="28"
+	moving="10" uncontrollable="255" obstructed="192">
+<damage type="16" flags="0" base="60" random="10"/>
+</platform>
+</platforms>
+
+<scenery>
+<!-- Trash can becomes tree trunk (scenery swap) -->
+<object index="30" radius="64" height="1024">
+<normal>
+<shape coll="22" seq="30"/>
+</normal>
+</object>
+<!-- Satellite becomes office chair (scenery swap) -->
+<object index="31" radius="64" height="550">
+<normal>
+<shape coll="24" seq="18"/>
+</normal>
+</object>
+<!-- Light post becomes candleabra (bitmap swap) -->
+<object index="32" radius="16" height="700"/>
+<!-- Potted plant becomes trash can (scenery swap) -->
+<object index="33" radius="32" height="200">
+<normal>
+<shape coll="24" seq="22"/>
+</normal>
+</object>
+<!-- Trash becomes plant (scenery swap) -->
+<object index="34" radius="64" height="200">
+<normal>
+<shape coll="22" seq="12"/>
+</normal>
+</object>
+<!-- Actinium crystal becomes candle (bitmap swap) -->
+<object index="35" radius="16" height="200"/>
+<!-- GAT parts becomes cat tails (scenery swap) -->
+<object index="36" radius="32" height="200">
+<normal>
+<shape coll="22" seq="19"/>
+</normal>
+</object>
+<!-- Fire hydrant becomes trees (scenery swap) -->
+<object index="38" radius="128" height="1024">
+<normal>
+<shape coll="22" seq="17"/>
+</normal>
+</object>
+</scenery>
+
+<interface> 
+<!-- Remove water vials from Excalibur -->
+<weapon index="6" shape="69" top="358" left="400">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+
+<!-- Change spear to 2nd magic staff -->
+<weapon index="7" shape="70" top="358" left="400">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+
+<!-- Remove ammo container from Magic Staff -->
+<weapon index="9" shape="70" top="358" left="400">
+<ammo index="0" type="0"/>
+<ammo index="1" type="0"/>
+</weapon>
+</interface> 
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+<ambient index="1" sound="238"/>
+<ambient index="2" sound="237"/>
+<ambient index="3" sound="240"/>
+<ambient index="9" sound="241"/>
+<ambient index="22" sound="239"/>
+<ambient index="27" sound="242"/>
+</sounds>
+
+</marathon>

@@ -1,0 +1,17 @@
+<marathon>
+<opengl>
+
+<fog on="false" />
+<texture coll="28" bitmap="0" normal_image="emrtextures/landscapes/cityscape-red.jpg"/>
+
+</opengl>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

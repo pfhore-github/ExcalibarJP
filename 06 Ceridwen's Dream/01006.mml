@@ -1,0 +1,27 @@
+<marathon>
+<opengl>
+
+<fog on="false"/>
+
+<texture coll="18" bitmap="12" normal_image="emrtextures/w2b12.jpg" opac_type="3" 
+opac_scale="1.0" opac_shift="1.0"
+/>
+<texture coll="29" bitmap="0" normal_image="emrtextures/landscapes/nighthills.png"/>
+
+</opengl>
+
+<landscapes>
+<landscape coll="29" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1" azimuth="180"/>
+</landscapes>
+
+<player oxygen_deplete="2" oxygen_replenish="2" />
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="68"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

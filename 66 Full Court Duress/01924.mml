@@ -1,0 +1,35 @@
+<marathon>
+<opengl>
+
+<fog on="false" />
+
+<texture coll="19" bitmap="16" normal_image="emrtextures/blue-base.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="17" normal_image="emrtextures/red-base.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="21" normal_image="emrtextures/scoreboard.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="37" normal_image="emrtextures/tile-aged.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="53" normal_image="emrtextures/yellow.jpg" 
+opac_type="1"
+/>
+<texture coll="19" bitmap="54" normal_image="emrtextures/yellow.jpg" 
+opac_type="1"
+/>
+
+</opengl>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="176"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

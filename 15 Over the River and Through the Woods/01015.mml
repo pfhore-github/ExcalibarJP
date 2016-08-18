@@ -1,0 +1,31 @@
+<marathon>
+<opengl>
+
+<fog on="false"/>
+
+</opengl>
+
+<player oxygen_deplete="2" oxygen_replenish="2" />
+
+<scenery>
+<object index="27" flags="0" radius="128" height="300">
+<normal>
+<shape coll="22" seq="19"/>
+</normal>
+</object>
+<object index="23">
+<normal>
+<shape coll="22" seq="28"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

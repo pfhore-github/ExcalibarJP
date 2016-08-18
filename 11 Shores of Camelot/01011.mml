@@ -1,0 +1,50 @@
+<marathon>
+<opengl>
+
+<fog on="true" depth="12.00" landscapes="false" />
+<texture coll="22" bitmap="25" normal_image="emrtextures/items/boulder3.jpg" 
+normal_mask="emrtextures/items/boulder3-mask.jpg" opac_type="1"
+/>
+<texture coll="17" bitmap="39" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="27" bitmap="0" normal_image="emrtextures/landscapes/foggy-hills.png"/>
+<texture coll="27" bitmap="1" normal_image="emrtextures/landscapes/foggy-ocean.png"/>
+
+</opengl>
+
+<player oxygen_deplete="3" oxygen_replenish="2" />
+
+<scenery>
+<object index="22" flags="1" radius="64" height="250">
+<normal>
+<shape coll="22" seq="23"/>
+</normal>
+</object>
+<object index="23">
+<normal>
+<shape coll="22" seq="19"/>
+</normal>
+</object>
+</scenery>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="29"/>
+<random index="4" sound="4"/>
+</sounds>
+
+<platforms>
+
+<!-- WOOD PLATFORM -->
+<platform index="2" 
+	start_extend="190" stop_extend="125" start_contract="191" stop_contract="121"
+	moving="23" uncontrollable="125" obstructed="125">
+<damage type="16" flags="0" base="10" random="10"/>
+</platform>
+
+</platforms>
+
+</marathon>

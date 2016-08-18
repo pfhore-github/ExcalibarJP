@@ -1,0 +1,1355 @@
+<!--
+    High-resolution sprite support for Excalibur: Morgana's Revenge
+    
+   2006-09-04:
+    - Includes hi-res replacements for hitech and crossbow weapons (WIH and items)
+   2006-11-16:
+    - Includes hi-res replacements for crystals
+
+-->
+
+<marathon>
+<opengl>
+
+<!-- Weapons & Items -->
+
+<texture coll="1" bitmap="0" normal_image="emrtextures/weapons/knuckles1.jpg" 
+normal_mask="emrtextures/weapons/knuckles1-mask.png" opac_type="1"
+/>
+<texture coll="1" bitmap="1" normal_image="emrtextures/weapons/timebomb-weapon.jpg" 
+normal_mask="emrtextures/weapons/timebomb-weapon-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="2" normal_image="emrtextures/weapons/knuckles2.jpg" 
+normal_mask="emrtextures/weapons/knuckles2-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="3" normal_image="emrtextures/weapons/guass-idle.jpg" 
+normal_mask="emrtextures/weapons/guass-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="4" normal_image="emrtextures/weapons/guass-firing.jpg" 
+normal_mask="emrtextures/weapons/guass-firing-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="5" normal_image="emrtextures/weapons/dachron-idle.jpg" 
+normal_mask="emrtextures/weapons/dachron-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="6" normal_image="emrtextures/weapons/dachron-firing3.jpg" 
+normal_mask="emrtextures/weapons/dachron-firing3-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="7" normal_image="emrtextures/weapons/excalibur-b7.jpg" 
+normal_mask="emrtextures/weapons/excalibur-b7-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="8" normal_image="emrtextures/weapons/guass-reload1.jpg" 
+normal_mask="emrtextures/weapons/guass-reload1-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="9" normal_image="emrtextures/weapons/guass-reload2.jpg" 
+normal_mask="emrtextures/weapons/guass-reload2-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="10" normal_image="emrtextures/weapons/guass-reload3.jpg" 
+normal_mask="emrtextures/weapons/guass-reload3-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="11" normal_image="emrtextures/weapons/wand-idle.jpg" 
+normal_mask="emrtextures/weapons/wand-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="12" normal_image="emrtextures/weapons/wand-fire.jpg" 
+normal_mask="emrtextures/weapons/wand-fire-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="13" normal_image="emrtextures/weapons/excalibur-b13.jpg" 
+normal_mask="emrtextures/weapons/excalibur-b13-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="14" normal_image="emrtextures/weapons/excalibur-b14.jpg" 
+normal_mask="emrtextures/weapons/excalibur-b14-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="15" normal_image="emrtextures/weapons/excalibur-b15.jpg" 
+normal_mask="emrtextures/weapons/excalibur-b15-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="16" normal_image="emrtextures/weapons/hightech-idle.jpg" 
+normal_mask="emrtextures/weapons/hightech-wih-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="17" normal_image="emrtextures/weapons/hightech-firing.jpg" 
+normal_mask="emrtextures/weapons/hightech-wih-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="18" normal_image="emrtextures/weapons/hightech-reload.jpg" 
+normal_mask="emrtextures/weapons/hightech-reload-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="19" normal_image="emrtextures/weapons/phaser-idle.jpg" 
+normal_mask="emrtextures/weapons/phaser-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="20" normal_image="emrtextures/weapons/phaser-idle2.jpg" 
+normal_mask="emrtextures/weapons/phaser-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="21" normal_image="emrtextures/weapons/dachron-firing2.jpg" 
+normal_mask="emrtextures/weapons/dachron-firing2-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="22" normal_image="emrtextures/weapons/phaser-firing.jpg" 
+normal_mask="emrtextures/weapons/phaser-firing-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="23" normal_image="emrtextures/weapons/phaser-reload3.jpg" 
+normal_mask="emrtextures/weapons/phaser-reload3-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="24" normal_image="emrtextures/weapons/phaser-reload1.jpg" 
+normal_mask="emrtextures/weapons/phaser-reload1-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="25" normal_image="emrtextures/weapons/phaser-reload2.jpg" 
+normal_mask="emrtextures/weapons/phaser-reload2-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="26" normal_image="emrtextures/weapons/crossbow-b26.jpg" 
+normal_mask="emrtextures/weapons/crossbow-b26-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="27" normal_image="emrtextures/weapons/crossbow-b27.jpg" 
+normal_mask="emrtextures/weapons/crossbow-b27-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="28" normal_image="emrtextures/weapons/crossbow-b28.jpg" 
+normal_mask="emrtextures/weapons/crossbow-b28-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="29" normal_image="emrtextures/weapons/spear.jpg" 
+normal_mask="emrtextures/weapons/spear-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="30" normal_image="emrtextures/weapons/dragon-idle.jpg" 
+normal_mask="emrtextures/weapons/dragon-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="31" normal_image="emrtextures/weapons/dragon-flaming.jpg" 
+normal_mask="emrtextures/weapons/dragon-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="32" normal_image="emrtextures/weapons/crossbow-b32.jpg" 
+normal_mask="emrtextures/weapons/crossbow-b32-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="33" normal_image="emrtextures/weapons/crossbow-b33.jpg" 
+normal_mask="emrtextures/weapons/crossbow-b33-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="46" normal_image="emrtextures/weapons/plasma-shell1.jpg" 
+normal_mask="emrtextures/weapons/plasma-shell1-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="47" normal_image="emrtextures/weapons/plasma-shell2.jpg" 
+normal_mask="emrtextures/weapons/plasma-shell2-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="48" normal_image="emrtextures/weapons/plasma-shell3.jpg" 
+normal_mask="emrtextures/weapons/plasma-shell3-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="49" normal_image="emrtextures/weapons/plasma-shell4.jpg" 
+normal_mask="emrtextures/weapons/plasma-shell4-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="50" normal_image="emrtextures/weapons/hightech-idle.jpg" 
+normal_mask="emrtextures/weapons/hightech-wih-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="51" normal_image="emrtextures/weapons/hightech-firing.jpg" 
+normal_mask="emrtextures/weapons/hightech-wih-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="52" normal_image="emrtextures/weapons/saber-b52.jpg" 
+normal_mask="emrtextures/weapons/saber-b52-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="53" normal_image="emrtextures/weapons/saber-b53.jpg" 
+normal_mask="emrtextures/weapons/saber-b53-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="60" normal_image="emrtextures/weapons/railgun-idle.jpg" 
+normal_mask="emrtextures/weapons/railgun-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="61" normal_image="emrtextures/weapons/railgun-firing.jpg" 
+normal_mask="emrtextures/weapons/railgun-firing-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="62" normal_image="emrtextures/weapons/axe62.jpg" 
+normal_mask="emrtextures/weapons/axe62-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="63" normal_image="emrtextures/weapons/axe63.jpg" 
+normal_mask="emrtextures/weapons/axe63-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="64" normal_image="emrtextures/weapons/axe64.jpg" 
+normal_mask="emrtextures/weapons/axe64-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="65" normal_image="emrtextures/weapons/axe65.jpg" 
+normal_mask="emrtextures/weapons/axe65-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="67" normal_image="emrtextures/weapons/railgun-reload1.jpg" 
+normal_mask="emrtextures/weapons/railgun-reload1-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="68" normal_image="emrtextures/weapons/railgun-reload2.jpg" 
+normal_mask="emrtextures/weapons/railgun-reload2-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="69" normal_image="emrtextures/weapons/railgun-reload3.jpg" 
+normal_mask="emrtextures/weapons/railgun-reload3-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="70" normal_image="emrtextures/weapons/hoverbike-idle1.jpg" 
+normal_mask="emrtextures/weapons/hoverbike-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="71" normal_image="emrtextures/weapons/hoverbike-idle2.jpg" 
+normal_mask="emrtextures/weapons/hoverbike-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="72" normal_image="emrtextures/weapons/hoverbike-idle3.jpg" 
+normal_mask="emrtextures/weapons/hoverbike-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="73" normal_image="emrtextures/weapons/hoverbike-idle4.jpg" 
+normal_mask="emrtextures/weapons/hoverbike-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="74" normal_image="emrtextures/weapons/hoverbike-firing.jpg" 
+normal_mask="emrtextures/weapons/hoverbike-mask.jpg" opac_type="1"
+/>
+<texture coll="1" bitmap="75" normal_image="emrtextures/weapons/flint-weapon.jpg" 
+normal_mask="emrtextures/weapons/flint-weapon-mask.jpg" opac_type="1"
+/>
+
+<texture coll="4" bitmap="57" normal_image="emrtextures/projectiles/w4b57.jpg" 
+normal_mask="emrtextures/projectiles/w4b57-mask.jpg" opac_type="1" opac_scale="0.8"
+/>
+<texture coll="4" bitmap="58" normal_image="emrtextures/projectiles/w4b58.jpg" 
+normal_mask="emrtextures/projectiles/w4b58-mask.jpg" opac_type="1" opac_scale="0.7"
+/>
+<texture coll="4" bitmap="59" normal_image="emrtextures/projectiles/w4b59.jpg" 
+normal_mask="emrtextures/projectiles/w4b59-mask.jpg" opac_type="1" opac_scale="0.6"
+/>
+<texture coll="4" bitmap="60" normal_image="emrtextures/projectiles/w4b60.jpg" 
+normal_mask="emrtextures/projectiles/w4b60-mask.jpg" opac_type="1" opac_scale="0.5"
+/>
+<texture coll="4" bitmap="61" normal_image="emrtextures/projectiles/w4b61.jpg" 
+normal_mask="emrtextures/projectiles/w4b61-mask.jpg" opac_type="1" opac_scale="0.4"
+/>
+<texture coll="4" bitmap="62" normal_image="emrtextures/projectiles/w4b62.jpg" 
+normal_mask="emrtextures/projectiles/w4b62-mask.jpg" opac_type="1" opac_scale="0.3"
+/>
+<texture coll="4" bitmap="80" normal_image="emrtextures/projectiles/w4b80.png" 
+normal_mask="emrtextures/projectiles/w4b80-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="105" normal_image="emrtextures/projectiles/w4b105.png" 
+normal_mask="emrtextures/projectiles/w4b105-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="106" normal_image="emrtextures/projectiles/w4b106.png" 
+normal_mask="emrtextures/projectiles/w4b106-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="107" normal_image="emrtextures/projectiles/w4b107.png" 
+normal_mask="emrtextures/projectiles/w4b107-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="108" normal_image="emrtextures/projectiles/w4b108.png" 
+normal_mask="emrtextures/projectiles/w4b108-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="109" normal_image="emrtextures/projectiles/w4b109.png" 
+normal_mask="emrtextures/projectiles/w4b109-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="110" normal_image="emrtextures/projectiles/w4b110.png" 
+normal_mask="emrtextures/projectiles/w4b110-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="111" normal_image="emrtextures/projectiles/w4b111.png" 
+normal_mask="emrtextures/projectiles/w4b111-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="112" normal_image="emrtextures/projectiles/w4b112.png" 
+normal_mask="emrtextures/projectiles/w4b112-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="113" normal_image="emrtextures/projectiles/w4b113.png" 
+normal_mask="emrtextures/projectiles/w4b113-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="114" normal_image="emrtextures/projectiles/w4b114.png" 
+normal_mask="emrtextures/projectiles/w4b114-mask.png" opac_type="1"
+/>
+<texture coll="4" bitmap="115" normal_image="emrtextures/projectiles/ironfoot.jpg" 
+normal_mask="emrtextures/projectiles/ironfoot-mask.jpg" opac_type="1"
+/>
+<texture coll="4" bitmap="117" normal_image="emrtextures/weapons/timebomb.jpg" 
+normal_mask="emrtextures/weapons/timebomb-mask.jpg" opac_type="1"
+/>
+<texture coll="4" bitmap="119" normal_image="emrtextures/items/mine2.jpg" 
+normal_mask="emrtextures/items/mine2-mask.jpg" opac_type="1"
+/>
+<texture coll="4" bitmap="120" normal_image="emrtextures/items/excalibur-toss.jpg" 
+normal_mask="emrtextures/items/excalibur-toss-mask.jpg" opac_type="1"
+/>
+<texture coll="4" bitmap="121" normal_image="emrtextures/weapons/railgun-grenade.jpg" 
+normal_mask="emrtextures/weapons/railgun-grenade-mask.jpg" opac_type="1"
+/>
+<texture coll="4" bitmap="122" normal_image="emrtextures/weapons/grenade1.jpg" 
+normal_mask="emrtextures/weapons/grenade1-mask.jpg" opac_type="1"
+/>
+<texture coll="4" bitmap="123" normal_image="emrtextures/weapons/grenade2.jpg" 
+normal_mask="emrtextures/weapons/grenade2-mask.jpg" opac_type="1"
+/>
+
+<texture coll="7" bitmap="0" normal_image="emrtextures/weapons/hightech-item.jpg" 
+normal_mask="emrtextures/weapons/hightech-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="1" normal_image="emrtextures/weapons/snyper.jpg" 
+normal_mask="emrtextures/weapons/snyper-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="2" normal_image="emrtextures/weapons/crossbow-item.jpg" 
+normal_mask="emrtextures/weapons/crossbow-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="4" normal_image="emrtextures/weapons/dachron-item.jpg" 
+normal_mask="emrtextures/weapons/dachron-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="6" normal_image="emrtextures/weapons/hightech-missiles.jpg" 
+normal_mask="emrtextures/weapons/hightech-missiles-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="8" normal_image="emrtextures/weapons/dachron-clip.jpg" 
+normal_mask="emrtextures/weapons/dachron-clip-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="10" normal_image="emrtextures/weapons/snyper-clip.jpg" 
+normal_mask="emrtextures/weapons/snyper-clip-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="11" normal_image="emrtextures/items/water-vial.jpg" 
+normal_mask="emrtextures/items/water-vial-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="12" normal_image="emrtextures/weapons/crossbow-bolts.jpg" 
+normal_mask="emrtextures/weapons/crossbow-bolts-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="13" normal_image="emrtextures/items/drinkme-night.jpg" 
+normal_mask="emrtextures/items/drinkme-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="15" normal_image="emrtextures/items/sap-card.jpg" 
+normal_mask="emrtextures/items/sap-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="16" normal_image="emrtextures/items/health.jpg" 
+normal_mask="emrtextures/items/health-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="17" normal_image="emrtextures/items/heal2-potion.jpg" 
+normal_mask="emrtextures/items/potion-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="18" normal_image="emrtextures/items/heal3-potion.jpg" 
+normal_mask="emrtextures/items/potion-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="19" normal_image="emrtextures/items/oxygen-potion.jpg" 
+normal_mask="emrtextures/items/potion-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="20" normal_image="emrtextures/weapons/excalibur-c7b20.jpg" 
+normal_mask="emrtextures/weapons/excalibur-c7b20-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="22" normal_image="emrtextures/weapons/wand-item.jpg" 
+normal_mask="emrtextures/weapons/wand-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="23" normal_image="emrtextures/items/scroll.jpg" 
+normal_mask="emrtextures/items/scroll-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="25" normal_image="emrtextures/weapons/dragonflamer.jpg" 
+normal_mask="emrtextures/weapons/dragonflamer-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="27" normal_image="emrtextures/weapons/napalm.jpg" 
+normal_mask="emrtextures/weapons/napalm-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="30" normal_image="emrtextures/weapons/timebomb.jpg" 
+normal_mask="emrtextures/weapons/timebomb-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="31" normal_image="emrtextures/items/bananas.jpg" 
+normal_mask="emrtextures/items/bananas-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="32" normal_image="emrtextures/weapons/railgun-ammo.jpg" 
+normal_mask="emrtextures/weapons/railgun-ammo-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="33" normal_image="emrtextures/weapons/railgun-item.jpg" 
+normal_mask="emrtextures/weapons/railgun-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="36" normal_image="emrtextures/weapons/axe-item.jpg" 
+normal_mask="emrtextures/weapons/axe-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="37" normal_image="emrtextures/weapons/excalibur-full.jpg" 
+normal_mask="emrtextures/weapons/excalibur-full-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="38" normal_image="emrtextures/weapons/railgun-grenade.jpg" 
+normal_mask="emrtextures/weapons/railgun-grenade-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="39" normal_image="emrtextures/items/drive.jpg" 
+normal_mask="emrtextures/items/drive-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="42" normal_image="emrtextures/items/powerup-yellow1.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow1.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow1.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="43" normal_image="emrtextures/items/powerup-yellow2.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow2.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow2.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="44" normal_image="emrtextures/items/powerup-yellow3.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow3.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow3.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="45" normal_image="emrtextures/items/powerup-yellow4.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow4.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow4.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="46" normal_image="emrtextures/items/powerup-yellow5.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow5.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow5.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="48" normal_image="emrtextures/weapons/hoverbike-item.jpg" 
+normal_mask="emrtextures/weapons/hoverbike-item-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="49" normal_image="emrtextures/items/apple1.jpg" 
+normal_mask="emrtextures/items/apple1-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="50" normal_image="emrtextures/items/apple2.jpg" 
+normal_mask="emrtextures/items/apple2-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="51" normal_image="emrtextures/items/grail.jpg" 
+normal_mask="emrtextures/items/grail-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="52" normal_image="emrtextures/items/antidote.jpg" 
+normal_mask="emrtextures/items/antidote-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="53" normal_image="emrtextures/items/drinkme-invisibility.jpg" 
+normal_mask="emrtextures/items/drinkme-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="54" normal_image="emrtextures/items/drinkme-invincibility.jpg" 
+normal_mask="emrtextures/items/drinkme-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="56" normal_image="emrtextures/items/powerup-purple1.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-purpleglow1.jpg" 
+glow_mask="emrtextures/items/powerup-purpleglow1.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="57" normal_image="emrtextures/items/powerup-purple2.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-purpleglow2.jpg" 
+glow_mask="emrtextures/items/powerup-purpleglow2.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="58" normal_image="emrtextures/items/powerup-purple3.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-purpleglow3.jpg" 
+glow_mask="emrtextures/items/powerup-purpleglow3.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="59" normal_image="emrtextures/items/powerup-purple4.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-purpleglow4.jpg" 
+glow_mask="emrtextures/items/powerup-purpleglow4.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="60" normal_image="emrtextures/items/powerup-purple5.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-purpleglow5.jpg" 
+glow_mask="emrtextures/items/powerup-purpleglow5.jpg" opac_type="1"
+/>
+
+<texture coll="22" bitmap="16" normal_image="emrtextures/items/candle.jpg" 
+normal_mask="emrtextures/items/candle-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="17" normal_image="emrtextures/items/plant2.jpg" 
+normal_mask="emrtextures/items/plant2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="18" normal_image="emrtextures/items/crystal-red.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="19" normal_image="emrtextures/items/crystal-clear.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="20" normal_image="emrtextures/items/crystal-blue.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="21" normal_image="emrtextures/items/candle2.jpg" 
+normal_mask="emrtextures/items/candle2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="22" normal_image="emrtextures/items/candle3.jpg" 
+normal_mask="emrtextures/items/candle3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="23" normal_image="emrtextures/items/cat-tail.jpg" 
+normal_mask="emrtextures/items/cat-tail-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="24" normal_image="emrtextures/items/plant.jpg" 
+normal_mask="emrtextures/items/plant-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="27" normal_image="emrtextures/items/plant4.jpg" 
+normal_mask="emrtextures/items/plant4-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="36" normal_image="emrtextures/items/pinecone1.jpg" 
+normal_mask="emrtextures/items/pinecone1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="37" normal_image="emrtextures/items/pinecone2.jpg" 
+normal_mask="emrtextures/items/pinecone2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="40" normal_image="emrtextures/items/crystalball.jpg" 
+normal_mask="emrtextures/items/crystalball-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="47" normal_image="emrtextures/items/forest-tree1.jpg" 
+normal_mask="emrtextures/items/forest-tree1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="48" normal_image="emrtextures/items/forest-tree2.jpg" 
+normal_mask="emrtextures/items/forest-tree2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="49" normal_image="emrtextures/items/forest-tree3.jpg" 
+normal_mask="emrtextures/items/forest-tree3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="50" normal_image="emrtextures/items/forest-tree4.jpg" 
+normal_mask="emrtextures/items/forest-tree4-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="53" normal_image="emrtextures/items/cage1.jpg" 
+normal_mask="emrtextures/items/cage1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="54" normal_image="emrtextures/items/cage2.jpg" 
+normal_mask="emrtextures/items/cage2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="55" normal_image="emrtextures/items/cage3.jpg" 
+normal_mask="emrtextures/items/cage3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="56" normal_image="emrtextures/items/pinecone3.jpg" 
+normal_mask="emrtextures/items/pinecone3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="57" normal_image="emrtextures/items/pinecone4.jpg" 
+normal_mask="emrtextures/items/pinecone4-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="58" normal_image="emrtextures/items/rootedstump.jpg" 
+normal_mask="emrtextures/items/rootedstump-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="59" normal_image="emrtextures/items/trunk.jpg" 
+normal_mask="emrtextures/items/trunk-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="60" normal_image="emrtextures/items/trunk2.jpg" 
+normal_mask="emrtextures/items/trunk2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="61" normal_image="emrtextures/items/crystalball2.jpg" 
+normal_mask="emrtextures/items/crystalball2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="62" normal_image="emrtextures/items/plant3.jpg" 
+normal_mask="emrtextures/items/plant3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="63" normal_image="emrtextures/items/bamboo.jpg" 
+normal_mask="emrtextures/items/bamboo-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="64" normal_image="emrtextures/items/lilypad.jpg" 
+normal_mask="emrtextures/items/lilypad-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="65" normal_image="emrtextures/items/forest-tree6.jpg" 
+normal_mask="emrtextures/items/forest-tree6-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="22" bitmap="66" normal_image="emrtextures/items/snowtree.jpg" 
+normal_mask="emrtextures/items/snowtree-mask.jpg" 
+opac_type="1"
+/>
+
+<texture coll="23" bitmap="12" normal_image="emrtextures/items/crystal-actinium.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" opac_type="1"
+/>
+<texture coll="23" bitmap="13" normal_image="emrtextures/items/jurassic-plant2.jpg" 
+normal_mask="emrtextures/items/jurassic-plant2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="14" normal_image="emrtextures/items/crystal-red.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="15" normal_image="emrtextures/items/jurassic-plant3.jpg" 
+normal_mask="emrtextures/items/jurassic-plant3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="19" normal_image="emrtextures/items/jurassic-plant1.jpg" 
+normal_mask="emrtextures/items/jurassic-plant1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="20" normal_image="emrtextures/items/jurassic-tree4.jpg" 
+normal_mask="emrtextures/items/jurassic-tree4-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="21" normal_image="emrtextures/items/jurassic-tree2.jpg" 
+normal_mask="emrtextures/items/jurassic-tree2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="22" normal_image="emrtextures/items/jurassic-tree1.jpg" 
+normal_mask="emrtextures/items/jurassic-tree1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="30" normal_image="emrtextures/items/jurassic-tree3.jpg" 
+normal_mask="emrtextures/items/jurassic-tree3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="31" normal_image="emrtextures/items/crystal-purple.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="32" normal_image="emrtextures/items/crystal-gold.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="34" normal_image="emrtextures/items/forest-tree2.jpg" 
+normal_mask="emrtextures/items/forest-tree2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="35" normal_image="emrtextures/items/forest-tree6.jpg" 
+normal_mask="emrtextures/items/forest-tree6-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="38" normal_image="emrtextures/items/forest-tree4.jpg" 
+normal_mask="emrtextures/items/forest-tree4-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="39" normal_image="emrtextures/items/forest-tree3.jpg" 
+normal_mask="emrtextures/items/forest-tree3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="23" bitmap="40" normal_image="emrtextures/items/snowtree.jpg" 
+normal_mask="emrtextures/items/snowtree-mask.jpg" 
+opac_type="1"
+/>
+
+<texture coll="24" bitmap="13" normal_image="emrtextures/items/w24b13.jpg" 
+normal_mask="emrtextures/items/w24b13-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="18" normal_image="emrtextures/items/w24b18.jpg" 
+normal_mask="emrtextures/items/w24b18-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="19" normal_image="emrtextures/items/w24b19.jpg" 
+normal_mask="emrtextures/items/w24b19-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="23" normal_image="emrtextures/items/patiocan.jpg" 
+normal_mask="emrtextures/items/patiocan-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="26" normal_image="emrtextures/items/crystal-green.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="27" normal_image="emrtextures/items/w24b27.jpg" 
+normal_mask="emrtextures/items/w24b27-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="28" normal_image="emrtextures/items/w24b28.jpg" 
+normal_mask="emrtextures/items/w24b28-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="29" normal_image="emrtextures/items/w24b29.jpg" 
+normal_mask="emrtextures/items/w24b29-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="30" normal_image="emrtextures/items/streetlight-white.jpg"
+normal_mask="emrtextures/items/streetlight-white-mask.jpg"
+opac_type="1"
+/>
+<texture coll="24" bitmap="31" normal_image="emrtextures/items/dish-off.jpg" 
+normal_mask="emrtextures/items/dish-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="42" normal_image="emrtextures/items/w24b42.jpg" 
+normal_mask="emrtextures/items/w24b42-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="43" normal_image="emrtextures/items/w24b43.jpg" 
+normal_mask="emrtextures/items/w24b43-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="44" normal_image="emrtextures/items/hqchair1.jpg" 
+normal_mask="emrtextures/items/hqchair1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="45" normal_image="emrtextures/items/dish-on.jpg" 
+normal_mask="emrtextures/items/dish-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="46" normal_image="emrtextures/items/crystal-green.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="47" normal_image="emrtextures/items/crystal-green.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="48" normal_image="emrtextures/items/streetlight-white.jpg"
+normal_mask="emrtextures/items/streetlight-white-mask.jpg"
+opac_type="1"
+/>
+<texture coll="24" bitmap="49" normal_image="emrtextures/items/blackcan.jpg" 
+normal_mask="emrtextures/items/blackcan-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="50" normal_image="emrtextures/items/meshcan.jpg" 
+normal_mask="emrtextures/items/meshcan-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="51" normal_image="emrtextures/items/metalcan.jpg" 
+normal_mask="emrtextures/items/metalcan-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="52" normal_image="emrtextures/items/w24b52.jpg" 
+normal_mask="emrtextures/items/w24b52-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="53" normal_image="emrtextures/items/w24b53.jpg" 
+normal_mask="emrtextures/items/w24b53-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="54" normal_image="emrtextures/items/w24b54.jpg" 
+normal_mask="emrtextures/items/w24b54-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="55" normal_image="emrtextures/items/w24b55.jpg" 
+normal_mask="emrtextures/items/w24b55-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="56" normal_image="emrtextures/items/hqchair2.jpg" 
+normal_mask="emrtextures/items/hqchair2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="57" normal_image="emrtextures/items/hqtable.jpg" 
+normal_mask="emrtextures/items/hqtable-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="24" bitmap="58" normal_image="emrtextures/items/worldsoft-lamp.jpg"
+normal_mask="emrtextures/items/worldsoft-lamp-mask.jpg"
+opac_type="1"
+/>
+
+<texture coll="25" bitmap="13" normal_image="emrtextures/items/forest-tree2.jpg" 
+normal_mask="emrtextures/items/forest-tree2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="15" normal_image="emrtextures/items/crystal-purple.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="25" normal_image="emrtextures/items/forest-tree3.jpg" 
+normal_mask="emrtextures/items/forest-tree3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="26" normal_image="emrtextures/items/crystal-green.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="27" normal_image="emrtextures/items/forest-tree6.jpg" 
+normal_mask="emrtextures/items/forest-tree6-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="28" normal_image="emrtextures/items/crystal-rainbow.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="29" normal_image="emrtextures/items/crystal-yellow.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="25" bitmap="38" normal_image="emrtextures/items/forest-tree4.jpg" 
+normal_mask="emrtextures/items/forest-tree4-mask.jpg" 
+opac_type="1"
+/>
+
+<texture coll="26" bitmap="12" normal_image="emrtextures/items/cat-tail.jpg" 
+normal_mask="emrtextures/items/cat-tail-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="13" normal_image="emrtextures/items/crystal-blue.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="14" normal_image="emrtextures/items/dish-on.jpg" 
+normal_mask="emrtextures/items/dish-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="15" normal_image="emrtextures/items/crystal-clear.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="16" normal_image="emrtextures/items/plant.jpg" 
+normal_mask="emrtextures/items/plant-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="17" normal_image="emrtextures/items/plant3.jpg" 
+normal_mask="emrtextures/items/plant3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="24" normal_image="emrtextures/items/crystal-red.jpg" 
+normal_mask="emrtextures/items/crystal-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="26" normal_image="emrtextures/items/crystalball.jpg" 
+normal_mask="emrtextures/items/crystalball-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="27" normal_image="emrtextures/items/hanging-tree1.jpg" 
+normal_mask="emrtextures/items/hanging-tree1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="28" normal_image="emrtextures/items/hanging-tree2.jpg" 
+normal_mask="emrtextures/items/hanging-tree2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="31" normal_image="emrtextures/items/cage1.jpg" 
+normal_mask="emrtextures/items/cage1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="32" normal_image="emrtextures/items/cage2.jpg" 
+normal_mask="emrtextures/items/cage2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="37" normal_image="emrtextures/items/forest-tree3.jpg" 
+normal_mask="emrtextures/items/forest-tree3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="39" normal_image="emrtextures/items/darktree1.jpg" 
+normal_mask="emrtextures/items/darktree1-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="42" normal_image="emrtextures/items/darktree3.jpg" 
+normal_mask="emrtextures/items/forest-tree4-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="43" normal_image="emrtextures/items/kchair-beige.jpg" 
+normal_mask="emrtextures/items/kchair-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="44" normal_image="emrtextures/items/cage3.jpg" 
+normal_mask="emrtextures/items/cage3-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="47" normal_image="emrtextures/items/treestump.jpg" 
+normal_mask="emrtextures/items/treestump-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="48" normal_image="emrtextures/items/treestump2.jpg" 
+normal_mask="emrtextures/items/treestump2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="49" normal_image="emrtextures/items/deadtree.jpg" 
+normal_mask="emrtextures/items/deadtree-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="50" normal_image="emrtextures/items/deadtree2.jpg" 
+normal_mask="emrtextures/items/deadtree2-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="51" normal_image="emrtextures/items/deadtree.jpg" 
+normal_mask="emrtextures/items/deadtree-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="52" normal_image="emrtextures/items/kronos.jpg" 
+normal_mask="emrtextures/items/kronos-mask.jpg" 
+glow_image="emrtextures/items/kronos.jpg" glow_mask="emrtextures/items/kronos-glow.jpg" 
+opac_type="1"
+/>
+<texture coll="26" bitmap="55" normal_image="emrtextures/items/kchair-purple.jpg" 
+normal_mask="emrtextures/items/kchair-mask.jpg" 
+opac_type="1"
+/>
+
+<!-- Sprites -->
+
+<texture coll="2" bitmap="17" normal_image="emrtextures/sprites/piranha-b17.jpg" 
+normal_mask="emrtextures/sprites/piranha-b17-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="18" normal_image="emrtextures/sprites/piranha-b18.jpg" 
+normal_mask="emrtextures/sprites/piranha-b18-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="83" normal_image="emrtextures/items/eviltree-b83.jpg" 
+normal_mask="emrtextures/items/eviltree-b83-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="25" normal_image="emrtextures/items/eviltree-b25.jpg" 
+normal_mask="emrtextures/items/eviltree-b25-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="26" normal_image="emrtextures/items/eviltree-b26.jpg" 
+normal_mask="emrtextures/items/eviltree-b26-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="31" normal_image="emrtextures/sprites/table-b31.jpg" 
+normal_mask="emrtextures/sprites/table-b31-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="32" normal_image="emrtextures/sprites/table-b32.jpg" 
+normal_mask="emrtextures/sprites/table-b32-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="33" normal_image="emrtextures/sprites/table-b33.jpg" 
+normal_mask="emrtextures/sprites/table-b33-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="34" normal_image="emrtextures/sprites/chair-b34.jpg" 
+normal_mask="emrtextures/sprites/chair-b34-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="35" normal_image="emrtextures/sprites/chair-b35.jpg" 
+normal_mask="emrtextures/sprites/chair-b35-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="36" normal_image="emrtextures/sprites/chair-b36.jpg" 
+normal_mask="emrtextures/sprites/chair-b36-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="37" normal_image="emrtextures/sprites/chair-b37.jpg" 
+normal_mask="emrtextures/sprites/chair-b37-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="38" normal_image="emrtextures/sprites/chair-b38.jpg" 
+normal_mask="emrtextures/sprites/chair-b38-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="39" normal_image="emrtextures/sprites/chair-b39.jpg" 
+normal_mask="emrtextures/sprites/chair-b39-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="40" normal_image="emrtextures/sprites/chair-b40.jpg" 
+normal_mask="emrtextures/sprites/chair-b40-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="41" normal_image="emrtextures/sprites/chair-b41.jpg" 
+normal_mask="emrtextures/sprites/chair-b41-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="56" normal_image="emrtextures/sprites/piranha-b56.jpg" 
+normal_mask="emrtextures/sprites/piranha-b56-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="57" normal_image="emrtextures/sprites/piranha-b57.jpg" 
+normal_mask="emrtextures/sprites/piranha-b57-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="58" normal_image="emrtextures/sprites/piranha-b58.jpg" 
+normal_mask="emrtextures/sprites/piranha-b58-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="59" normal_image="emrtextures/sprites/piranha-b59.jpg" 
+normal_mask="emrtextures/sprites/piranha-b59-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="60" normal_image="emrtextures/sprites/piranha-b60.jpg" 
+normal_mask="emrtextures/sprites/piranha-b60-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="61" normal_image="emrtextures/sprites/piranha-b61.jpg" 
+normal_mask="emrtextures/sprites/piranha-b61-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="62" normal_image="emrtextures/sprites/piranha-b62.jpg" 
+normal_mask="emrtextures/sprites/piranha-b62-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="63" normal_image="emrtextures/sprites/piranha-b63.jpg" 
+normal_mask="emrtextures/sprites/piranha-b63-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="64" normal_image="emrtextures/sprites/piranha-b64.jpg" 
+normal_mask="emrtextures/sprites/piranha-b64-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="68" normal_image="emrtextures/sprites/piranha-b68.jpg" 
+normal_mask="emrtextures/sprites/piranha-b68-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="69" normal_image="emrtextures/sprites/piranha-b69.jpg" 
+normal_mask="emrtextures/sprites/piranha-b69-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="70" normal_image="emrtextures/sprites/piranha-b70.jpg" 
+normal_mask="emrtextures/sprites/piranha-b70-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="71" normal_image="emrtextures/sprites/piranha-b71.jpg" 
+normal_mask="emrtextures/sprites/piranha-b71-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="72" normal_image="emrtextures/sprites/piranha-b72.jpg" 
+normal_mask="emrtextures/sprites/piranha-b72-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="73" normal_image="emrtextures/sprites/piranha-b73.jpg" 
+normal_mask="emrtextures/sprites/piranha-b73-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="74" normal_image="emrtextures/sprites/piranha-b74.jpg" 
+normal_mask="emrtextures/sprites/piranha-b74-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="77" normal_image="emrtextures/items/kbarrel.jpg" 
+normal_mask="emrtextures/items/kbarrel-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="78" normal_image="emrtextures/items/kbarrel-explode1.jpg" 
+normal_mask="emrtextures/items/kbarrel-explode1-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="79" normal_image="emrtextures/items/kbarrel-explode2.jpg" 
+normal_mask="emrtextures/items/kbarrel-explode2-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="80" normal_image="emrtextures/items/kbarrel-explode3.jpg" 
+normal_mask="emrtextures/items/kbarrel-explode3-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="81" normal_image="emrtextures/items/kbarrel-explode4.jpg" 
+normal_mask="emrtextures/items/kbarrel-explode4-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="82" normal_image="emrtextures/items/kbarrel-dead.jpg" 
+normal_mask="emrtextures/items/kbarrel-dead-mask.jpg" opac_type="1"
+/>
+<texture coll="2" bitmap="84" normal_image="emrtextures/items/kronos.jpg" 
+normal_mask="emrtextures/items/kronos-mask.jpg" 
+glow_image="emrtextures/items/kronos.jpg" glow_mask="emrtextures/items/kronos-glow.jpg" 
+opac_type="1"
+/>
+<texture coll="2" bitmap="91" normal_image="emrtextures/items/kchair-blue0.jpg" 
+normal_mask="emrtextures/items/kchair-blue0-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="2" bitmap="92" normal_image="emrtextures/items/kchair-blue45.jpg" 
+normal_mask="emrtextures/items/kchair-blue45-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="2" bitmap="93" normal_image="emrtextures/items/kchair-blue90.jpg" 
+normal_mask="emrtextures/items/kchair-blue90-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="2" bitmap="94" normal_image="emrtextures/items/kchair-blue135.jpg" 
+normal_mask="emrtextures/items/kchair-blue135-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="2" bitmap="95" normal_image="emrtextures/items/kchair-blue180.jpg" 
+normal_mask="emrtextures/items/kchair-blue180-mask.jpg" 
+opac_type="1"
+/>
+<texture coll="2" bitmap="96" normal_image="emrtextures/items/hqtable.jpg" 
+normal_mask="emrtextures/items/hqtable-mask.jpg" 
+opac_type="1"
+/>
+
+<!-- Player Flintstone Mobile -->
+<texture coll="6" bitmap="201" normal_image="emrtextures/sprites/flint-0.jpg" 
+normal_mask="emrtextures/sprites/flint-0-mask.jpg" opac_type="1"
+/>
+<texture coll="6" bitmap="202" normal_image="emrtextures/sprites/flint-315.jpg" 
+normal_mask="emrtextures/sprites/flint-315-mask.jpg" opac_type="1"
+/>
+<texture coll="6" bitmap="203" normal_image="emrtextures/sprites/flint-270.jpg" 
+normal_mask="emrtextures/sprites/flint-270-mask.jpg" opac_type="1"
+/>
+<texture coll="6" bitmap="204" normal_image="emrtextures/sprites/flint-225.jpg" 
+normal_mask="emrtextures/sprites/flint-225-mask.jpg" opac_type="1"
+/>
+<texture coll="6" bitmap="205" normal_image="emrtextures/sprites/flint-180.jpg" 
+normal_mask="emrtextures/sprites/flint-180-mask.jpg" opac_type="1"
+/>
+
+<!-- Empty Flintstone Mobile -->
+<texture coll="11" bitmap="52" normal_image="emrtextures/sprites/flintempty-0.jpg" 
+normal_mask="emrtextures/sprites/flintempty-0-mask.jpg" opac_type="1"
+/>
+<texture coll="11" bitmap="53" normal_image="emrtextures/sprites/flintempty-315.jpg" 
+normal_mask="emrtextures/sprites/flintempty-315-mask.jpg" opac_type="1"
+/>
+<texture coll="11" bitmap="54" normal_image="emrtextures/sprites/flintempty-270.jpg" 
+normal_mask="emrtextures/sprites/flintempty-270-mask.jpg" opac_type="1"
+/>
+<texture coll="11" bitmap="55" normal_image="emrtextures/sprites/flintempty-225.jpg" 
+normal_mask="emrtextures/sprites/flintempty-225-mask.jpg" opac_type="1"
+/>
+<texture coll="11" bitmap="56" normal_image="emrtextures/sprites/flintempty-180.jpg" 
+normal_mask="emrtextures/sprites/flintempty-180-mask.jpg" opac_type="1"
+/>
+<texture coll="11" bitmap="57" normal_image="emrtextures/sprites/flint-item.jpg" 
+normal_mask="emrtextures/sprites/flint-item-mask.jpg" opac_type="1"
+/>
+
+<!-- Translucent Drone hit spark, drone bolt, and drone bolt hit
+     replaced by dimorph flying -->
+<texture coll="15" bitmap="18" opac_type="0"/>
+<texture coll="15" bitmap="19" opac_type="0"/>
+<texture coll="15" bitmap="20" opac_type="0"/>
+<texture coll="15" bitmap="24" opac_type="0"/>
+<texture coll="15" bitmap="25" opac_type="0"/>
+<texture coll="15" bitmap="26" opac_type="0"/>
+<texture coll="15" bitmap="27" opac_type="0"/>
+
+<!-- New hi-res T-rex -->
+<texture coll="15" bitmap="28" normal_image="emrtextures/sprites/trex0-walk1.jpg" 
+normal_mask="emrtextures/sprites/trex0-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="29" normal_image="emrtextures/sprites/trex0-walk2.jpg" 
+normal_mask="emrtextures/sprites/trex0-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="30" normal_image="emrtextures/sprites/trex0-walk3.jpg" 
+normal_mask="emrtextures/sprites/trex0-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="31" normal_image="emrtextures/sprites/trex0-walk4.jpg" 
+normal_mask="emrtextures/sprites/trex0-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="32" normal_image="emrtextures/sprites/trex315-walk1.jpg" 
+normal_mask="emrtextures/sprites/trex315-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="33" normal_image="emrtextures/sprites/trex315-walk2.jpg" 
+normal_mask="emrtextures/sprites/trex315-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="34" normal_image="emrtextures/sprites/trex315-walk3.jpg" 
+normal_mask="emrtextures/sprites/trex315-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="35" normal_image="emrtextures/sprites/trex315-walk4.jpg" 
+normal_mask="emrtextures/sprites/trex315-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="36" normal_image="emrtextures/sprites/trex270-walk1.jpg" 
+normal_mask="emrtextures/sprites/trex270-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="37" normal_image="emrtextures/sprites/trex270-walk2.jpg" 
+normal_mask="emrtextures/sprites/trex270-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="38" normal_image="emrtextures/sprites/trex270-walk3.jpg" 
+normal_mask="emrtextures/sprites/trex270-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="39" normal_image="emrtextures/sprites/trex270-walk4.jpg" 
+normal_mask="emrtextures/sprites/trex270-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="40" normal_image="emrtextures/sprites/trex225-walk1.jpg" 
+normal_mask="emrtextures/sprites/trex225-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="41" normal_image="emrtextures/sprites/trex225-walk2.jpg" 
+normal_mask="emrtextures/sprites/trex225-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="42" normal_image="emrtextures/sprites/trex225-walk3.jpg" 
+normal_mask="emrtextures/sprites/trex225-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="43" normal_image="emrtextures/sprites/trex225-walk4.jpg" 
+normal_mask="emrtextures/sprites/trex225-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="44" normal_image="emrtextures/sprites/trex180-walk1.jpg" 
+normal_mask="emrtextures/sprites/trex180-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="45" normal_image="emrtextures/sprites/trex180-walk2.jpg" 
+normal_mask="emrtextures/sprites/trex180-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="46" normal_image="emrtextures/sprites/trex180-walk3.jpg" 
+normal_mask="emrtextures/sprites/trex180-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="47" normal_image="emrtextures/sprites/trex180-walk4.jpg" 
+normal_mask="emrtextures/sprites/trex180-walk4-mask.jpg" opac_type="1"
+/>
+
+<texture coll="15" bitmap="48" normal_image="emrtextures/sprites/trex0-idle.jpg" 
+normal_mask="emrtextures/sprites/trex0-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="49" normal_image="emrtextures/sprites/trex315-idle.jpg" 
+normal_mask="emrtextures/sprites/trex315-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="50" normal_image="emrtextures/sprites/trex270-idle.jpg" 
+normal_mask="emrtextures/sprites/trex270-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="51" normal_image="emrtextures/sprites/trex225-idle.jpg" 
+normal_mask="emrtextures/sprites/trex225-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="52" normal_image="emrtextures/sprites/trex180-idle.jpg" 
+normal_mask="emrtextures/sprites/trex180-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="53" normal_image="emrtextures/sprites/trex0-attack1.jpg" 
+normal_mask="emrtextures/sprites/trex0-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="54" normal_image="emrtextures/sprites/trex0-attack2.jpg" 
+normal_mask="emrtextures/sprites/trex0-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="55" normal_image="emrtextures/sprites/trex315-attack1.jpg" 
+normal_mask="emrtextures/sprites/trex315-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="56" normal_image="emrtextures/sprites/trex315-attack2.jpg" 
+normal_mask="emrtextures/sprites/trex315-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="57" normal_image="emrtextures/sprites/trex270-attack1.jpg" 
+normal_mask="emrtextures/sprites/trex270-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="58" normal_image="emrtextures/sprites/trex270-attack2.jpg" 
+normal_mask="emrtextures/sprites/trex270-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="59" normal_image="emrtextures/sprites/trex225-attack1.jpg" 
+normal_mask="emrtextures/sprites/trex225-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="60" normal_image="emrtextures/sprites/trex225-attack2.jpg" 
+normal_mask="emrtextures/sprites/trex225-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="61" normal_image="emrtextures/sprites/trex180-attack1.jpg" 
+normal_mask="emrtextures/sprites/trex180-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="62" normal_image="emrtextures/sprites/trex180-attack2.jpg" 
+normal_mask="emrtextures/sprites/trex180-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="64" normal_image="emrtextures/sprites/trex315-dying1.jpg" 
+normal_mask="emrtextures/sprites/trex315-dying1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="65" normal_image="emrtextures/sprites/trex315-dying2.jpg" 
+normal_mask="emrtextures/sprites/trex315-dying2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="66" normal_image="emrtextures/sprites/trex225-dying1.jpg" 
+normal_mask="emrtextures/sprites/trex225-dying1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="67" normal_image="emrtextures/sprites/trex225-dying2.jpg" 
+normal_mask="emrtextures/sprites/trex225-dying2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="68" normal_image="emrtextures/sprites/trex135-dying1.jpg" 
+normal_mask="emrtextures/sprites/trex135-dying1-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="69" normal_image="emrtextures/sprites/trex135-dying2.jpg" 
+normal_mask="emrtextures/sprites/trex135-dying2-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="70" normal_image="emrtextures/sprites/trexdead.jpg" 
+normal_mask="emrtextures/sprites/trexdead-mask.jpg" opac_type="1"
+/>
+
+<texture coll="15" bitmap="71" normal_image="emrtextures/sprites/raven-idle0.jpg" 
+normal_mask="emrtextures/sprites/raven-idle0-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="72" normal_image="emrtextures/sprites/raven-idle90.jpg" 
+normal_mask="emrtextures/sprites/raven-idle90-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="73" normal_image="emrtextures/sprites/raven-idle180.jpg" 
+normal_mask="emrtextures/sprites/raven-idle180-mask.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="74" normal_image="emrtextures/sprites/raven-flying0-1.jpg" 
+normal_mask="emrtextures/sprites/raven-flying0-mask1.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="75" normal_image="emrtextures/sprites/raven-flying0-2.jpg" 
+normal_mask="emrtextures/sprites/raven-flying0-mask2.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="76" normal_image="emrtextures/sprites/raven-flying0-3.jpg" 
+normal_mask="emrtextures/sprites/raven-flying0-mask3.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="77" normal_image="emrtextures/sprites/raven-flying90-1.jpg" 
+normal_mask="emrtextures/sprites/raven-flying90-mask1.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="78" normal_image="emrtextures/sprites/raven-flying90-2.jpg" 
+normal_mask="emrtextures/sprites/raven-flying90-mask2.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="79" normal_image="emrtextures/sprites/raven-flying90-3.jpg" 
+normal_mask="emrtextures/sprites/raven-flying90-mask3.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="80" normal_image="emrtextures/sprites/raven-flying180-1.jpg" 
+normal_mask="emrtextures/sprites/raven-flying180-mask1.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="81" normal_image="emrtextures/sprites/raven-flying180-2.jpg" 
+normal_mask="emrtextures/sprites/raven-flying180-mask2.jpg" opac_type="1"
+/>
+<texture coll="15" bitmap="82" normal_image="emrtextures/sprites/raven-flying180-3.jpg" 
+normal_mask="emrtextures/sprites/raven-flying180-mask3.jpg" opac_type="1"
+/>
+
+<texture coll="31" bitmap="19" normal_image="emrtextures/projectiles/w31b19.jpg" 
+normal_mask="emrtextures/projectiles/w31b19-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="20" normal_image="emrtextures/sprites/morgana-dying1.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="21" normal_image="emrtextures/sprites/morgana-dying2.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="22" normal_image="emrtextures/sprites/morgana-dying3.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying3-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="23" normal_image="emrtextures/sprites/morgana-dying4.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying4-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="24" normal_image="emrtextures/sprites/morgana-dying5.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying5-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="25" normal_image="emrtextures/sprites/morgana-dying6.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying6-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="26" normal_image="emrtextures/sprites/morgana-dying7.jpg" 
+normal_mask="emrtextures/sprites/morgana-dying7-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="27" normal_image="emrtextures/sprites/morgana-dead.jpg" 
+normal_mask="emrtextures/sprites/morgana-dead-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="28" normal_image="emrtextures/sprites/morgana0-attack1.jpg" 
+normal_mask="emrtextures/sprites/morgana0-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="29" normal_image="emrtextures/sprites/morgana0-attack2.jpg" 
+normal_mask="emrtextures/sprites/morgana0-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="30" normal_image="emrtextures/projectiles/w31b30.jpg" 
+normal_mask="emrtextures/projectiles/w31b30-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="31" normal_image="emrtextures/projectiles/w31b31.jpg" 
+normal_mask="emrtextures/projectiles/w31b31-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="32" normal_image="emrtextures/projectiles/w31b32.jpg" 
+normal_mask="emrtextures/projectiles/w31b32-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="33" normal_image="emrtextures/projectiles/w31b33.jpg" 
+normal_mask="emrtextures/projectiles/w31b33-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="34" normal_image="emrtextures/projectiles/w31b34.jpg" 
+normal_mask="emrtextures/projectiles/w31b34-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="35" normal_image="emrtextures/sprites/morgana315-attack1.jpg" 
+normal_mask="emrtextures/sprites/morgana315-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="36" normal_image="emrtextures/sprites/morgana315-attack2.jpg" 
+normal_mask="emrtextures/sprites/morgana315-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="37" normal_image="emrtextures/sprites/morgana270-attack1.jpg" 
+normal_mask="emrtextures/sprites/morgana270-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="38" normal_image="emrtextures/sprites/morgana270-attack2.jpg" 
+normal_mask="emrtextures/sprites/morgana270-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="39" normal_image="emrtextures/sprites/morgana225-attack1.jpg" 
+normal_mask="emrtextures/sprites/morgana225-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="42" normal_image="emrtextures/sprites/morgana225-attack2.jpg" 
+normal_mask="emrtextures/sprites/morgana225-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="43" normal_image="emrtextures/sprites/morgana180-attack1.jpg" 
+normal_mask="emrtextures/sprites/morgana180-attack1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="44" normal_image="emrtextures/sprites/morgana180-attack2.jpg" 
+normal_mask="emrtextures/sprites/morgana180-attack2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="45" normal_image="emrtextures/sprites/morgana0-idle.jpg" 
+normal_mask="emrtextures/sprites/morgana0-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="46" normal_image="emrtextures/sprites/morgana315-idle.jpg" 
+normal_mask="emrtextures/sprites/morgana315-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="47" normal_image="emrtextures/sprites/morgana270-idle.jpg" 
+normal_mask="emrtextures/sprites/morgana270-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="48" normal_image="emrtextures/sprites/morgana225-idle.jpg" 
+normal_mask="emrtextures/sprites/morgana225-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="49" normal_image="emrtextures/sprites/morgana180-idle.jpg" 
+normal_mask="emrtextures/sprites/morgana180-idle-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="50" normal_image="emrtextures/sprites/morgana0-walk1.jpg" 
+normal_mask="emrtextures/sprites/morgana0-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="51" normal_image="emrtextures/sprites/morgana0-walk2.jpg" 
+normal_mask="emrtextures/sprites/morgana0-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="52" normal_image="emrtextures/sprites/morgana0-walk3.jpg" 
+normal_mask="emrtextures/sprites/morgana0-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="53" normal_image="emrtextures/sprites/morgana0-walk4.jpg" 
+normal_mask="emrtextures/sprites/morgana0-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="54" normal_image="emrtextures/sprites/morgana315-walk1.jpg" 
+normal_mask="emrtextures/sprites/morgana315-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="55" normal_image="emrtextures/sprites/morgana315-walk2.jpg" 
+normal_mask="emrtextures/sprites/morgana315-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="56" normal_image="emrtextures/sprites/morgana315-walk3.jpg" 
+normal_mask="emrtextures/sprites/morgana315-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="57" normal_image="emrtextures/sprites/morgana315-walk4.jpg" 
+normal_mask="emrtextures/sprites/morgana315-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="58" normal_image="emrtextures/sprites/morgana270-walk1.jpg" 
+normal_mask="emrtextures/sprites/morgana270-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="59" normal_image="emrtextures/sprites/morgana270-walk2.jpg" 
+normal_mask="emrtextures/sprites/morgana270-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="60" normal_image="emrtextures/sprites/morgana270-walk3.jpg" 
+normal_mask="emrtextures/sprites/morgana270-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="61" normal_image="emrtextures/sprites/morgana270-walk4.jpg" 
+normal_mask="emrtextures/sprites/morgana270-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="62" normal_image="emrtextures/sprites/morgana225-walk1.jpg" 
+normal_mask="emrtextures/sprites/morgana225-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="63" normal_image="emrtextures/sprites/morgana225-walk2.jpg" 
+normal_mask="emrtextures/sprites/morgana225-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="64" normal_image="emrtextures/sprites/morgana225-walk3.jpg" 
+normal_mask="emrtextures/sprites/morgana225-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="65" normal_image="emrtextures/sprites/morgana225-walk4.jpg" 
+normal_mask="emrtextures/sprites/morgana225-walk4-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="66" normal_image="emrtextures/sprites/morgana180-walk1.jpg" 
+normal_mask="emrtextures/sprites/morgana180-walk1-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="67" normal_image="emrtextures/sprites/morgana180-walk2.jpg" 
+normal_mask="emrtextures/sprites/morgana180-walk2-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="68" normal_image="emrtextures/sprites/morgana180-walk3.jpg" 
+normal_mask="emrtextures/sprites/morgana180-walk3-mask.jpg" opac_type="1"
+/>
+<texture coll="31" bitmap="69" normal_image="emrtextures/sprites/morgana180-walk4.jpg" 
+normal_mask="emrtextures/sprites/morgana180-walk4-mask.jpg" opac_type="1"
+/>
+
+</opengl>
+
+</marathon>

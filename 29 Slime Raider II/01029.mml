@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="19" bitmap="8" normal_image="emrtextures/w3b8b.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="36" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="53" normal_image="emrtextures/painting1.jpg" 
+normal_mask="emrtextures/painting1-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="54" normal_image="emrtextures/painting2.jpg" 
+normal_mask="emrtextures/painting2-mask.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="70" normal_image="emrtextures/metal-crate.jpg" opac_type="1"
+/>
+<texture coll="29" bitmap="0" normal_image="emrtextures/landscapes/cityscape-orange.jpg"/>
+
+</opengl>
+
+<landscapes>
+<landscape coll="29" horiz_exp="0" vert_exp="0" ogl_asprat_exp="1"/>
+</landscapes>
+
+<stringset index="137">
+<string index="9">時限爆弾</string>
+</stringset>
+
+<stringset index="150">
+<string index="41">時限爆弾</string>
+<string index="22">点火スイッチ</string>
+<string index="23">点火スイッチ</string>
+</stringset>
+
+<overhead_map>
+<!-- Futurebobs are enemies -->
+<assign_live monster="8" type="1"/>
+</overhead_map>
+
+<motion_sensor>
+<!-- Futurebobs are enemies -->
+<assign monster="8" type="1"/>
+</motion_sensor>
+
+<scenery>
+<!-- Trash can becomes mesh trash can -->
+<object index="30" radius="32" height="300">
+<normal>
+<shape coll="24" seq="23"/>
+</normal>
+</object>
+<!-- Light post becomes Worldsoft lamp (scenery swap) -->
+<object index="32" radius="16" height="1500">
+<normal>
+<shape coll="24" seq="28"/>
+</normal>
+</object>
+</scenery>
+
+<items>
+<!-- Time Bomb -->
+<item index="34">
+<shape coll="7" seq="41"/>
+</item>
+</items>
+
+<weapons>
+<!-- 
+Weapon order is as follows:
+	Slicing Knuckles (0)
+	Snyper (1)
+	Dachron (3)
+	Phaser (5)
+	Flamer (7)
+	Rail Gun (2)
+	Hightech (4)
+	Excalibur (6)
+	Time bomb (9)
+-->
+<order index="0" weapon="0"/>
+<order index="1" weapon="1"/>
+<order index="2" weapon="3"/>
+<order index="3" weapon="5"/>
+<order index="4" weapon="7"/>
+<order index="5" weapon="2"/>
+<order index="6" weapon="4"/>
+<order index="7" weapon="6"/>
+<order index="8" weapon="9"/>
+</weapons>
+
+<interface> 
+
+<!-- Wand becomes Time Bomb -->
+<weapon index="9" shape="63" top="365" left="430">
+<ammo index="0" type="0" />
+<ammo index="1" type="0" />
+</weapon>
+
+</interface> 
+
+<player oxygen_deplete="1" oxygen_replenish="1" />
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>

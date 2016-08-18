@@ -1,0 +1,633 @@
+<marathon_levels>
+
+<level index="0">
+<movie file="Cavern/Merlin's Prologue.mpg" size="1"/>
+<mml resource="602"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="502"/>
+<load_screen file="Cavern/dreams.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.10" green="0.23" blue="0.20" />
+<color index="1" red="0.20" green="1.00" blue="0.78" />
+</load_screen>
+</level>
+
+<level index="1">
+<mml resource="602"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="502"/>
+<music file="Cavern/M01.ogg" />
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="2">
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<music file="Cavern/M02.mp3"/>
+<load_screen file="Cavern/jurassic.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.09" green="0.10" blue="0.05" />
+<color index="1" red="0.35" green="0.98" blue="0.27" />
+</load_screen>
+</level>
+
+<level index="3">
+<music file="Cavern/M03.mp3"/>
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/jurassic.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.09" green="0.10" blue="0.05" />
+<color index="1" red="0.35" green="0.98" blue="0.27" />
+</load_screen>
+</level>
+
+<level index="4">
+<music file="Cavern/M04.mp3"/>
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/jurassic.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.09" green="0.10" blue="0.05" />
+<color index="1" red="0.35" green="0.98" blue="0.27" />
+</load_screen>
+</level>
+
+<level index="5">
+<music file="Cavern/M05.mp3"/>
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/jurassic.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.09" green="0.10" blue="0.05" />
+<color index="1" red="0.35" green="0.98" blue="0.27" />
+</load_screen>
+</level>
+
+<level index="6">
+<music file="Cavern/M06.mp3"/>
+<mml resource="602"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/dreams.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.10" green="0.23" blue="0.20" />
+<color index="1" red="0.20" green="1.00" blue="0.78" />
+</load_screen>
+</level>
+
+<level index="7">
+<music file="Cavern/Lament.mp3"/>
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/jurassic.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.09" green="0.10" blue="0.05" />
+<color index="1" red="0.35" green="0.98" blue="0.27" />
+</load_screen>
+</level>
+
+<level index="8">
+<music file="Cavern/M08.mp3"/>
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/jurassic.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.09" green="0.10" blue="0.05" />
+<color index="1" red="0.35" green="0.98" blue="0.27" />
+</load_screen>
+</level>
+
+<level index="9">
+<music file="Cavern/M09.mp3"/>
+<mml resource="602"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="502"/>
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="10">
+<mml resource="608"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="508"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="11">
+<music file="Cavern/M11.mp3"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="12">
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="13">
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="14">
+<music file="Cavern/M14.ogg"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/dreams.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.10" green="0.23" blue="0.20" />
+<color index="1" red="0.20" green="1.00" blue="0.78" />
+</load_screen>
+</level>
+
+<level index="15">
+<music file="Cavern/M15.mp3"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="16">
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="17">
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="18">
+<music file="Cavern/Reprise.mp3"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="19">
+<music file="Cavern/M19.ogg"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="20">
+<music file="Cavern/M20.mp3"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="21">
+<music file="Cavern/Mantis Hymn.mp3"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="22">
+<music file="Cavern/M22.mp3"/>
+<mml resource="602"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="502"/>
+<load_screen file="Cavern/dreams.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.10" green="0.23" blue="0.20" />
+<color index="1" red="0.20" green="1.00" blue="0.78" />
+</load_screen>
+</level>
+
+<level index="23">
+<music file="Cavern/M01.ogg"/>
+<mml resource="604"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="504"/>
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="24">
+<movie file="Cavern/Graeden.mpg" size="1"/>
+<music file="Cavern/M24.mp3"/>
+<mml resource="605"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="505"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="25">
+<mml resource="605"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="505"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="26">
+<music file="Cavern/Lament.mp3"/>
+<mml resource="605"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="505"/>
+<load_screen file="Cavern/morgana.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.14" blue="0.19" />
+<color index="1" red="0.97" green="0.04" blue="0.05" />
+</load_screen>
+</level>
+
+<level index="27">
+<mml resource="607"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="507"/>
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="28">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="29">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="30">
+<music file="Cavern/M30.mp3"/>
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="31">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="32">
+<music file="Cavern/Mantis Hymn.mp3"/>
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="33">
+<music file="Cavern/M33.mp3"/>
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="34">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="35">
+<mml resource="607"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="507"/>
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="36">
+<music file="Cavern/Briefing.mp3"/>
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="37">
+<music file="Cavern/Hazelle.mp3"/>
+<mml resource="605"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="505"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="38">
+<music file="Cavern/Burn.mp3"/>
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/kronos.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.00" green="0.00" blue="0.00" />
+<color index="1" red="0.30" green="0.96" blue="0.98" />
+</load_screen>
+</level>
+
+<level index="39">
+<music file="Cavern/M39.mp3"/>
+<mml resource="603"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="503"/>
+<load_screen file="Cavern/camelot.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.20" green="0.09" blue="0.05" />
+<color index="1" red="1.00" green="0.76" blue="0.28" />
+</load_screen>
+</level>
+
+<level index="40">
+<music file="Cavern/M40.mp3"/>
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="506"/>
+<load_screen file="Cavern/future.jpg" stretch="false" 
+   progress_left="40" progress_top="450" 
+   progress_right="600" progress_bottom="470">
+<color index="0" red="0.10" green="0.11" blue="0.12" />
+<color index="1" red="0.25" green="0.82" blue="0.93" />
+</load_screen>
+</level>
+
+<level index="41">
+<music file="Cavern/Mantis Hymn.mp3"/>
+<mml resource="601"/>
+<lua resource="129"/>
+<lua resource="130"/>
+<lua resource="501"/>
+<load_screen file="Cavern/dreams.jpg" stretch="false" 
+   progress_left="40" progress_top="20" 
+   progress_right="600" progress_bottom="40">
+<color index="0" red="0.10" green="0.23" blue="0.20" />
+<color index="1" red="0.20" green="1.00" blue="0.78" />
+</load_screen>
+</level>
+
+<level index="48">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="133"/>
+<lua resource="131"/>
+<lua resource="506"/>
+</level>
+
+<level index="58">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="131"/>
+<lua resource="506"/>
+<lua resource="2924"/>
+
+</level>
+
+<level index="59">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="131"/>
+<lua resource="506"/>
+</level>
+
+<level index="66">
+<mml resource="607"/>
+<lua resource="129"/>
+<lua resource="131"/>
+<lua resource="507"/>
+<lua resource="2924"/>
+</level>
+
+<level index="67">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="131"/>
+<lua resource="506"/>
+</level>
+
+<level index="68">
+<mml resource="606"/>
+<lua resource="129"/>
+<lua resource="133"/>
+<lua resource="131"/>
+<lua resource="506"/>
+</level>
+
+<level index="256">
+<movie file="Cavern/reflection.mpg" size="1"/>
+</level>
+
+<end_screens index="256" count="3"/>
+
+</marathon_levels>

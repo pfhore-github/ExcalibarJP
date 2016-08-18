@@ -1,0 +1,9 @@
+<marathon>
+<opengl>
+
+<fog on="false" />
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/starscape.dds"/>
+
+</opengl>
+
+</marathon>

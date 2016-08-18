@@ -1,0 +1,97 @@
+<marathon>
+<opengl>
+
+<texture coll="21" bitmap="44" normal_image="emrtextures/teleporter.jpg"
+normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="57" normal_image="emrtextures/fan-kronos1.jpg" 
+normal_mask="emrtextures/fan-mask1.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="73" normal_image="emrtextures/fan-kronos2.jpg" 
+normal_mask="emrtextures/fan-mask2.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="77" normal_image="emrtextures/fan-kronos3.jpg" 
+normal_mask="emrtextures/fan-mask3.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="17" normal_image="emrtextures/items/heal2-potion.jpg" 
+normal_mask="emrtextures/items/potion-mask.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="56" normal_image="emrtextures/items/powerup-yellow1.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow1.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow1.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="57" normal_image="emrtextures/items/powerup-yellow2.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow2.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow2.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="58" normal_image="emrtextures/items/powerup-yellow3.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow3.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow3.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="59" normal_image="emrtextures/items/powerup-yellow4.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow4.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow4.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="60" normal_image="emrtextures/items/powerup-yellow5.jpg" 
+normal_mask="emrtextures/items/powerup-mask.jpg" 
+glow_image="emrtextures/items/powerup-yellowglow5.jpg" 
+glow_mask="emrtextures/items/powerup-yellowglow5.jpg" opac_type="1"
+/>
+<texture coll="7" bitmap="53" normal_image="emrtextures/items/drinkme-invisibility.jpg" 
+normal_mask="emrtextures/items/drinkme-mask.jpg" opac_type="1"
+/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-nebula.dds"/>
+<texture coll="30" bitmap="1" normal_image="emrtextures/landscapes/nighthills.png"/>
+
+</opengl>
+
+<player triple_energy="300"/>
+
+<animated_textures>
+<sequence coll="21" numticks="4">
+<frame index="57"/>
+<frame index="73"/>
+<frame index="77"/>
+<frame index="73"/>
+</sequence>
+</animated_textures>
+
+<faders>
+<!-- Set Kronos liquid to blue -->
+<liquid index="2" fader="29"/>
+</faders>
+
+<liquids>
+<!-- Set Kronos liquid to poison damage -->
+<liquid index="2">
+<damage type="14" base="2"/>
+<effect type="0" which="-1"/>
+<effect type="1" which="-1"/>
+<effect type="2" which="-1"/>
+<effect type="3" which="-1"/>
+<sound type="0" which="-1"/>
+<sound type="1" which="-1"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="-1"/>
+<sound type="4" which="-1"/>
+<sound type="5" which="-1"/>
+<sound type="6" which="17"/>
+<sound type="7" which="-1"/>
+<sound type="8" which="-1"/>
+</liquid>
+</liquids>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+<ambient index="3" sound="241"/>
+</sounds>
+
+</marathon>

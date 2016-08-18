@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<marathon>
+<opengl>
+
+<texture coll="21" bitmap="10" normal_image="emrtextures/forest.jpg" 
+normal_mask="emrtextures/forest-mask.jpg" opac_type="1"
+/>
+<texture coll="21" bitmap="54" normal_image="emrtextures/metal-crate.jpg" 
+opac_type="1"/>
+<texture coll="30" bitmap="0" normal_image="emrtextures/landscapes/space-nebula.dds"/>
+
+</opengl>
+
+<player oxygen_deplete="1" oxygen_replenish="1" />
+
+<overhead_map>
+
+<!-- Burning torch and breakable bars are now enemy (eggs) -->
+<assign_live monster="42" type="1"/>
+<assign_live monster="44" type="1"/>
+
+</overhead_map>
+
+<motion_sensor>
+
+<!-- Burning torch and breakable bars are now enemy (eggs) -->
+<assign monster="42" type="1"/>
+<assign monster="44" type="1"/>
+
+</motion_sensor>
+
+<stringset index="137">
+<string index="5">ラドン・フェーザーPX5</string>
+</stringset>
+
+<stringset index="150">
+<string index="19">ラドン・フェーザーPX5</string>
+</stringset>
+
+<interface> 
+
+<!-- Remove plasma photons (still Phaser PX5) -->
+<weapon index="5" top="370" left="470">
+<ammo index="0" type="1"
+left="563" top="376"
+across="105"
+delta_x="12" delta_y="46"
+bullet_shape="10" empty_shape="1"
+/>
+<ammo index="1" type="0"/>
+</weapon>
+
+</interface> 
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="6"/>
+<random index="3" sound="185"/>
+<random index="4" sound="4"/>
+</sounds>
+
+<faders>
+
+<!-- Set Kronos liquid to clear -->
+<liquid index="2" opacity="0"/>
+
+</faders>
+
+<liquids>
+
+<!-- Set Kronos liquid to space, no damage -->
+<liquid index="2" submerged="2">
+<damage type="-1" base="0"/>
+<effect type="0" which="-1"/>
+<effect type="1" which="-1"/>
+<effect type="2" which="-1"/>
+<effect type="3" which="-1"/>
+<sound type="0" which="-1"/>
+<sound type="1" which="-1"/>
+<sound type="2" which="-1"/>
+<sound type="3" which="-1"/>
+<sound type="4" which="-1"/>
+<sound type="5" which="-1"/>
+<sound type="6" which="12"/>
+<sound type="7" which="-1"/>
+<sound type="8" which="-1"/>
+</liquid>
+
+</liquids>
+
+
+</marathon>

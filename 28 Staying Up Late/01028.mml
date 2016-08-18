@@ -1,0 +1,59 @@
+<marathon>
+
+<!-- Load texture set to support Camelot water -->
+<texture_loading>
+<texture_env index="2" which="2" coll="17"/>
+<texture_env index="2" which="3" coll="22"/>
+</texture_loading>
+
+<opengl>
+
+<texture coll="19" bitmap="13" normal_image="emrtextures/sewage.jpg" 
+normal_mask="emrtextures/sewage-mask.jpg" 
+opac_type="3" opac_scale="0.65" opac_shift="0.65"
+/>
+<texture coll="19" bitmap="19" normal_image="emrtextures/yellow-wall.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="23" normal_image="emrtextures/toxic.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="70" normal_image="emrtextures/metal-crate.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="57" normal_image="emrtextures/fan-future1.jpg" 
+normal_mask="emrtextures/fan-mask1.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="68" normal_image="emrtextures/fan-future2.jpg" 
+normal_mask="emrtextures/fan-mask2.jpg" opac_type="1"
+/>
+<texture coll="19" bitmap="79" normal_image="emrtextures/fan-future3.jpg" 
+normal_mask="emrtextures/fan-mask3.jpg" opac_type="1"
+/>
+
+</opengl>
+
+<scenery>
+<!-- Trash can becomes black office can -->
+<object index="30" radius="32" height="300">
+<normal>
+<shape coll="24" seq="24"/>
+</normal>
+</object>
+</scenery>
+
+<animated_textures>
+<sequence coll="19" numticks="4">
+<frame index="57"/>
+<frame index="68"/>
+<frame index="79"/>
+<frame index="68"/>
+</sequence>
+</animated_textures>
+
+<sounds>
+<random index="0" sound="107"/>
+<random index="1" sound="175"/>
+<random index="2" sound="185"/>
+<random index="3" sound="6"/>
+<random index="4" sound="4"/>
+</sounds>
+
+</marathon>
