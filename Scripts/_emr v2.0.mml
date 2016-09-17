@@ -277,13 +277,13 @@
 
 <!-- STR# Resource: "Weapon Names" -->
 <stringset index="137">
-<string index="0">拳骨打撃</string>
+<string index="0">ナックルブレード</string>
 <string index="1">スナイパー・ピストル</string>
 <string index="2">石弓</string>
 <string index="3">ダクロン・ミニガン</string>
 <string index="4">EMF4000-g ハイテク</string>
 <string index="5">ラドン・フェーザーPX5</string>
-<string index="6">エクスキャリバー</string>
+<string index="6">エクスカリバー</string>
 <string index="7">やり</string>
 <string index="8">モードレッドの骸骨</string>
 <string index="9">炎と氷の杖</string>
@@ -355,23 +355,23 @@
 
 <!-- STR# Resource: "Item names" -->
 <stringset index="150">
-<string index="0">拳骨打撃</string>
+<string index="0">ナックルブレード</string>
 <string index="1">スナイパー・ピストル</string>
 <string index="2">スナイパー・ピストル</string>
 <string index="3">スナイパー・弾薬</string>
 <string index="4">スナイパー・弾薬</string>
 <string index="5">石弓</string>
-<string index="6">えびらの矢</string>
-<string index="7">えびらの矢</string>
+<string index="6">矢筒</string>
+<string index="7">矢筒</string>
 <string index="8">ダクロン・ミニガン</string>
-<string index="9">ダクロン弾薬</string>
-<string index="10">ダクロン弾薬</string>
+<string index="9">ダクロン・弾薬</string>
+<string index="10">ダクロン・弾薬</string>
 <string index="11">プラズマパック</string>
 <string index="12">プラズマパック</string>
 <string index="13">EMF4000-g ハイテク</string>
 <string index="14">ミサイルパック</string>
 <string index="15">ミサイルパック</string>
-<string index="16">エクスキャリバー</string>
+<string index="16">エクスカリバー</string>
 <string index="17">水の小瓶</string>
 <string index="18">水の小瓶</string>
 <string index="19">ラドン・フェーザーPX5</string>
@@ -379,7 +379,7 @@
 <string index="21">ラドン・エネルギーパック</string>
 <string index="22">魔法の巻物</string>
 <string index="23">魔法の巻物</string>
-<string index="24">小さなＡＩモジュール</string>
+<string index="24">タイニーのAIモジュール</string>
 <string index="25">T9000グレネードペア</string>
 <string index="26">T9000グレネードペア</string>
 <string index="27">やり</string>

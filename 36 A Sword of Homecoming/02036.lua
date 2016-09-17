@@ -3,15 +3,15 @@ fart_msgs = {
    "私はバナナを食べ過ぎたと思います。",
    "それは私がどう安堵をつづるかということです。",
    "その虫だらけなりんごはそうであるに違いありません。",
-   "おっと! スーツ圧の損失。",
-   "おー、だれかがアヒルを踏みましたか?",
-   "エクスキャリバーの次に最も良い兵器。",
-   "遅い爆発するグレネード！",
-   "私はそれを瓶に入れるべきです… ナパーム弾より強いです!", 
-   "えー、おお、オゾンの別の穴…",
+   "おっと！ スーツ圧の損失。",
+   "おー、だれかがアヒルを踏みましたか？",
+   "エクスカリバーの次に最も良い兵器。",
+   "遅れて爆発するグレネード！",
+   "私はそれを瓶に入れるべきです…… ナパーム弾より強いです!", 
+   "えー、おお、オゾンの別の穴……",
    "それで、マーリンは彼の感覚を取り戻すことに関して再考するかもしれません。",
-   "3回のタイムスリップと１光年をそのために待っています…",
-   "重い食事の後にこのすべての時間旅行がただ良いというわけではありません..." };
+   "3回のタイムスリップと1光年をそのために待っています……",
+   "重い食事の後にこのすべての時間旅行がただ良いというわけではありません……" };
 last_fart = -1;
 bathroom_poly = 94;
 bathroom_exit = 81;
@@ -364,7 +364,7 @@ function level_idle ()
       hall_door.active = true;
       hall_open = true;
       remove_items("key");
-      Players[0]:print('あなたは今アバロンのホールにアクセスできます！');
+      Players[0]:print('あなたは今アヴァロンのホールにアクセスできます！');
       Players[0]:play_sound(17, 1);
    end
    if (player_poly ~= last_poly) then
@@ -396,7 +396,7 @@ function level_idle ()
 --]]
       if (not sword_gone) and (not got_hq_sword) and (Lights[29].active) then
          Lights[29].active = false;
-         Players[0]:print('テレポートパッドを起動する前にエクスキャリバーを取ってください。');
+         Players[0]:print('テレポートパッドを起動する前にエクスカリバーを取ってください。');
       end;
       if (player_poly == teleport_poly) and (Lights[29].active) and got_hq_sword then
          Players[0]:teleport(camelot_poly);
@@ -428,13 +428,13 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
    if (type == "lightning") then
       poly_type = polygon.type;
       if (poly_type == "must be explored") then
-         Players[0]:print('その水は十\分深くありません。');
+         Players[0]:print('その水は十分深くありません。');
 	 Players[0].items["sword"] = 1;
          sword_check = sword_failsafe;
          return;
       end
       if (poly_type ~= "goal") then
-         Players[0]:print('エクスキャリバーを魔法の水へ投げなくてはなりません。');
+         Players[0]:print('エクスカリバーを魔法の水へ投げなくてはなりません。');
 	 Players[0].items["sword"] = 1;
          sword_check = sword_failsafe;
          return;
@@ -461,7 +461,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
       Players[0].items["wand"] = 0;
       if (sword_countdown > 0) then
          if message_wait <= 0 then
-            Players[0]:print('あなたは湖のレディがエクスキャリーを受け取るのを待たなくてはなりません。');
+            Players[0]:print('あなたは湖の妖精がエクスカリバーを受け取るのを待たなくてはなりません。');
             message_wait = 30;
 	 end
 	 Players[0].items["wand"] = 1;
@@ -497,7 +497,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
       end;
       if (sword_countdown > 0) then
          if message_wait <= 0 then
-            Players[0]:print('あなたは湖のレディがエクスキャリーを受け取るのを待たなくてはなりません。');
+            Players[0]:print('あなたは湖の妖精がエクスカリバーを受け取るのを待たなくてはなりません。');
             message_wait = 30;
 	 end
          Players[0].items["spear"] = 1;

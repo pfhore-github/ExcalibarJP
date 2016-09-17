@@ -73,7 +73,7 @@ function level_idle ()
          end
       end
    if (resident_kills >= revolt_kills) and (not revolt) then
-      Players[0]:print('ベッドロック琥珀警告: 殺人者が放たれました！死ぬか生きるかです！');
+      Players[0]:print('ベッドロック琥珀警告: 殺人者が放たれた！ 逮捕せよ、生死は問わない！');
       Players[0]:play_sound(173, 1);
       revolt = true;
       MonsterTypes["future bob"].enemies["player"] = true;
@@ -212,14 +212,14 @@ function level_got_item(type, player)
 	 end
       elseif mpoly.index == food_detour.index then
          Players[0]:play_sound(229, 1);
-         Players[0]:print('それらを愛してください、雷鳴バーガー!');
+         Players[0]:print('愛してください、ブロントバーガー!');
       else
          Players[0]:play_sound(228, 1);
       end
       mpoly = Polygons[milestone_polys[milestone_counter]];
       if (math.modf(laps, food_lap) == 2) and (mpoly.index == food_replace.index) then
 	 mpoly = food_detour;
-	 Players[0]:print('あなたの胃は痛んでいます');
+	 Players[0]:print('あなたはお腹が減ったようです');
       end
       Items.new(mpoly.x, mpoly.y, 0, mpoly, "magic scroll");
    end
