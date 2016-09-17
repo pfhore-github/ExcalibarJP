@@ -50,11 +50,11 @@ normal_mask="emrtextures/weapons/saber-item-mask.jpg" opac_type="1"
 
 <stringset index="150">
 <string index="5">T9000レールガン</string>
-<string index="6">レールガン・カトリージ</string>
-<string index="7">レールガン・カトリージ</string>
+<string index="6">レールガン・カートリッジ</string>
+<string index="7">レールガン・カートリッジ</string>
 <string index="16">連盟ライトセーバー</string>
-<string index="17">ライトセーバー充電</string>
-<string index="18">ライトセーバー充電</string>
+<string index="17">ライトセーバー・チャージ</string>
+<string index="18">ライトセーバー・チャージ</string>
 <string index="19">ラドン・フェーザーPX6</string>
 <string index="27">ドラゴン火炎放射器</string>
 <string index="28">ドラゴン火炎放射器</string>
