@@ -16,11 +16,11 @@ function common_init(rs)
 	ProjectileTypes["rock"].mnemonic = "biggrenade";
 	MonsterTypes["raptor eggs"].mnemonic = "grenade";
 	if monsters_name ~= nil then
-		monsters_name["grenade"]="ƒOƒŒƒl[ƒh";
+		monsters_name["grenade"]="ã‚°ãƒ¬ãƒãƒ¼ãƒ‰";
 	end
 	if projectiles ~= nil then
-		projectiles["biggrenade"]="”š”­";
-		projectiles["crossbow bolt"]="‰s‚¢”­Ë•¨";
+		projectiles["biggrenade"]="çˆ†ç™º";
+		projectiles["crossbow bolt"]="é‹­ã„ç™ºå°„ç‰©";
 	end
 end
 function common_idle()

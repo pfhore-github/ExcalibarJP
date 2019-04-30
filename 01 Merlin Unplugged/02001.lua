@@ -65,7 +65,7 @@ function level_idle ()
 		door_locked = false;
 		if not bob_safe then
 			maintdoor_light.active = true;
-			Players.print('ƒhƒA‚ÌƒƒbƒN‚Í‰ğœ‚³‚ê‚½');
+			Players.print('ãƒ‰ã‚¢ã®ãƒ­ãƒƒã‚¯ã¯è§£é™¤ã•ã‚ŒãŸ');
 		end
 	end
 	player_poly = Players[0].polygon.index;
@@ -100,13 +100,13 @@ function level_idle ()
 		if (not camelot_visit) and (player_poly == camelot_holodeck) then
 			camelot_visit = true;
 			camelot_light.active = true;
-			Players.print('ƒzƒƒfƒbƒNƒvƒƒOƒ‰ƒ€‹N“®FƒLƒƒƒƒƒbƒg');
+			Players.print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚¯ãƒ—ãƒ­ã‚°ãƒ©ãƒ èµ·å‹•ï¼šã‚­ãƒ£ãƒ¡ãƒ­ãƒƒãƒˆ');
 			Players[0].yaw = 45;
 			Players[0].pitch = 360;
 			Players[0]:teleport(camelot_program);
 		end
 		if (player_poly == camelot_exit) then
-			Players.print('ƒzƒƒfƒbƒNƒvƒƒOƒ‰ƒ€‰ğœFƒLƒƒƒƒƒbƒg');
+			Players.print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚¯ãƒ—ãƒ­ã‚°ãƒ©ãƒ è§£é™¤ï¼šã‚­ãƒ£ãƒ¡ãƒ­ãƒƒãƒˆ');
 			new_item_at("crossbow bolts", holodeck_arrows1);
 			new_item_at("crossbow bolts", holodeck_arrows2);
 			Players[0].yaw = 270;
@@ -116,13 +116,13 @@ function level_idle ()
 		if (not jurassic_visit) and (player_poly == jurassic_holodeck) then
 			jurassic_visit = true;
 			jurassic_light.active = true;
-			Players.print('ƒzƒƒfƒbƒNƒvƒƒOƒ‰ƒ€‹N“®FƒWƒ…ƒ‰‹I');
+			Players.print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚¯ãƒ—ãƒ­ã‚°ãƒ©ãƒ èµ·å‹•ï¼šã‚¸ãƒ¥ãƒ©ç´€');
 			Players[0].yaw = 0;
 			Players[0].pitch = 360;
 			Players[0]:teleport(jurassic_program);
 		end
 		if (player_poly == jurassic_exit) then
-			Players.print('ƒzƒƒfƒbƒNƒvƒƒOƒ‰ƒ€‰ğœFƒWƒ…ƒ‰‹I');
+			Players.print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚¯ãƒ—ãƒ­ã‚°ãƒ©ãƒ è§£é™¤ï¼šã‚¸ãƒ¥ãƒ©ç´€');
 			new_item_at("spear", holodeck_spear);
 			new_monster_at("minor raptor", holodeck_raptor1, 90);
 			new_monster_at("minor raptor", holodeck_raptor2, 90);

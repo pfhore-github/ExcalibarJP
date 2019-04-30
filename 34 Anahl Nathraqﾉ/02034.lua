@@ -150,7 +150,7 @@ end
 function timer_color(e)
    if (e <= min_left) then 
       if not task_done then
-         Players[0]:print("ƒ‚ƒ‹ƒKƒi‚Ì•”‘à‚Í~‚ß‚ç‚ê‚Ü‚µ‚½IƒVƒjƒGƒXƒgƒ‰‚ÍˆÀ‘S‚Å‚·B");
+         Players[0]:print("ãƒ¢ãƒ«ã‚¬ãƒŠã®éƒ¨éšŠã¯æ­¢ã‚ã‚‰ã‚Œã¾ã—ãŸï¼ã‚·ãƒ‹ã‚¨ã‚¹ãƒˆãƒ©ã¯å®‰å…¨ã§ã™ã€‚");
          Players[0]:play_sound(254, 1);
          task_done = true;
       end
@@ -170,7 +170,7 @@ function level_idle ()
    end
    if danger_compass then
       e = enemies_left(Players[0], 8);
-      Players[0].overlays[0].text = "c‚è‚Ì“G:"..e;
+      Players[0].overlays[0].text = "æ®‹ã‚Šã®æ•µ:"..e;
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 177, -7680);
    end
@@ -195,7 +195,7 @@ function level_idle ()
          meter.active = false;
          meter_moving = false;
          meter_value = meter_value + 10;
-         Players[0]:print('ƒAƒNƒ`ƒjƒEƒ€ƒKƒX‚Ì”Z“x:'..meter_value.. '%');
+         Players[0]:print('ã‚¢ã‚¯ãƒãƒ‹ã‚¦ãƒ ã‚¬ã‚¹ã®æ¿ƒåº¦:'..meter_value.. '%');
          Level.fog.depth = (240 - 3 * meter_value) / 20;
       end
       if (meter_value == 60) and (not danger_level) then
@@ -255,7 +255,7 @@ function level_idle ()
       end
       if has_tiny and tiny_replay and (player_poly == tiny_redisplay) then
          if meter_started then
-            Players[0]:print('Tiny: ’Eoƒ|ƒbƒh‚Í‚±‚±‚É‚Í‚ ‚è‚Ü‚¹‚ñI“®‚¢‚Ä‚­‚¾‚³‚¢I');
+            Players[0]:print('Tiny: è„±å‡ºãƒãƒƒãƒ‰ã¯ã“ã“ã«ã¯ã‚ã‚Šã¾ã›ã‚“ï¼å‹•ã„ã¦ãã ã•ã„ï¼');
          else
             Players[0]:activate_terminal(8);
             end
@@ -286,11 +286,11 @@ function level_idle ()
             idx = Game.global_random(6) + 1;
             Players[0]:teleport(siniestra_polys[idx]);
             sendback_timer = -1;
-            Players[0]:print('ƒeƒŒƒ|[ƒgŠ®—¹');
+            Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ãƒˆå®Œäº†');
             Players[0]:play_sound(175, 1);
             end
          if (sendback_timer < 0) then
-            Players[0]:print('ƒeƒŒƒ|[ƒ^[‚ğÄ[“d’†...');
+            Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ã‚¿ãƒ¼ã‚’å†å……é›»ä¸­...');
             sendback_timer = 150;
             Players[0]:play_sound(82, 1);
 	 end
@@ -310,7 +310,7 @@ function level_idle ()
             heli_stage = 2;
             cadet_timer = heli_approach;
             heli_light.active = true;
-            Players[0]:print('•Eƒhƒ‰ƒSƒ“ƒwƒŠƒRƒvƒ^[‚ªÚ‹ß’†‚Å‚·...');
+            Players[0]:print('é»’ãƒ»ãƒ‰ãƒ©ã‚´ãƒ³ãƒ˜ãƒªã‚³ãƒ—ã‚¿ãƒ¼ãŒæ¥è¿‘ä¸­ã§ã™...');
          elseif heli_stage == 2 then  --[[ approach completes ]]
             heli_stage = 3;
             cadet_timer = heli_hover;
@@ -347,7 +347,7 @@ function level_idle ()
       end
       if (shake_timer > shake_length) then
          shake_timer = 0;
-         Players[0]:print('ƒ‚ƒ‹ƒKƒi‚Í“|‚³‚ê‚Ü‚µ‚½I');
+         Players[0]:print('ãƒ¢ãƒ«ã‚¬ãƒŠã¯å€’ã•ã‚Œã¾ã—ãŸï¼');
          Players[0]:play_sound(62, 1);
       end
    end
@@ -389,13 +389,13 @@ function level_monster_killed(victim, victor, projectile)
       if mtype == "morgana" then
          morgana_bubble(victim, mp);
       elseif mtype == "master wizard" then
-         Players[0]:print('ƒ‚[ƒxƒA‚Í“|‚³‚ê‚Ü‚µ‚½I');
+         Players[0]:print('ãƒ¢ãƒ¼ãƒ™ã‚¢ã¯å€’ã•ã‚Œã¾ã—ãŸï¼');
          Players[0]:play_sound(233, 1);
          mauvair = nil;
       elseif (mtype == "future bob") and (not meter_started) then
-         Players[0]:print('ƒuƒŠƒQ[ƒhím‚Í“|‚³‚ê‚Ü‚µ‚½I');
+         Players[0]:print('ãƒ–ãƒªã‚²ãƒ¼ãƒ‰æˆ¦å£«ã¯å€’ã•ã‚Œã¾ã—ãŸï¼');
       elseif (mtype == "white knight") and (mp.index ~= cadet_start) and (not meter_started) then
-         Players[0]:print('ƒu[ƒƒ‰ƒ“mŠ¯¶“k‚Í“|‚³‚ê‚Ü‚µ‚½I');
+         Players[0]:print('ãƒ–ãƒ¼ãƒ¡ãƒ©ãƒ³å£«å®˜ç”Ÿå¾’ã¯å€’ã•ã‚Œã¾ã—ãŸï¼');
       end
    end
 end
@@ -428,7 +428,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
  (owner == player) and (morgana and morgana.valid) ) then
       mp = morgana.polygon;
       if mp == polygon then
-         Players[0]:print('ƒvƒ‰ƒYƒ}‚Íƒ‚ƒ‹ƒKƒi‚É‚ÍŒø‰Ê‚Í‚ ‚è‚Ü‚¹‚ñB');
+         Players[0]:print('ãƒ—ãƒ©ã‚ºãƒã¯ãƒ¢ãƒ«ã‚¬ãƒŠã«ã¯åŠ¹æœã¯ã‚ã‚Šã¾ã›ã‚“ã€‚');
          plasma_message = true;
       end
    end
@@ -436,7 +436,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
 (type == "biggrenade") or (type == "photon")) and 
     (has_tiny) and (heli_stage == 0) and (polygon == roof_top)) then
       if cadets_left <= 0 then
-         Players[0]:print('‚ ‚È‚½‚ÌM†‚ğó‚¯æ‚émŠ¯¶“k‚Í‚à‚¤‚¢‚Ü‚¹‚ñB');
+         Players[0]:print('ã‚ãªãŸã®ä¿¡å·ã‚’å—ã‘å–ã‚‹å£«å®˜ç”Ÿå¾’ã¯ã‚‚ã†ã„ã¾ã›ã‚“ã€‚');
       else
          cadet_timer = heli_wait;
          heli_stage = 1;

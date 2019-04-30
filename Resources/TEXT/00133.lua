@@ -33,7 +33,7 @@ distance = {}
 flag_position = {} -- first 3 elements are team 1's x, y, z. Next three are coords for team 2's flag.
 reset_timer = {}
 RESET_AMOUNT = 1350
-err = "‚±‚ê‚Í³“–‚ÈCTFƒ}ƒbƒv‚¶‚á‚È‚¢Breadme‚ÍCTFƒQ[ƒ€‚ğƒzƒXƒg‚·‚é‚Æ‚«‚Ìî•ñ‚ğ’ñ‹Ÿ‚·‚éB"
+err = "ã“ã‚Œã¯æ­£å½“ãªCTFãƒãƒƒãƒ—ã˜ã‚ƒãªã„ã€‚readmeã¯CTFã‚²ãƒ¼ãƒ ã‚’ãƒ›ã‚¹ãƒˆã™ã‚‹ã¨ãã®æƒ…å ±ã‚’æä¾›ã™ã‚‹ã€‚"
    
 --[[ ----------------  Icons ---------------------]]
    
@@ -519,21 +519,21 @@ function alert_captured(player, num)
   if (num == 1) then
     for p in Players() do
       if (p._original_team == teams[1] and p == player) then
-        p:print("ŒN‚Í“G‚ÌŠø‚ğ‚Æ‚Á‚½I")
+        p:print("å›ã¯æ•µã®æ——ã‚’ã¨ã£ãŸï¼")
       elseif (p._original_team == teams[1] and p ~= player) then
-        p:print("ŒN‚Ìƒ`[ƒ€‚Í“G‚ÌŠø‚ğ‚Æ‚Á‚½I")
+        p:print("å›ã®ãƒãƒ¼ãƒ ã¯æ•µã®æ——ã‚’ã¨ã£ãŸï¼")
       elseif (p._original_team == teams[2]) then
-        p:print("“G‚ÍŒN‚ÌŠø‚ğ‚Æ‚Á‚½I")
+        p:print("æ•µã¯å›ã®æ——ã‚’ã¨ã£ãŸï¼")
       end
     end
   else
     for p in Players() do
       if (p._original_team == teams[2] and p == player) then
-        p:print("ŒN‚Í“G‚ÌŠø‚ğ‚Æ‚Á‚½I")
+        p:print("å›ã¯æ•µã®æ——ã‚’ã¨ã£ãŸï¼")
       elseif (p._original_team == teams[2] and p ~= player) then
-        p:print("ŒN‚Ìƒ`[ƒ€‚Í“G‚ÌŠø‚ğ‚Æ‚Á‚½I")
+        p:print("å›ã®ãƒãƒ¼ãƒ ã¯æ•µã®æ——ã‚’ã¨ã£ãŸï¼")
       elseif (p._original_team == teams[1]) then
-        p:print("“G‚ÍŒN‚ÌŠø‚ğ‚Æ‚Á‚½I")
+        p:print("æ•µã¯å›ã®æ——ã‚’ã¨ã£ãŸï¼")
       end
     end
   end
@@ -692,22 +692,22 @@ function alert_teams(num)
   if (num == 1) then
     for p in Players() do
       if (p._original_team == teams[1] and p._has_flag == true) then
-        p:print("ŒN‚Í“G‚ÌŠø‚ğ‚Á‚Ä‚¢‚éI")
+        p:print("å›ã¯æ•µã®æ——ã‚’æŒã£ã¦ã„ã‚‹ï¼")
       elseif (p._original_team == teams[1] and p._has_flag == false) then
-        p:print( "ŒN‚Ìƒ`[ƒ€‚Í“G‚ÌŠø‚ğ‚Á‚Ä‚¢‚éI")
+        p:print( "å›ã®ãƒãƒ¼ãƒ ã¯æ•µã®æ——ã‚’æŒã£ã¦ã„ã‚‹ï¼")
       elseif (p._original_team == teams[2]) then
-        p:print("ŒN‚ÌŠø‚Í‚Æ‚ç‚ê‚½I")
+        p:print("å›ã®æ——ã¯ã¨ã‚‰ã‚ŒãŸï¼")
         p:play_sound("alarm", 1)
       end
     end
   else
     for p in Players() do
       if (p._original_team == teams[2] and p._has_flag == true) then
-        p:print("ŒN‚Í“G‚ÌŠø‚ğ‚Á‚Ä‚¢‚éI")
+        p:print("å›ã¯æ•µã®æ——ã‚’æŒã£ã¦ã„ã‚‹ï¼")
       elseif (p._original_team == teams[2] and p._has_flag == false) then
-        p:print( "ŒN‚Ìƒ`[ƒ€‚Í“G‚ÌŠø‚ğ‚Á‚Ä‚¢‚éI")
+        p:print( "å›ã®ãƒãƒ¼ãƒ ã¯æ•µã®æ——ã‚’æŒã£ã¦ã„ã‚‹ï¼")
       elseif (p._original_team == teams[1]) then
-        p:print("ŒN‚ÌŠø‚Í‚Æ‚ç‚ê‚½I")
+        p:print("å›ã®æ——ã¯ã¨ã‚‰ã‚ŒãŸï¼")
         p:play_sound("alarm", 1)
       end
     end
@@ -798,17 +798,17 @@ function save_flag_message(num)
   if (num == 1) then
     for p in Players() do
       if (p._original_team == teams[1]) then
-        p:print("ŒN‚ÌŠø‚Í–ß‚Á‚Ä‚«‚½I")
+        p:print("å›ã®æ——ã¯æˆ»ã£ã¦ããŸï¼")
       elseif(p._original_team == teams[2]) then
-        p:print( "“G‚ÌŠø‚Í–ß‚Á‚½I")
+        p:print( "æ•µã®æ——ã¯æˆ»ã£ãŸï¼")
       end
     end
   else
     for p in Players() do
       if (p._original_team == teams[2]) then
-        p:print("ŒN‚ÌŠø‚Í–ß‚Á‚Ä‚«‚½I")
+        p:print("å›ã®æ——ã¯æˆ»ã£ã¦ããŸï¼")
       elseif(p._original_team == teams[1]) then
-        p:print( "“G‚ÌŠø‚Í–ß‚Á‚½I")
+        p:print( "æ•µã®æ——ã¯æˆ»ã£ãŸï¼")
       end
     end
   end

@@ -145,7 +145,7 @@ function launch_clone()
    last_clone3 = last_clone2;
    last_clone2 = last_clone1;
    last_clone1 = idx;
-   --[[   Players[0]:print('ƒNƒ[ƒ“¶¬ - ƒNƒ[ƒ“”Ô†'..idx); ]]
+   --[[   Players[0]:print('ã‚¯ãƒ­ãƒ¼ãƒ³ç”Ÿæˆ - ã‚¯ãƒ­ãƒ¼ãƒ³ç•ªå·'..idx); ]]
    local m = Monsters.new(clones[idx][3], clones[idx][4], 0, clones[idx][1], "clone");
    m.yaw = clones[idx][2];
 end
@@ -154,13 +154,13 @@ function level_idle ()
 
    if teleport_light.active and (not exit_active) then
       exit_active = true;
-      Players[0]:print('Ã~–_‚ÍƒŒ[ƒXE–²ƒvƒƒOƒ‰ƒ€‚ÉƒZƒbƒg‚³‚ê‚Ü‚µ‚½');
-      Players[0]:print('‡–°º‚É“ü‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·');
+      Players[0]:print('é™æ­¢æ£’ã¯ãƒ¬ãƒ¼ã‚¹ãƒ»å¤¢ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã«ã‚»ãƒƒãƒˆã•ã‚Œã¾ã—ãŸ');
+      Players[0]:print('ç¡çœ å®¤ã«å…¥ã‚‹ã“ã¨ãŒã§ãã¾ã™');
       Players[0]:play_sound(15, 1);
       end
    if (loc ~= teleport_poly) and (not teleport_light.active) and exit_active then
       exit_active = false;
-      Players[0]:print('‡–°º‚Í–³Œø‰»‚³‚ê‚Ü‚µ‚½');
+      Players[0]:print('ç¡çœ å®¤ã¯ç„¡åŠ¹åŒ–ã•ã‚Œã¾ã—ãŸ');
       Players[0]:play_sound(131, 1);
    end
    if Lights[51].active and (xtimer == 0) then
@@ -170,30 +170,30 @@ function level_idle ()
          Players[0]:play_sound(15, 1);
          holodeck_8b = not holodeck_8b;
          if holodeck_8b then
-            Players[0]:print('ƒzƒƒfƒbƒLƒvƒƒOƒ‰ƒ€ uTiny Xv‚ğƒ[ƒh’†...');
+            Players[0]:print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚­ãƒ—ãƒ­ã‚°ãƒ©ãƒ  ã€ŒTiny Xã€ã‚’ãƒ­ãƒ¼ãƒ‰ä¸­...');
          else
-            Players[0]:print('ƒzƒƒfƒbƒLƒvƒƒOƒ‰ƒ€uƒ‰ƒvƒgƒ‹EƒMƒƒƒ‰ƒŠ[v‚ğƒ[ƒh’†...');
+            Players[0]:print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚­ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã€Œãƒ©ãƒ—ãƒˆãƒ«ãƒ»ã‚®ãƒ£ãƒ©ãƒªãƒ¼ã€ã‚’ãƒ­ãƒ¼ãƒ‰ä¸­...');
 	 end
       else
          Lights[41].active = false;
-         Players[0]:print('ƒzƒƒfƒbƒL‚w‚ğ‹N“®‚·‚é“KØ‚Èƒ‚ƒWƒ…[ƒ‹‚ğ‚Á‚Ä‚¢‚Ü‚¹‚ñ');
+         Players[0]:print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚­ï¼¸ã‚’èµ·å‹•ã™ã‚‹é©åˆ‡ãªãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’æŒã£ã¦ã„ã¾ã›ã‚“');
          end
       end
    if xtimer > 0 then
       xtimer = xtimer - 1;
       if xtimer == 0 then
          if holodeck_8b then
-            Players[0]:print('ƒzƒƒfƒbƒLƒvƒƒOƒ‰ƒ€ uTiny Xvƒ[ƒhŠ®—¹');
+            Players[0]:print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚­ãƒ—ãƒ­ã‚°ãƒ©ãƒ  ã€ŒTiny Xã€ãƒ­ãƒ¼ãƒ‰å®Œäº†');
             set_terminal_text_number(holo8_term_poly, holo8_term_line, holo8b_term);
          else
-            Players[0]:print('ƒzƒƒfƒbƒLƒvƒƒOƒ‰ƒ€uƒ‰ƒvƒgƒ‹EƒMƒƒƒ‰ƒŠ[vƒ[ƒhŠ®—¹');
+            Players[0]:print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚­ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã€Œãƒ©ãƒ—ãƒˆãƒ«ãƒ»ã‚®ãƒ£ãƒ©ãƒªãƒ¼ã€ãƒ­ãƒ¼ãƒ‰å®Œäº†');
             set_terminal_text_number(holo8_term_poly, holo8_term_line, holo8_term_alt);
 	 end
 	 holo8_entrance.active = true;
 	 Lights[51].active = false;
       elseif holo8_entrance.active then
          holo8_entrance.active = false;
-         Players[0]:print('ƒzƒƒfƒbƒL‚Í€”õ‚Å‚«‚Ä‚¢‚Ü‚¹‚ñ - ƒAƒNƒZƒX‹‘”Û');      
+         Players[0]:print('ãƒ›ãƒ­ãƒ‡ãƒƒã‚­ã¯æº–å‚™ã§ãã¦ã„ã¾ã›ã‚“ - ã‚¢ã‚¯ã‚»ã‚¹æ‹’å¦');      
          Players[0]:play_sound(26, 1);
       end
    end  
@@ -271,10 +271,10 @@ function level_idle ()
    if (loc == end_clones) and (clones_on) then
       clones_on = false;
       load_inventory();
-      Players[0]:print('ƒNƒ[ƒ“ƒvƒƒOƒ‰ƒ€I—¹');
-      Players[0]:print('ƒvƒŒ[ƒ„[‚Ì“_”‚Í = '..player_kills);
-      Players[0]:print('ƒ}[ƒZƒ‹‚Ì“_”‚Í = '..marcel_kills);
-      Players[0]:print('ƒ^ƒCƒj[‚Ì“_”‚Í = '..tiny_kills);
+      Players[0]:print('ã‚¯ãƒ­ãƒ¼ãƒ³ãƒ—ãƒ­ã‚°ãƒ©ãƒ çµ‚äº†');
+      Players[0]:print('ãƒ—ãƒ¬ãƒ¼ãƒ¤ãƒ¼ã®ç‚¹æ•°ã¯ = '..player_kills);
+      Players[0]:print('ãƒãƒ¼ã‚»ãƒ«ã®ç‚¹æ•°ã¯ = '..marcel_kills);
+      Players[0]:print('ã‚¿ã‚¤ãƒ‹ãƒ¼ã®ç‚¹æ•°ã¯ = '..tiny_kills);
       if tiny_bot and tiny_bot.valid then
          tiny_bot:damage(400, "suffocation");
       end
@@ -297,21 +297,21 @@ function level_idle ()
       gallery_kills = 0;
       gallery_score = 0;
       store_inventory("snyper");
-      Players[0]:print('ŠDF‚Æ—Î‚Í‚P“_');
-      Players[0]:print('‹à‚Í‚T“_');
-      Players[0]:print('Ô‚Í‚P‚O“_');
+      Players[0]:print('ç°è‰²ã¨ç·‘ã¯ï¼‘ç‚¹');
+      Players[0]:print('é‡‘ã¯ï¼•ç‚¹');
+      Players[0]:print('èµ¤ã¯ï¼‘ï¼ç‚¹');
    end
    if (loc == end_gallery) and (gallery_on) then
       gallery_on = false;
       load_inventory();
-      Players[0]:print('ƒ‰ƒvƒgƒ‹EƒMƒƒƒ‰ƒŠ[EƒvƒƒOƒ‰ƒ€I—¹');
-      Players[0]:print('‡Œv”­Ë”F '..gallery_shots);
-      Players[0]:print('‡ŒvE”F '..gallery_kills);
+      Players[0]:print('ãƒ©ãƒ—ãƒˆãƒ«ãƒ»ã‚®ãƒ£ãƒ©ãƒªãƒ¼ãƒ»ãƒ—ãƒ­ã‚°ãƒ©ãƒ çµ‚äº†');
+      Players[0]:print('åˆè¨ˆç™ºå°„æ•°ï¼š '..gallery_shots);
+      Players[0]:print('åˆè¨ˆæ®ºæ•°ï¼š '..gallery_kills);
       if gallery_shots > 0 then
          ratio = math.floor(100 * gallery_kills / gallery_shots);
-         Players[0]:print('–½’†—¦F'..ratio..'%');
+         Players[0]:print('å‘½ä¸­ç‡ï¼š'..ratio..'%');
       end
-      Players[0]:print('‡Œv“_F '..gallery_score);
+      Players[0]:print('åˆè¨ˆç‚¹ï¼š '..gallery_score);
       end
    if music_playing and (music_box.active) then
       music_playing = false;
@@ -333,32 +333,32 @@ function level_monster_killed(monster, player, shot)
    if ((mtype == "minor dinobug") or (mtype == "major dinobug")) and gallery_on then
       gallery_kills = gallery_kills + 1;
       gallery_score = gallery_score + 1;
-      Players[0]:print('“¾“_I  (‚P“_)');
+      Players[0]:print('å¾—ç‚¹ï¼  (ï¼‘ç‚¹)');
       end
    if (mtype == "minor raptor") and gallery_on then
       gallery_kills = gallery_kills + 1;
       gallery_score = gallery_score + 5;
-      Players[0]:print('“¾“_I  (5 “_)');
+      Players[0]:print('å¾—ç‚¹ï¼  (5 ç‚¹)');
       end
    if (mtype == "major raptor") and gallery_on then
       gallery_kills = gallery_kills + 1;
       gallery_score = gallery_score + 10;
-      Players[0]:print('“¾“_I  (10 “_)');
+      Players[0]:print('å¾—ç‚¹ï¼  (10 ç‚¹)');
       end
    if (mtype == "clone") and clones_on then
       owner = shot.owner;
       p = Players[0].monster;
       if owner == tiny_bot then
          tiny_kills = tiny_kills + 1;
-         Players[0]:print('ƒ^ƒCƒj[‚Ì“¾“_I');
+         Players[0]:print('ã‚¿ã‚¤ãƒ‹ãƒ¼ã®å¾—ç‚¹ï¼');
       elseif owner == marcel_bot then
          marcel_kills = marcel_kills + 1;
-         Players[0]:print('ƒ}[ƒZƒ‹‚Ì“¾“_I');
+         Players[0]:print('ãƒãƒ¼ã‚»ãƒ«ã®å¾—ç‚¹ï¼');
       elseif owner == p then
          player_kills = player_kills + 1;
-         Players[0]:print('ƒvƒŒ[ƒ„[‚Ì“¾“_I');
+         Players[0]:print('ãƒ—ãƒ¬ãƒ¼ãƒ¤ãƒ¼ã®å¾—ç‚¹ï¼');
       else
-         Players[0]:print('–¢’m‚Ì‰ÁŠQÒI ('..owner..')');
+         Players[0]:print('æœªçŸ¥ã®åŠ å®³è€…ï¼ ('..owner..')');
       end
    end
    if (mtype == "tiny bot") and (clones_on) then

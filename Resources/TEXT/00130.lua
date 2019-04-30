@@ -1,4 +1,4 @@
--- �V�i���I�҂̋��ʃX�N���v�g�A��ԖڂɎ��s�����
+-- シナリオ編の共通スクリプト、二番目に実行される
 interval_poison_damage = 4;
 tolerance_coeff = .5;
 max_poison_time = 30;    
@@ -11,7 +11,7 @@ underwater_death = false;
 underwater_active = true;
 railgun_in_action = false;
 fog_save = {};
--- Fog�f�[�^�̑ޔ��ƕ��A
+-- Fogデータの退避と復帰
 function save_fog()
    local attributes = { 
       OGL_Fog_AboveLiquid = { 
@@ -58,7 +58,7 @@ end
 
 
 function master_idle()
-   -- ���ʉ��̏���
+   -- 水面下の処理
    local life = Players[0].life;
    local under_media = Players[0].head_below_media
    if ( under_media and (underwater_timer == 0) and underwater_active ) then
@@ -75,7 +75,7 @@ function master_idle()
       underwater_timer = underwater_timer - 1
    end
 
-   -- �t�F�[�U�[�̏Ə��\��
+   -- フェーザーの照準表示
    
    cur_weapon = Players[0].weapons.current;
    if (cur_weapon ~= nil and cur_weapon.index ~= last_weapon) then
@@ -87,13 +87,13 @@ function master_idle()
       last_weapon = cur_weapon;
    end 
 
-   --�t�F�[�U�[�ȊO�̏Ə��ݒ��ێ�����
+   --フェーザー以外の照準設定を保持する
    
    if cur_weapon ~= WeaponTypes["phaser"].index  then
       crosshairs_prefs = Players[0].crosshairs.active;
    end
    
-   --�ł̏���
+   --毒の処理
    for p in Players() do
       if p.dead then
 	 p._poisoned = -1;
@@ -107,7 +107,7 @@ function master_idle()
 	    pt = p._poisoned/30;
 	    p:play_sound(221, pt/max_poison_time);
 	    level = math.floor(100*pt/max_poison_time + 0.5);
-	    p.overlays[4].text = '�Ő�: '..level..'%';
+	    p.overlays[4].text = '毒性: '..level..'%';
 	    p.overlays[4].color = "red";
 	    p.overlays[4].icon = yuk_icon;
 	    p._poison_ticker = poison_interval;
@@ -120,9 +120,9 @@ function master_idle()
 	 p._poison_hits = 0;
 	 if (p._tolerance < 9) then
 	    p._tolerance = p._tolerance + 1
-	    p:print('�Ő��͎�菜���ꂽ�B�łւ̑ϐ����������B');
+	    p:print('毒性は取り除かれた。毒への耐性が増えた。');
 	 else
-	    p:print('�Ő��͎�菜���ꂽ�B');
+	    p:print('毒性は取り除かれた。');
 	 end
 	 p.overlays[4]:clear();
       end
@@ -190,11 +190,11 @@ function Triggers.got_item(item, player)
       	else
 		 player._tolerance = player._tolerance + 1
 		 end
-	 player:print('�łւ̑ϐ����������B')
+	 player:print('毒への耐性が増えた。')
       end
    end
 end
--- �^�[�~�i���̕ύX
+-- ターミナルの変更
 function set_terminal_text_number(poly, line, id) 
    if Lines[line].ccw_polygon ~= nil and Lines[line].ccw_polygon.index == poly then 
       s = Lines[line].ccw_side 
@@ -207,7 +207,7 @@ function set_terminal_text_number(poly, line, id)
       s.control_panel.permutation = id 
    end 
 end
--- �擾��
+-- 取得音
 function got_item_sound(item, player, table, sound)
    for i, v in ipairs(table) do
       if( item == v ) then

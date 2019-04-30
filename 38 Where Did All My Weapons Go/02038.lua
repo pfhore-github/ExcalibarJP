@@ -76,7 +76,7 @@ function level_idle ()
       exit_door.floor.height = 5.0;
       final_term.active = true;
       Lights[20].active = false;
-      Players[0]:print("“]‘—º7‚c‚Öi‚ñ‚Å‚­‚¾‚³‚¢"); 
+      Players[0]:print("è»¢é€å®¤7ï¼¤ã¸é€²ã‚“ã§ãã ã•ã„"); 
       new_monster_poly("minor gat", 75);
       new_monster_poly("major gat", 77);
       new_monster_poly("minor gat", 92);

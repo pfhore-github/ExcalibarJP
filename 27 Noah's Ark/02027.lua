@@ -75,9 +75,9 @@ function level_idle ()
    if danger_compass then
       e = enemies_left(Players[0], 8);
       if e == 0 then
-	 Players[0].overlays[0].text = "Š®—¹";
+	 Players[0].overlays[0].text = "å®Œäº†";
       else
-	 Players[0].overlays[0].text = "c‚è‚Ì“G‚Í" .. e;
+	 Players[0].overlays[0].text = "æ®‹ã‚Šã®æ•µã¯" .. e;
       end
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 154);
@@ -87,7 +87,7 @@ function level_idle ()
       bobs_called = true;
    end
    if simlab_door.active and (simlab_lockdown) then
-      Players[0]:print('ƒ}[ƒŠƒ“Fƒ‰ƒCƒuƒ‰ƒŠ‚Ö‘–‚êI');
+      Players[0]:print('ãƒãƒ¼ãƒªãƒ³ï¼šãƒ©ã‚¤ãƒ–ãƒ©ãƒªã¸èµ°ã‚Œï¼');
       Players[0]:play_sound(143, 1);
       simlab_lockdown = false;
       simlab_message = true;
@@ -148,7 +148,7 @@ function level_idle ()
          if not simlab_message then
             simlab_message = true;
             Players[0]:play_sound(143, 1);
-	    Players[0]:print("ƒ}[ƒŠƒ“FƒVƒ~ƒ…ƒŒ[ƒVƒ‡ƒ“Œ¤‹†Š‚ÌŒ®‚ğŠJ‚¯‚é‘O‚É‰ÈŠwƒ‰ƒEƒ“ƒW‚Å„‚Æ˜A—‚µ‚Ä‚­‚¾‚³‚¢");
+	    Players[0]:print("ãƒãƒ¼ãƒªãƒ³ï¼šã‚·ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ç ”ç©¶æ‰€ã®éµã‚’é–‹ã‘ã‚‹å‰ã«ç§‘å­¦ãƒ©ã‚¦ãƒ³ã‚¸ã§ç§ã¨é€£çµ¡ã—ã¦ãã ã•ã„");
 	 end
       end
    end
@@ -172,7 +172,7 @@ function all_clear()
       Players[0].overlays[1]:clear();
       Players[0].overlays[2]:clear();
       Players[0]:play_sound(233, 1);
-      Players[0]:print('ƒ~ƒ…[ƒ^ƒ“ƒg‚Ìƒ‰ƒvƒgƒ‹‚Íªâ‚³‚ê‚½I');
+      Players[0]:print('ãƒŸãƒ¥ãƒ¼ã‚¿ãƒ³ãƒˆã®ãƒ©ãƒ—ãƒˆãƒ«ã¯æ ¹çµ¶ã•ã‚ŒãŸï¼');
    end
 end
 
@@ -183,12 +183,12 @@ function display_eggs()
    Players[0].overlays[0].color = "blue";
    Players[0].overlays[1].color = "red";
    Players[0].overlays[2].color = "white";
-   Players[0].overlays[0].text = '—‘: '..eggs_left;
-   Players[0].overlays[1].text = '›z‚Á‚½”: '..hatchlings_left;
+   Players[0].overlays[0].text = 'åµ: '..eggs_left;
+   Players[0].overlays[1].text = 'å­µã£ãŸæ•°: '..hatchlings_left;
    if breeder then
-      Players[0].overlays[2].text = 'ƒuƒŠ[ƒ_[: ‰Ò“­';
+      Players[0].overlays[2].text = 'ãƒ–ãƒªãƒ¼ãƒ€ãƒ¼: ç¨¼åƒ';
    else
-      Players[0].overlays[2].text = 'ƒuƒŠ[ƒ_[: ’â~';
+      Players[0].overlays[2].text = 'ãƒ–ãƒªãƒ¼ãƒ€ãƒ¼: åœæ­¢';
    end
    if not eggs_activated then
       eggs_activated = true;

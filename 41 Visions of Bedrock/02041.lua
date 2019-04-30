@@ -25,7 +25,7 @@ daylight = 0;
 dusk = 1;
 night = 2;
 dawn = 3;
-clock_str = { '“ú’†', '—[•é‚ê', '–é', '–é–¾‚¯' };
+clock_str = { 'æ—¥ä¸­', 'å¤•æš®ã‚Œ', 'å¤œ', 'å¤œæ˜ã‘' };
 light_clock = daylight;
 lights = true;
 fog = false;
@@ -73,7 +73,7 @@ function level_idle ()
          end
       end
    if (resident_kills >= revolt_kills) and (not revolt) then
-      Players[0]:print('ƒxƒbƒhƒƒbƒNàæàßŒx: ElÒ‚ª•ú‚½‚ê‚½I ‘ß•ß‚¹‚æA¶€‚Í–â‚í‚È‚¢I');
+      Players[0]:print('ãƒ™ãƒƒãƒ‰ãƒ­ãƒƒã‚¯ç¥ç€è­¦å‘Š: æ®ºäººè€…ãŒæ”¾ãŸã‚ŒãŸï¼ é€®æ•ã›ã‚ˆã€ç”Ÿæ­»ã¯å•ã‚ãªã„ï¼');
       Players[0]:play_sound(173, 1);
       revolt = true;
       MonsterTypes["future bob"].enemies["player"] = true;
@@ -99,7 +99,7 @@ function level_idle ()
 	 Music.fade(60/1000);
 	 Music.play('Cavern/Santa Fe.mp3');
       elseif (poly.index == flint_poly.index) and (not in_vehicle) then
-         Players[0]:print(' ‚ ‚È‚½‚ÍƒƒCƒ“ƒIƒtƒBƒX‚ÉŒ®‚ğ’u‚¢‚Ä‚«‚Ü‚µ‚½B');
+         Players[0]:print(' ã‚ãªãŸã¯ãƒ¡ã‚¤ãƒ³ã‚ªãƒ•ã‚£ã‚¹ã«éµã‚’ç½®ã„ã¦ãã¾ã—ãŸã€‚');
       end
       if poly.type == "goal" then
          if Game.global_random(4) == 0 then
@@ -121,7 +121,7 @@ function update_lighting()
       return;
    end
    light_clock = math.modf(light_clock + 1, 4);
-   Players[0]:print('¡‚Í'..clock_str[math.floor(light_clock + 1)]..'‚Å‚·B');
+   Players[0]:print('ä»Šã¯'..clock_str[math.floor(light_clock + 1)]..'ã§ã™ã€‚');
    if (light_clock == night) and lights then
       for n = 1, 20 do
          Lights[n].active = false;
@@ -158,23 +158,23 @@ end
 
 function display_stats()
 
-   Players[0].overlays[0].text = "ƒ‰ƒbƒv: "..laps+1;
+   Players[0].overlays[0].text = "ãƒ©ãƒƒãƒ—: "..laps+1;
    Players[0].overlays[0].color = "blue";
    timerStr = string.format("%02d:%02d.%02d", race_timer / 30 / 60,
            math.modf(race_timer / 30, 60), math.modf(race_timer, 30) * 100 / 30);
-   Players[0].overlays[1].text = "Œo‰ßŠÔ: "..timerStr;
+   Players[0].overlays[1].text = "çµŒéæ™‚é–“: "..timerStr;
    Players[0].overlays[1].color = "green";
    Players[0].overlays[2]:clear();
    timerStr = string.format("%02d:%02d.%02d", lap_timer / 30 / 60,
            math.modf(lap_timer / 30, 60), math.modf(lap_timer, 30) * 100 / 30);
-   Players[0].overlays[3].text = "ƒ‰ƒbƒvŠÔ: "..timerStr;
+   Players[0].overlays[3].text = "ãƒ©ãƒƒãƒ—æ™‚é–“: "..timerStr;
    Players[0].overlays[3].color = "yellow";
    Players[0].overlays[4]:clear();
    if laps > 0 then
       lap_avg = lap_cum / laps;
       timerStr = string.format("%02d:%02d.%02d", lap_avg / 30 / 60,
            math.modf(lap_avg / 30, 60), math.modf(lap_avg, 30) * 100 / 30);
-      Players[0].overlays[5].text = "•½‹Ïƒ‰ƒbƒvŠÔ: "..timerStr;
+      Players[0].overlays[5].text = "å¹³å‡ãƒ©ãƒƒãƒ—æ™‚é–“: "..timerStr;
       Players[0].overlays[5].color = "red";
    end
 end
@@ -201,25 +201,25 @@ function level_got_item(type, player)
          lap_cum = lap_cum + lap_timer;
          timerStr = string.format("%02d:%02d.%02d", lap_timer / 30 / 60,
 				  math.modf(lap_timer / 30, 60), math.modf(lap_timer, 30) * 100 / 30);
-         Players[0]:print('ƒ‰ƒbƒv #'..laps..'‚ÌŠÔ‚Í'..timerStr);
+         Players[0]:print('ãƒ©ãƒƒãƒ— #'..laps..'ã®æ™‚é–“ã¯'..timerStr);
          lap_timer = 0;
          Players[0]:play_sound(263, 1);
          if (laps >= laps_required) and (not exit_activated) then
             exit_activated = true;
             teleporter_light.active = true;
             exit_door.active = true;
-            Players[0]:print('ƒNƒƒmƒXŠ„‚è‚İFÃ~I—¹‚Í‹N“®‚³‚ê‚Ü‚µ‚½');
+            Players[0]:print('ã‚¯ãƒ­ãƒã‚¹å‰²ã‚Šè¾¼ã¿ï¼šé™æ­¢çµ‚äº†ã¯èµ·å‹•ã•ã‚Œã¾ã—ãŸ');
 	 end
       elseif mpoly.index == food_detour.index then
          Players[0]:play_sound(229, 1);
-         Players[0]:print('ˆ¤‚µ‚Ä‚­‚¾‚³‚¢Aƒuƒƒ“ƒgƒo[ƒK[!');
+         Players[0]:print('æ„›ã—ã¦ãã ã•ã„ã€ãƒ–ãƒ­ãƒ³ãƒˆãƒãƒ¼ã‚¬ãƒ¼!');
       else
          Players[0]:play_sound(228, 1);
       end
       mpoly = Polygons[milestone_polys[milestone_counter]];
       if (math.modf(laps, food_lap) == 2) and (mpoly.index == food_replace.index) then
 	 mpoly = food_detour;
-	 Players[0]:print('‚ ‚È‚½‚Í‚¨• ‚ªŒ¸‚Á‚½‚æ‚¤‚Å‚·');
+	 Players[0]:print('ã‚ãªãŸã¯ãŠè…¹ãŒæ¸›ã£ãŸã‚ˆã†ã§ã™');
       end
       Items.new(mpoly.x, mpoly.y, 0, mpoly, "magic scroll");
    end
@@ -239,7 +239,7 @@ function level_monster_killed(victim, victor, projectile)
          end
       mclass = MonsterTypes[mtype].class;
       if (mclass == "friend") or (mclass == "raptor") then
-         Players[0]:print('10•bƒyƒiƒ‹ƒeƒB: ƒxƒbƒhƒƒbƒNZ–¯E');
+         Players[0]:print('10ç§’ãƒšãƒŠãƒ«ãƒ†ã‚£: ãƒ™ãƒƒãƒ‰ãƒ­ãƒƒã‚¯ä½æ°‘æ®ºå‚·');
          Players[0]:play_sound(197, 1);
          lap_timer = lap_timer + 300;
          race_timer = race_timer + 300;

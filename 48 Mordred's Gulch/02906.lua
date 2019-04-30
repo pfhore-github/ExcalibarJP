@@ -6,15 +6,15 @@ blue_river = 203;
 blue_zone = 79;
 blue_pad = 374;
 function level_init(rs) 
-	monsters_name["dimorph"]="‰G";
-	monsters_name["hover gat"]="ƒŒƒbƒhEƒfƒrƒ‹iÔ‚¢ˆ«–‚j";
-	monsters_name["bike cop"]="ƒLƒƒƒmƒ“EƒtƒHƒ_[i‘å–C”—¿j";
-	monsters_name["trex"]="ƒWƒ‡[EƒOƒŠ[ƒ“";
-	monsters_name["cleric"]="ƒŠƒ…[ƒNEƒtƒF[ƒU[";
-	monsters_name["lesser knight"]="ƒWƒF[ƒNEƒuƒ‹[";
-	monsters_name["black knight"]="ƒŒ[ƒU[Eƒfƒ…[ƒh";
-	monsters_name["minor gat"]="ƒ}ƒXƒ^[Eƒuƒ‰ƒXƒ^[";
-	monsters_name["major gat"]="ƒI[ƒYEƒWƒ…[ƒX";
+	monsters_name["dimorph"]="çƒ";
+	monsters_name["hover gat"]="ãƒ¬ãƒƒãƒ‰ãƒ»ãƒ‡ãƒ“ãƒ«ï¼ˆèµ¤ã„æ‚ªé­”ï¼‰";
+	monsters_name["bike cop"]="ã‚­ãƒ£ãƒãƒ³ãƒ»ãƒ•ã‚©ãƒ€ãƒ¼ï¼ˆå¤§ç ²é£¼æ–™ï¼‰";
+	monsters_name["trex"]="ã‚¸ãƒ§ãƒ¼ãƒ»ã‚°ãƒªãƒ¼ãƒ³";
+	monsters_name["cleric"]="ãƒªãƒ¥ãƒ¼ã‚¯ãƒ»ãƒ•ã‚§ãƒ¼ã‚¶ãƒ¼";
+	monsters_name["lesser knight"]="ã‚¸ã‚§ãƒ¼ã‚¯ãƒ»ãƒ–ãƒ«ãƒ¼";
+	monsters_name["black knight"]="ãƒ¬ãƒ¼ã‚¶ãƒ¼ãƒ»ãƒ‡ãƒ¥ãƒ¼ãƒ‰";
+	monsters_name["minor gat"]="ãƒã‚¹ã‚¿ãƒ¼ãƒ»ãƒ–ãƒ©ã‚¹ã‚¿ãƒ¼";
+	monsters_name["major gat"]="ã‚ªãƒ¼ã‚ºãƒ»ã‚¸ãƒ¥ãƒ¼ã‚¹";
 end
 function find_platform(index)
     for plat in Platforms() do

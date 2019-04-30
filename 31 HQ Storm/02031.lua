@@ -54,18 +54,18 @@ function level_idle ()
       Players[0]:teleport(lobby);
    end
    if ((not destruct_active) and destruct_light.active) then
-      Players[0]:print('©”š‚Í‹N“®‚³‚ê‚Ü‚µ‚½BŒã‚ë‚ÌƒhƒA‚ğŒ©‚Â‚¯‚ÄŠO‚Öo‚Ä‚­‚¾‚³‚¢I');
+      Players[0]:print('è‡ªçˆ†ã¯èµ·å‹•ã•ã‚Œã¾ã—ãŸã€‚å¾Œã‚ã®ãƒ‰ã‚¢ã‚’è¦‹ã¤ã‘ã¦å¤–ã¸å‡ºã¦ãã ã•ã„ï¼');
       destruct_enabled = true;  --[[ in case we have loaded a saved game ]]
       security_disabled = true;
       destruct_active = true;
    end
    if ((not destruct_enabled) and (basement_door.ceiling_height > 1)) then
-      Players[0]:print('©”š‚Í‹N“®‚³‚ê‚Ü‚µ‚½I');
+      Players[0]:print('è‡ªçˆ†ã¯èµ·å‹•ã•ã‚Œã¾ã—ãŸï¼');
       Players[0]:play_sound(15, 1);
       destruct_enabled = true;
    end
    if ((not security_disabled) and security_light.active ) then 
-      Players[0]:print('ƒZƒLƒ…ƒŠƒeƒBEƒƒbƒNƒAƒEƒg‚Í–³Œø‰»‚³‚ê‚Ü‚µ‚½I');
+      Players[0]:print('ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒ»ãƒ­ãƒƒã‚¯ã‚¢ã‚¦ãƒˆã¯ç„¡åŠ¹åŒ–ã•ã‚Œã¾ã—ãŸï¼');
       Players[0]:play_sound(131, 1);
       security_disabled = true;
    end
@@ -77,7 +77,7 @@ function level_idle ()
       gat_card = find_item("sap card");
       have_card = Players[0].items["sap card"] > 0;
       if master_gat_dead and (gat_card == nil) and (not have_card) then
-         Players[0]:print('GAT‚Ì‘D’·‚Í“|‚ê‚Ü‚µ‚½B‚ ‚È‚½‚Í¡”Ş‚ÌƒAƒNƒZƒXƒJ[ƒh‚ğ‚Á‚Ä‚¢‚Ü‚·I');
+         Players[0]:print('GATã®èˆ¹é•·ã¯å€’ã‚Œã¾ã—ãŸã€‚ã‚ãªãŸã¯ä»Šå½¼ã®ã‚¢ã‚¯ã‚»ã‚¹ã‚«ãƒ¼ãƒ‰ã‚’æŒã£ã¦ã„ã¾ã™ï¼');
          Players[0].items["sap card"] = Players[0].items["sap card"] + 1;
       end
    end
@@ -96,9 +96,9 @@ function level_monster_killed(victim, victor, projectile)
       captain_door.active = true;
       Players[0]:play_sound(17, 1);
       if Players[0].items["sap card"] <= 0 then
-         Players[0]:print('GAT‚Ì‘D’·‚Í“|‚ê‚Ü‚µ‚½BƒAƒNƒZƒXƒJ[ƒh‚Ì‚½‚ß‚É”Ş‚Ì€‘Ì‚ğ’T‚µ‚Ä‚­‚¾‚³‚¢I');
+         Players[0]:print('GATã®èˆ¹é•·ã¯å€’ã‚Œã¾ã—ãŸã€‚ã‚¢ã‚¯ã‚»ã‚¹ã‚«ãƒ¼ãƒ‰ã®ãŸã‚ã«å½¼ã®æ­»ä½“ã‚’æ¢ã—ã¦ãã ã•ã„ï¼');
       else
-         Players[0]:print('GAT‚Ì‘D’·‚Í“|‚ê‚Ü‚µ‚½B');
+         Players[0]:print('GATã®èˆ¹é•·ã¯å€’ã‚Œã¾ã—ãŸã€‚');
       end
    end
 end

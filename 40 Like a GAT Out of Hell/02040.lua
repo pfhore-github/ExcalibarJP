@@ -121,9 +121,9 @@ function activate_bike()
    in_bike = true;
    doorBlock.player_controllable = false;
    doorBlock.monster_controllable = false;
-   Players[0]:print("“®ì‚Æ”­ËƒL[‚Í’Êí’Ê‚èg‚¢‚Ü‚·B");
-   Players[0]:print("ã¸‚·‚é‚É‚Í[‰j‚®]ƒL[‚ğg‚¢‚Ü‚·B”òs‚“x‚Í§ŒÀ‚³‚ê‚Ä‚¢‚Ü‚·I");
-   Players[0]:print("‘æ‚RÒ‹“_‚ÉØ‚è‘Ö‚¦‚é‚É‚Í[F6]‚ğ‰Ÿ‚µ‚Ü‚·B");
+   Players[0]:print("å‹•ä½œã¨ç™ºå°„ã‚­ãƒ¼ã¯é€šå¸¸é€šã‚Šä½¿ã„ã¾ã™ã€‚");
+   Players[0]:print("ä¸Šæ˜‡ã™ã‚‹ã«ã¯[æ³³ã]ã‚­ãƒ¼ã‚’ä½¿ã„ã¾ã™ã€‚é£›è¡Œé«˜åº¦ã¯åˆ¶é™ã•ã‚Œã¦ã„ã¾ã™ï¼");
+   Players[0]:print("ç¬¬ï¼“è€…è¦–ç‚¹ã«åˆ‡ã‚Šæ›¿ãˆã‚‹ã«ã¯[F6]ã‚’æŠ¼ã—ã¾ã™ã€‚");
 end
 
 --[[ for first entering the hoverbike ]]
@@ -189,15 +189,15 @@ function calc_bike_speed()
    Players[0].overlays[2]:clear();
 --[[
    if gear < 0 then
-      Players[0].overlays[3].text = 'ƒMƒA: R';
+      Players[0].overlays[3].text = 'ã‚®ã‚¢: R';
    else
-      Players[0].overlays[3].text = 'ƒMƒA: '..gear;
+      Players[0].overlays[3].text = 'ã‚®ã‚¢: '..gear;
    end
    Players[0].overlays[3].color = "blue";
 --]]
    Players[0].overlays[3]:clear();
    Players[0].overlays[4]:clear();
-   Players[0].overlays[5].text = '‘¬“x: '..math.abs(speed)..' mph   ';
+   Players[0].overlays[5].text = 'é€Ÿåº¦: '..math.abs(speed)..' mph   ';
    if speed < 0 then
       Players[0].overlays[5].color = "red";
    elseif speed > 0 then
@@ -229,7 +229,7 @@ function level_idle()
       docs_timer = docs_timer + 1;
       if docs_timer >= upload_time then
 	 set_terminal_text_number(1003, 2508, 4);
-	 Players[0]:print('•¶‘XVŠ®—¹');
+	 Players[0]:print('æ–‡æ›¸æ›´æ–°å®Œäº†');
       end
    end
    if (csTimerFlag == 1) then
@@ -240,7 +240,7 @@ function level_idle()
    end
    if (not timer_active) and (not in_bike) and timer_light.active then
       timer_active = true;
-      Players[0]:print('”j‰óƒ^ƒCƒ}[‹N“®I');
+      Players[0]:print('ç ´å£Šã‚¿ã‚¤ãƒãƒ¼èµ·å‹•ï¼');
    end
    if (deathTimer > 0) and (timer_active) then
       timerStr = string.format("%02d:%02d.%02d", deathTimer / 30 / 60,
@@ -249,7 +249,7 @@ function level_idle()
       Players[0].overlays[0].color = timer_color(deathTimer);
       --[[ timer_platform.floor_height = (deathTimer / (deathMins * 60 * 30));  ]]
    elseif (timer_active) then
-      Players[0].overlays[0].text = "€‚Æ‘å¬—";
+      Players[0].overlays[0].text = "æ­»ã¨å¤§æ··ä¹±";
       Players[0].overlays[0].color = flash_color();
    end
    if (not alarm_activated) and (deathTimer < 30*30) then
@@ -310,7 +310,7 @@ function level_idle()
 	 last_poly = poly;
 	 if (poly == hoverbike_park) then
 	    in_repair = true;
-	    Players[0]:print('ƒzƒo[ƒoƒCƒNC—‹N“®');
+	    Players[0]:print('ãƒ›ãƒãƒ¼ãƒã‚¤ã‚¯ä¿®ç†èµ·å‹•');
 	 else
 	    in_repair = false;
 	 end

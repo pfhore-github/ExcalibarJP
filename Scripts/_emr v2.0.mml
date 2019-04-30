@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="shift_jis" ?>
 <!-- 
     Basic MML for Excalibur: Morgana's Revenge
     
@@ -79,8 +78,8 @@
 -->
 <!-- STR# Resource: "Errors" -->
 <stringset index="128">
-<string index="5">"Quest.sceA", "Graphics.shpA", "Visions.imgA" , "Sounds.sndA"�̃t�@�C����"EMR"�A�v���P�[�V�����Ɠ����t�H���_�ɂ��邱�Ƃ��m���߂āA������x�N�����Ă��������B</string>
-<string index="16">�}�[�W����Ă��Ȃ��}�b�v�����o���܂����B�}�[�����͍����ԗ��s���T�|�[�g���镨���t�@�C���𒲐߂��Ă��܂��B</string>
+<string index="5">"Quest.sceA", "Graphics.shpA", "Visions.imgA" , "Sounds.sndA"のファイルが"EMR"アプリケーションと同じフォルダにあることを確かめて、もう一度起動してください。</string>
+<string index="16">マージされていないマップを検出しました。マーリンは今時間旅行をサポートする物理ファイルを調節しています。</string>
 </stringset>
 
 <!-- STR# Resource: "Filenames" -->
@@ -258,212 +257,212 @@
 
 <!-- STR# Resource: "Computer Interface" -->
 <stringset index="135">
-<string index="0">�N���m�X�T���@</string>
-<string index="1">�N���m�X�ڑ��J�n...</string>
-<string index="2">�N���m�X�ėp�|��@</string>
+<string index="0">クロノス探査機</string>
+<string index="1">クロノス接続開始...</string>
+<string index="2">クロノス汎用翻訳機</string>
 <string index="3">518.6,98.5 &lt;059,1060&gt;</string>
-<string index="4">�N���m�X�R�~���j�P�[�V�����v���g�R��</string>
-<string index="5">PgUp/PgDown/���L�[�ŃX�N���[��</string>
-<string index="6">Return/Enter�L�[�ŗ���</string>
-<string index="7">�ڑ��ؒf...</string>
-<string index="8">�ڑ��I��</string>
-<string index="9">�|��@�N��</string>
+<string index="4">クロノスコミュニケーションプロトコル</string>
+<string index="5">PgUp/PgDown/矢印キーでスクロール</string>
+<string index="6">Return/Enterキーで了解</string>
+<string index="7">接続切断...</string>
+<string index="8">接続終了</string>
+<string index="9">翻訳機起動</string>
 </stringset>
 
 <!-- STR# Resource: "Join Dialog Messages" -->
 <stringset index="136">
-<string index="0">�u�Q���v���N���b�N����Ƃd�l�q�̃l�b�g���[�N�Q�[���ɎQ���ł��܂��B</string>
+<string index="0">「参加」をクリックするとＥＭＲのネットワークゲームに参加できます。</string>
 </stringset>
 
 <!-- STR# Resource: "Weapon Names" -->
 <stringset index="137">
-<string index="0">�i�b�N���u���[�h</string>
-<string index="1">�X�i�C�p�[�E�s�X�g��</string>
-<string index="2">�΋|</string>
-<string index="3">�_�N�����E�~�j�K��</string>
-<string index="4">EMF4000-g �n�C�e�N</string>
-<string index="5">���h���E�t�F�[�U�[PX5</string>
-<string index="6">�G�N�X�J���o�[</string>
-<string index="7">���</string>
-<string index="8">���[�h���b�h�̊[��</string>
-<string index="9">���ƕX�̏�</string>
+<string index="0">ナックルブレード</string>
+<string index="1">スナイパー・ピストル</string>
+<string index="2">石弓</string>
+<string index="3">ダクロン・ミニガン</string>
+<string index="4">EMF4000-g ハイテク</string>
+<string index="5">ラドン・フェーザーPX5</string>
+<string index="6">エクスカリバー</string>
+<string index="7">やり</string>
+<string index="8">モードレッドの骸骨</string>
+<string index="9">炎と氷の杖</string>
 </stringset>
 
 <!-- STR# Resource: "Preferences Groupings" -->
 <stringset index="139">
-<string index="0">�O���t�B�b�N</string>
-<string index="1">�v���C���[</string>
-<string index="2">�T�E���h</string>
-<string index="3">�R���g���[��</string>
-<string index="4">��</string>
+<string index="0">グラフィック</string>
+<string index="1">プレイヤー</string>
+<string index="2">サウンド</string>
+<string index="3">コントロール</string>
+<string index="4">環境</string>
 </stringset>
 
 <!-- STR# Resource: "Postgame network game stats" -->
 <stringset index="140">
-<string index="0">%d ��</string>
+<string index="0">%d 旗</string>
 <string index="1">%d:%02d</string>
-<string index="2">%d �_</string>
-<string index="3">�`�[��</string>
-<string index="4">�{�[���̕ێ�����</string>
-<string index="5">���̕ߊl</string>
-<string index="6">����</string>
-<string index="7">�S�[��</string>
-<string index="8">�w�n�ɂ�������</string>
+<string index="2">%d 点</string>
+<string index="3">チーム</string>
+<string index="4">ボールの保持時間</string>
+<string index="5">旗の捕獲</string>
+<string index="6">時間</string>
+<string index="7">ゴール</string>
+<string index="8">陣地にいた時間</string>
 </stringset>
 
 <!-- STR# Resource: "Net Game Setup" -->
 <stringset index="141">
-<string index="0">�E������</string>
-<string index="1">�E��</string>
-<string index="2">�ߊl����</string>
-<string index="3">��</string>
-<string index="4">�_������</string>
-<string index="5">�_��</string>
+<string index="0">殺傷制限</string>
+<string index="1">殺傷</string>
+<string index="2">捕獲制限</string>
+<string index="3">旗</string>
+<string index="4">点数制限</string>
+<string index="5">点数</string>
 </stringset>
 
 <!-- STR# Resource: "New Join Dialog Messages" -->
 <stringset index="142">
-<string index="0">�N�́u%s�v�v���[�Ɏ󂯓�����܂����B�T�[�o�[���c��̃v���[���[��ǉ�����܂ŏ��X���܂����������B </string>
-<string index="1"> �l�ΐ� </string>
-<string index="2">�N�́u�����ΐ�v�v���[�Ɏ󂯓�����܂����B�T�[�o�[���c��̃v���[���[��ǉ�����܂ŏ��X���܂����������B</string>
-<string index="3">�����</string>
-<string index="4">�w�n���</string>
-<string index="5">�{�[���̎�荇��</string>
-<string index="6">�{�u���痣���I</string>
-<string index="7">���O�r�[</string>
-<string index="8">�S������</string></stringset>
+<string index="0">君は「%s」プレーに受け入れられました。サーバーが残りのプレーヤーを追加するまで少々おまちください。 </string>
+<string index="1"> 個人対戦 </string>
+<string index="2">君は「共同対戦」プレーに受け入れられました。サーバーが残りのプレーヤーを追加するまで少々おまちください。</string>
+<string index="3">旗取り</string>
+<string index="4">陣地取り</string>
+<string index="5">ボールの取り合い</string>
+<string index="6">ボブから離れろ！</string>
+<string index="7">ラグビー</string>
+<string index="8">鬼ごっこ</string></stringset>
 
 <!-- STR# Resource: "Progress strings for networking" -->
 <stringset index="143">
-<string index="0">�v���[���[�֒n�}��]�����ł��B</string>
-<string index="1">�v���[���[�֒n�}��]�����ł��B</string>
-<string index="2">�T�[�o�[����n�}��]�����Ă��܂��B</string>
-<string index="3">�T�[�o�[����n�}�̓]�������҂����������B</string>
-<string index="4">���f�[�^�𑼂̃v���[���[�֓]�����ł��B</string>
-<string index="5">���f�[�^�𑼂̃v���[���[�֓]�����ł��B</string>
-<string index="6">���f�[�^���T�[�o�[����]�����Ă��܂��B</string>
+<string index="0">プレーヤーへ地図を転送中です。</string>
+<string index="1">プレーヤーへ地図を転送中です。</string>
+<string index="2">サーバーから地図を転送しています。</string>
+<string index="3">サーバーから地図の転送をお待ちください。</string>
+<string index="4">環境データを他のプレーヤーへ転送中です。</string>
+<string index="5">環境データを他のプレーヤーへ転送中です。</string>
+<string index="6">環境データをサーバーから転送しています。</string>
 </stringset>
 
 <!-- STR# Resource: "Difficulty Levels" -->
 <stringset index="145">
-<string index="0">�����t</string>
-<string index="1">�]��</string>
-<string index="2">�]��</string>
-<string index="3">�R�m</string>
-<string index="4">�����m</string>
+<string index="0">道化師</string>
+<string index="1">従弟</string>
+<string index="2">従者</string>
+<string index="3">騎士</string>
+<string index="4">剣闘士</string>
 </stringset>
 
 <!-- STR# Resource: "Item names" -->
 <stringset index="150">
-<string index="0">�i�b�N���u���[�h</string>
-<string index="1">�X�i�C�p�[�E�s�X�g��</string>
-<string index="2">�X�i�C�p�[�E�s�X�g��</string>
-<string index="3">�X�i�C�p�[�E�e��</string>
-<string index="4">�X�i�C�p�[�E�e��</string>
-<string index="5">�΋|</string>
-<string index="6">�</string>
-<string index="7">�</string>
-<string index="8">�_�N�����E�~�j�K��</string>
-<string index="9">�_�N�����E�e��</string>
-<string index="10">�_�N�����E�e��</string>
-<string index="11">�v���Y�}�p�b�N</string>
-<string index="12">�v���Y�}�p�b�N</string>
-<string index="13">EMF4000-g �n�C�e�N</string>
-<string index="14">�~�T�C���p�b�N</string>
-<string index="15">�~�T�C���p�b�N</string>
-<string index="16">�G�N�X�J���o�[</string>
-<string index="17">���̏��r</string>
-<string index="18">���̏��r</string>
-<string index="19">���h���E�t�F�[�U�[PX5</string>
-<string index="20">���h���E�G�l���M�[�p�b�N</string>
-<string index="21">���h���E�G�l���M�[�p�b�N</string>
-<string index="22">���@�̊���</string>
-<string index="23">���@�̊���</string>
-<string index="24">�^�C�j�[��AI���W���[��</string>
-<string index="25">T9000�O���l�[�h�y�A</string>
-<string index="26">T9000�O���l�[�h�y�A</string>
-<string index="27">���</string>
-<string index="28">���</string>
-<string index="29">SAP�A�N�Z�X�J�[�h</string>
-<string index="30">SAP�A�N�Z�X�J�[�h</string>
-<string index="31">������</string>
-<string index="32">������</string>
-<string index="33">���邢�̃{�[��</string>
-<string index="34">���[�h���b�h�̊[��</string>
-<string index="35">���̃{�[��</string>
-<string index="36">���F���{�[��</string>
-<string index="37">���F�̃{�[��</string>
-<string index="38">�I�����W�̃{�[��</string>
-<string index="39">�̃{�[��</string>
-<string index="40">�΂̃{�[��</string>
-<string index="41">���ƕX�̏�</string>
-<string index="42">��̌ł܂�</string>
-<string index="43">��̌ł܂�</string>
-<string index="44">���΂炵����</string>
-<string index="45">���΂炵����</string>
+<string index="0">ナックルブレード</string>
+<string index="1">スナイパー・ピストル</string>
+<string index="2">スナイパー・ピストル</string>
+<string index="3">スナイパー・弾薬</string>
+<string index="4">スナイパー・弾薬</string>
+<string index="5">石弓</string>
+<string index="6">矢筒</string>
+<string index="7">矢筒</string>
+<string index="8">ダクロン・ミニガン</string>
+<string index="9">ダクロン・弾薬</string>
+<string index="10">ダクロン・弾薬</string>
+<string index="11">プラズマパック</string>
+<string index="12">プラズマパック</string>
+<string index="13">EMF4000-g ハイテク</string>
+<string index="14">ミサイルパック</string>
+<string index="15">ミサイルパック</string>
+<string index="16">エクスカリバー</string>
+<string index="17">水の小瓶</string>
+<string index="18">水の小瓶</string>
+<string index="19">ラドン・フェーザーPX5</string>
+<string index="20">ラドン・エネルギーパック</string>
+<string index="21">ラドン・エネルギーパック</string>
+<string index="22">魔法の巻物</string>
+<string index="23">魔法の巻物</string>
+<string index="24">タイニーのAIモジュール</string>
+<string index="25">T9000グレネードペア</string>
+<string index="26">T9000グレネードペア</string>
+<string index="27">やり</string>
+<string index="28">やり</string>
+<string index="29">SAPアクセスカード</string>
+<string index="30">SAPアクセスカード</string>
+<string index="31">合い鍵</string>
+<string index="32">合い鍵</string>
+<string index="33">明るい青のボール</string>
+<string index="34">モードレッドの骸骨</string>
+<string index="35">紫のボール</string>
+<string index="36">黄色いボール</string>
+<string index="37">茶色のボール</string>
+<string index="38">オレンジのボール</string>
+<string index="39">青のボール</string>
+<string index="40">緑のボール</string>
+<string index="41">炎と氷の杖</string>
+<string index="42">岩の固まり</string>
+<string index="43">岩の固まり</string>
+<string index="44">すばらしい薬</string>
+<string index="45">すばらしい薬</string>
 </stringset>
 
 <!-- STR# Resource: "Item types" -->
 <stringset index="151">
-<string index="0">����</string>
-<string index="1">�e��</string>
-<string index="2">���Օi</string>
-<string index="3">�A�C�e��</string>
-<string index="4">��</string>
-<string index="5">�[��</string>
-<string index="6">�l�b�g���[�N��</string>
+<string index="0">武器</string>
+<string index="1">弾丸</string>
+<string index="2">消耗品</string>
+<string index="3">アイテム</string>
+<string index="4">薬</string>
+<string index="5">骸骨</string>
+<string index="6">ネットワーク状況</string>
 </stringset>
 
 <!-- STR# Resource: "Colors" -->
 <stringset index="152">
-<string index="0">�C</string>
-<string index="1">��</string>
-<string index="2">���C��</string>
-<string index="3">��</string>
-<string index="4">�D</string>
-<string index="5">��</string>
-<string index="6">�[��</string>
-<string index="7">�X</string>
+<string index="0">海</string>
+<string index="1">血</string>
+<string index="2">ワイン</string>
+<string index="3">金</string>
+<string index="4">灰</string>
+<string index="5">炎</string>
+<string index="6">深夜</string>
+<string index="7">森</string>
 </stringset>
 
 <!-- STR# Resource: "Net Statistics Strings" -->
 <stringset index="153">
-<string index="0">�E��: %d�l</string>
-<string index="1">���S: %d�l</string>
-<string index="2">���E: %d�l</string>
-<string index="3">���v</string>
-<string index="4">�G</string>
-<string index="5">�E���̍��v: %d (�ꕪ������ %.2f�l)</string>
-<string index="6">���S�̍��v: %d (�ꕪ������ %.2f�l)</string>
-<string index="7">- ���E %d�l���܂�</string>
-<string index="8">�`�[���s�E�̍��v</string>
-<string index="9"> - ���m���� %d�l���܂�</string>
-<string index="10">����</string>
-<string index="11">�`�[���̐���</string></stringset>
+<string index="0">殺傷: %d人</string>
+<string index="1">死亡: %d人</string>
+<string index="2">自殺: %d人</string>
+<string index="3">合計</string>
+<string index="4">敵</string>
+<string index="5">殺傷の合計: %d (一分当たり %.2f人)</string>
+<string index="6">死亡の合計: %d (一分当たり %.2f人)</string>
+<string index="7">- 自殺 %d人を含む</string>
+<string index="8">チーム虐殺の合計</string>
+<string index="9"> - 同士討ち %d人を含む</string>
+<string index="10">成績</string>
+<string index="11">チームの成績</string></stringset>
 
 <!-- STR# Resource: "OpenGL-Option Color-Picker Prompts" -->
 <stringset index="200">
-<string index="0">�����Ȃ���Ԃ̐F�́H</string>
-<string index="1">�����̒n�ʂ̐F�́H</string>
-<string index="2">�����̋�̐F�́H</string>
-<string index="3">��Ԃ̒n�ʂ̐F�́H</string>
-<string index="4">��Ԃ̋�̐F�́H</string>
-<string index="5">���̒n�ʂ̐F�́H</string>
-<string index="6">���̋�̐F�́H</string>
-<string index="7">�F����Ԃ̒n�ʂ̐F�́H</string>
-<string index="8">�F����Ԃ̋�̐F�́H</string>
-<string index="9">�t�H�b�O�̐F�́H</string>
+<string index="0">何もない空間の色は？</string>
+<string index="1">日中の地面の色は？</string>
+<string index="2">日中の空の色は？</string>
+<string index="3">夜間の地面の色は？</string>
+<string index="4">夜間の空の色は？</string>
+<string index="5">月の地面の色は？</string>
+<string index="6">月の空の色は？</string>
+<string index="7">宇宙空間の地面の色は？</string>
+<string index="8">宇宙空間の空の色は？</string>
+<string index="9">フォッグの色は？</string>
 </stringset>
 
 <!-- STR# Resource: "Vismaster Oath" -->
 <stringset index="999">
-<string index="0">��������́A�R�m���̐鐾�𐾂�Ȃ��Ƃ����Ȃ����B</string>
+<string index="0">ここからは、騎士道の宣誓を誓わないといけないぜ。</string>
 <string index="1"></string> <!-- empty string for line break -->
-<string index="2">[QUOTE]�w�鐾�A</string>
-<string index="3">[QUOTE]�S�Ă̈���j�󂵁A�_�N�������g����Ƃ���ł�</string>
-<string index="4">[QUOTE]�����Ė��ł����A�s���j�A�̏Z�ނƂ���ȊO��</string>
-<string index="5">[QUOTE]������S�ĒT�����A�s�|���������E���Ƃ���</string>
-<string index="6">[QUOTE]���Ɗ�ȊO�͐�΂Ɏg���܂��`��B�x</string>
+<string index="2">[QUOTE]『宣誓、</string>
+<string index="3">[QUOTE]全ての悪を破壊し、ダクロンを使えるところでは</string>
+<string index="4">[QUOTE]決して矢を打たず、ピラニアの住むところ以外の</string>
+<string index="5">[QUOTE]水中を全て探索し、Ｔ－ｒｅｘを殺すときは</string>
+<string index="6">[QUOTE]やりと岩以外は絶対に使いませ～ん。』</string>
 </stringset>
 <interface>
 <font index="0" size="9" file="Fonts.ttf" />

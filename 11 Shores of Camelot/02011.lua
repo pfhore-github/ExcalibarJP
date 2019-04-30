@@ -49,12 +49,12 @@ function level_idle ()
    if danger_compass then
       e = enemies_left(Players[0], 6);
       if (e <= min_left) and (not task_complete) then
-         Players[0]:print('é•Ç‚Ö‚Æ–ß‚Á‚Ä‰º‚³‚¢...');
-         Players[0]:print('ŽŸ‚Ì”C–±‚Ö‚Ì€”õ‚ª‚Å‚«‚Ä‚¢‚Ü‚·B');
+         Players[0]:print('åŸŽå£ã¸ã¨æˆ»ã£ã¦ä¸‹ã•ã„...');
+         Players[0]:print('æ¬¡ã®ä»»å‹™ã¸ã®æº–å‚™ãŒã§ãã¦ã„ã¾ã™ã€‚');
          Players[0]:play_sound(233, 1);
          task_complete = true;
       end
-      Players[0].overlays[0].text = "Žc‚è‚Ì“G‚Í" .. e
+      Players[0].overlays[0].text = "æ®‹ã‚Šã®æ•µã¯" .. e
       Players[0].overlays[0].color = timer_color(e)
       idle_danger(2, 10, 606);
    end
@@ -103,7 +103,7 @@ function level_idle ()
 	 Players[0]:teleport(hyper);
       end
       if (loc.index == cave_entrance) and (not caves_open) then
-         Players[0]:print('‹~o‚ÌŠª‚«•¨‚ðŠo‚¦‚½‚ç–ß‚Á‚Ä‚«‚Ä‰º‚³‚¢');
+         Players[0]:print('æ•‘å‡ºã®å·»ãç‰©ã‚’è¦šãˆãŸã‚‰æˆ»ã£ã¦ãã¦ä¸‹ã•ã„');
       end
       poly_type = loc.type;
       if (poly_type == "hill" ) then
@@ -111,10 +111,10 @@ function level_idle ()
             Players[0]:teleport_to_level(12);
 	 elseif freed then
 	    e = enemies_left(Players[0], 6);  --[[ buffer of 6 to represent unreachable monsters --]]
-	    Players[0]:print('‚±‚ÌƒGƒŠƒA‚ÉŽc‚Á‚Ä‚¢‚é“G‚Í'..e);
-	    Players[0]:print('Ú‚µ‚¢î•ñ‚Íé•Ç‚Ìƒpƒbƒh‚É“ü‚Á‚Ä‰º‚³‚¢');
+	    Players[0]:print('ã“ã®ã‚¨ãƒªã‚¢ã«æ®‹ã£ã¦ã„ã‚‹æ•µã¯'..e);
+	    Players[0]:print('è©³ã—ã„æƒ…å ±ã¯åŸŽå£ã®ãƒ‘ãƒƒãƒ‰ã«å…¥ã£ã¦ä¸‹ã•ã„');
 	 else
-	    Players[0]:print('’n‰º˜S‚É•Â‚¶ž‚ß‚ç‚ê‚½ŽÒ’B‚ðŽ©—R‚É‚µ‚Ä‚©‚ç‚±‚±‚É–ß‚Á‚Ä‰º‚³‚¢');
+	    Players[0]:print('åœ°ä¸‹ç‰¢ã«é–‰ã˜è¾¼ã‚ã‚‰ã‚ŒãŸè€…é”ã‚’è‡ªç”±ã«ã—ã¦ã‹ã‚‰ã“ã“ã«æˆ»ã£ã¦ä¸‹ã•ã„');
 	 end
       end
    end

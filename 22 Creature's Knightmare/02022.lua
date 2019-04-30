@@ -72,7 +72,7 @@ function level_monster_killed(victim, killer, projectile)
    cnt = # mines;
    for i = 1, cnt do
       if (mines[i].spell == victim) and (not mines[i].ignited) then
-	 Players[0]:print("Mine #"..i.."‚Í”š”­‚µ‚½");
+	 Players[0]:print("Mine #"..i.."ã¯çˆ†ç™ºã—ãŸ");
 	 mines[i].ignited = true;
 	 ignite_mine(i);
       end

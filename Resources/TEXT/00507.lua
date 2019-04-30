@@ -12,11 +12,11 @@ increase_power = 0;
 increase_radius = 0;
 function common_init(rs) 
 	if monsters ~= nil then
-		monsters_name["grenade"]="ƒOƒŒƒl[ƒh";
+		monsters_name["grenade"]="ã‚°ãƒ¬ãƒãƒ¼ãƒ‰";
 	end
 	if projectiles ~= nil then
-		projectiles["grenade"]="”š”­";
-		projectiles["crossbow_bolt"]="‰s‚¢’eŠÛ";
+		projectiles["grenade"]="çˆ†ç™º";
+		projectiles["crossbow_bolt"]="é‹­ã„å¼¾ä¸¸";
 	end
 	ProjectileTypes["rock"].mnemonic = "grenade";
 	MonsterTypes["raptor eggs"].mnemonic = "grenade";

@@ -1,6 +1,6 @@
 <marathon>
 <opengl>
-<!-- ƒNƒƒmƒX -->
+<!-- ã‚¯ãƒ­ãƒŽã‚¹ -->
 <texture coll="7" bitmap="53" normal_image="emrtextures/items/invisible.jpg" 
 normal_mask="emrtextures/items/tri-powerup-mask.jpg" 
 glow_image="emrtextures/items/invisible.jpg" glow_mask="emrtextures/items/tri-powerup-glow.jpg" 

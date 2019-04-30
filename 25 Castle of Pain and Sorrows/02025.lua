@@ -98,9 +98,9 @@ function level_idle ()
       --]]
       if (player_poly == stomp_poly) and (not stomp_poly_active) then
 	 if has_wand then
-	    Players[0]:print("‚·‚Å‚É‹‘å‘«‚Ìñ‚ğ‚Á‚Ä‚¢‚Ü‚·BŒã‚Å—ˆ‚Ä‰º‚³‚¢...");
+	    Players[0]:print("ã™ã§ã«å·¨å¤§è¶³ã®æ–ã‚’æŒã£ã¦ã„ã¾ã™ã€‚å¾Œã§æ¥ã¦ä¸‹ã•ã„...");
 	 elseif scroll_cnt < stomp_scrolls then
-	    Players[0]:print("‹‘å‘«‚Ìñ‚É\\•ª‚ÈŠª‚«•¨‚ğ‚Á‚Ä‚¢‚Ü‚¹‚ñB");
+	    Players[0]:print("å·¨å¤§è¶³ã®æ–ã«å\åˆ†ãªå·»ãç‰©ã‚’æŒã£ã¦ã„ã¾ã›ã‚“ã€‚");
 	 end
       end
       if (player_poly == stomp_poly) and stomp_poly_active then
@@ -163,7 +163,7 @@ function level_idle ()
    --]]
    if ((gabriel_platform.floor_height == 0) and (fight_timer == 0) and 
  (gabriel_lockdown)) then
-      Players[0]:print('ƒKƒuƒŠƒGƒ‹‚Í‚ ‚È‚½‚É‰¤À‚Ì•”‰®‚Ö‚ÌƒJƒM‚ğ“n‚µ‚Ü‚µ‚½');
+      Players[0]:print('ã‚¬ãƒ–ãƒªã‚¨ãƒ«ã¯ã‚ãªãŸã«ç‹åº§ã®éƒ¨å±‹ã¸ã®ã‚«ã‚®ã‚’æ¸¡ã—ã¾ã—ãŸ');
       fight_timer = 1;
    end
    if (fight_timer > 0) then
@@ -171,7 +171,7 @@ function level_idle ()
    end
    if gabriel_lockdown and (not gabriel_fight) and (fight_timer > fight_wait) then
       gabriel_fight = true;
-      Players[0]:print('ƒKƒuƒŠƒGƒ‹‚ÍƒhƒA‚ğƒƒbƒN‚µ‚Ü‚µ‚½I');
+      Players[0]:print('ã‚¬ãƒ–ãƒªã‚¨ãƒ«ã¯ãƒ‰ã‚¢ã‚’ãƒ­ãƒƒã‚¯ã—ã¾ã—ãŸï¼');
       gabriel2 = Monsters.new(banquet_l1.x, banquet_l1.y, 0, banquet_l1, "gabriel2");
       gabriel2.yaw = 180;
       
@@ -228,7 +228,7 @@ function level_monster_killed(monster, player, shot)
       w2.yaw = 180;
    end
    if (mtype == "gabriel2") then
-      Players[0]:print("‰p—Y‚Í“|‚ê‚Ü‚µ‚½B");
+      Players[0]:print("è‹±é›„ã¯å€’ã‚Œã¾ã—ãŸã€‚");
       Players[0]:fade_screen("long bright");
       Players[0]:play_sound(248, 1);
       gabriel_dead = true;
@@ -236,8 +236,8 @@ function level_monster_killed(monster, player, shot)
       gabriel_kills = gabriel_kills + 1;
       end;
    if monster.index == evil_cleric.index then
-      Players[0]:print('ƒAƒ‹ƒKƒ“ƒ^ƒ“‚Í”j‰ó‚³‚ê‚Ü‚µ‚½');
-      Players[0]:print('ƒfƒBƒAƒuƒ‚ÌŠª‚«•¨‚ªŒ»‚ê‚Ü‚µ‚½I');
+      Players[0]:print('ã‚¢ãƒ«ã‚¬ãƒ³ã‚¿ãƒ³ã¯ç ´å£Šã•ã‚Œã¾ã—ãŸ');
+      Players[0]:print('ãƒ‡ã‚£ã‚¢ãƒ–ãƒ­ã®å·»ãç‰©ãŒç¾ã‚Œã¾ã—ãŸï¼');
       Players[0]:fade_screen("long bright");
       set_terminal_text_number(934,2867,5);
    end

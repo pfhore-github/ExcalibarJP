@@ -1,17 +1,17 @@
 last_poly = nil;
 fart_msgs = { 
-   "„‚Íƒoƒiƒi‚ğH‚×‰ß‚¬‚½‚Æv‚¢‚Ü‚·B",
-   "‚»‚ê‚Í„‚ª‚Ç‚¤ˆÀ“g‚ğ‚Â‚Ã‚é‚©‚Æ‚¢‚¤‚±‚Æ‚Å‚·B",
-   "‚»‚Ì’‚¾‚ç‚¯‚È‚è‚ñ‚²‚Í‚»‚¤‚Å‚ ‚é‚Éˆá‚¢‚ ‚è‚Ü‚¹‚ñB",
-   "‚¨‚Á‚ÆI ƒX[ƒcˆ³‚Ì‘¹¸B",
-   "‚¨[A‚¾‚ê‚©‚ªƒAƒqƒ‹‚ğ“¥‚İ‚Ü‚µ‚½‚©H",
-   "ƒGƒNƒXƒJƒŠƒo[‚ÌŸ‚ÉÅ‚à—Ç‚¢•ºŠíB",
-   "’x‚ê‚Ä”š”­‚·‚éƒOƒŒƒl[ƒhI",
-   "„‚Í‚»‚ê‚ğ•r‚É“ü‚ê‚é‚×‚«‚Å‚·cc ƒiƒp[ƒ€’e‚æ‚è‹­‚¢‚Å‚·!", 
-   "‚¦[A‚¨‚¨AƒIƒ]ƒ“‚Ì•Ê‚ÌŒŠcc",
-   "‚»‚ê‚ÅAƒ}[ƒŠƒ“‚Í”Ş‚ÌŠ´Šo‚ğæ‚è–ß‚·‚±‚Æ‚ÉŠÖ‚µ‚ÄÄl‚·‚é‚©‚à‚µ‚ê‚Ü‚¹‚ñB",
-   "3‰ñ‚Ìƒ^ƒCƒ€ƒXƒŠƒbƒv‚Æ1Œõ”N‚ğ‚»‚Ì‚½‚ß‚É‘Ò‚Á‚Ä‚¢‚Ü‚·cc",
-   "d‚¢H–‚ÌŒã‚É‚±‚Ì‚·‚×‚Ä‚ÌŠÔ—·s‚ª‚½‚¾—Ç‚¢‚Æ‚¢‚¤‚í‚¯‚Å‚Í‚ ‚è‚Ü‚¹‚ñcc" };
+   "ç§ã¯ãƒãƒŠãƒŠã‚’é£Ÿã¹éããŸã¨æ€ã„ã¾ã™ã€‚",
+   "ãã‚Œã¯ç§ãŒã©ã†å®‰å µã‚’ã¤ã¥ã‚‹ã‹ã¨ã„ã†ã“ã¨ã§ã™ã€‚",
+   "ãã®è™«ã ã‚‰ã‘ãªã‚Šã‚“ã”ã¯ãã†ã§ã‚ã‚‹ã«é•ã„ã‚ã‚Šã¾ã›ã‚“ã€‚",
+   "ãŠã£ã¨ï¼ ã‚¹ãƒ¼ãƒ„åœ§ã®æå¤±ã€‚",
+   "ãŠãƒ¼ã€ã ã‚Œã‹ãŒã‚¢ãƒ’ãƒ«ã‚’è¸ã¿ã¾ã—ãŸã‹ï¼Ÿ",
+   "ã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒãƒ¼ã®æ¬¡ã«æœ€ã‚‚è‰¯ã„å…µå™¨ã€‚",
+   "é…ã‚Œã¦çˆ†ç™ºã™ã‚‹ã‚°ãƒ¬ãƒãƒ¼ãƒ‰ï¼",
+   "ç§ã¯ãã‚Œã‚’ç“¶ã«å…¥ã‚Œã‚‹ã¹ãã§ã™â€¦â€¦ ãƒŠãƒ‘ãƒ¼ãƒ å¼¾ã‚ˆã‚Šå¼·ã„ã§ã™!", 
+   "ãˆãƒ¼ã€ãŠãŠã€ã‚ªã‚¾ãƒ³ã®åˆ¥ã®ç©´â€¦â€¦",
+   "ãã‚Œã§ã€ãƒãƒ¼ãƒªãƒ³ã¯å½¼ã®æ„Ÿè¦šã‚’å–ã‚Šæˆ»ã™ã“ã¨ã«é–¢ã—ã¦å†è€ƒã™ã‚‹ã‹ã‚‚ã—ã‚Œã¾ã›ã‚“ã€‚",
+   "3å›ã®ã‚¿ã‚¤ãƒ ã‚¹ãƒªãƒƒãƒ—ã¨1å…‰å¹´ã‚’ãã®ãŸã‚ã«å¾…ã£ã¦ã„ã¾ã™â€¦â€¦",
+   "é‡ã„é£Ÿäº‹ã®å¾Œã«ã“ã®ã™ã¹ã¦ã®æ™‚é–“æ—…è¡ŒãŒãŸã è‰¯ã„ã¨ã„ã†ã‚ã‘ã§ã¯ã‚ã‚Šã¾ã›ã‚“â€¦â€¦" };
 last_fart = -1;
 bathroom_poly = 94;
 bathroom_exit = 81;
@@ -255,7 +255,7 @@ function level_idle ()
       teleport_wand_charge = teleport_wand_charge + 1;
       if teleport_wand_charge > 60 then
          teleport_wand_enchanted = true;
-         Players[0]:print('ƒeƒŒƒ|[ƒg‚Ìñ‚Í¡‹N“®’†‚Å‚·');
+         Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã®æ–ã¯ä»Šèµ·å‹•ä¸­ã§ã™');
          Players[0]:play_sound(69, 1);
       end
    end
@@ -312,7 +312,7 @@ function level_idle ()
       if hint_done then
          display_random_fart()
       else
-         Players[0]:print('ƒgƒCƒŒ‚Ì…‚ğ—¬‚·‚Ì‚ğ–Y‚ê‚Ä‚¢‚Ü‚¹‚ñ‚©H');
+         Players[0]:print('ãƒˆã‚¤ãƒ¬ã®æ°´ã‚’æµã™ã®ã‚’å¿˜ã‚Œã¦ã„ã¾ã›ã‚“ã‹ï¼Ÿ');
          hint_done = true;
       end
       Players[0]:play_sound(200, 1);
@@ -364,7 +364,7 @@ function level_idle ()
       hall_door.active = true;
       hall_open = true;
       remove_items("key");
-      Players[0]:print('‚ ‚È‚½‚Í¡ƒAƒ”ƒ@ƒƒ“‚Ìƒz[ƒ‹‚ÉƒAƒNƒZƒX‚Å‚«‚Ü‚·I');
+      Players[0]:print('ã‚ãªãŸã¯ä»Šã‚¢ãƒ´ã‚¡ãƒ­ãƒ³ã®ãƒ›ãƒ¼ãƒ«ã«ã‚¢ã‚¯ã‚»ã‚¹ã§ãã¾ã™ï¼');
       Players[0]:play_sound(17, 1);
    end
    if (player_poly ~= last_poly) then
@@ -396,7 +396,7 @@ function level_idle ()
 --]]
       if (not sword_gone) and (not got_hq_sword) and (Lights[29].active) then
          Lights[29].active = false;
-         Players[0]:print('ƒeƒŒƒ|[ƒgƒpƒbƒh‚ğ‹N“®‚·‚é‘O‚ÉƒGƒNƒXƒJƒŠƒo[‚ğæ‚Á‚Ä‚­‚¾‚³‚¢B');
+         Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ãƒˆãƒ‘ãƒƒãƒ‰ã‚’èµ·å‹•ã™ã‚‹å‰ã«ã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒãƒ¼ã‚’å–ã£ã¦ãã ã•ã„ã€‚');
       end;
       if (player_poly == teleport_poly) and (Lights[29].active) and got_hq_sword then
          Players[0]:teleport(camelot_poly);
@@ -428,13 +428,13 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
    if (type == "lightning") then
       poly_type = polygon.type;
       if (poly_type == "must be explored") then
-         Players[0]:print('‚»‚Ì…‚Í\•ª[‚­‚ ‚è‚Ü‚¹‚ñB');
+         Players[0]:print('ãã®æ°´ã¯ååˆ†æ·±ãã‚ã‚Šã¾ã›ã‚“ã€‚');
 	 Players[0].items["sword"] = 1;
          sword_check = sword_failsafe;
          return;
       end
       if (poly_type ~= "goal") then
-         Players[0]:print('ƒGƒNƒXƒJƒŠƒo[‚ğ–‚–@‚Ì…‚Ö“Š‚°‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB');
+         Players[0]:print('ã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒãƒ¼ã‚’é­”æ³•ã®æ°´ã¸æŠ•ã’ãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚');
 	 Players[0].items["sword"] = 1;
          sword_check = sword_failsafe;
          return;
@@ -461,7 +461,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
       Players[0].items["wand"] = 0;
       if (sword_countdown > 0) then
          if message_wait <= 0 then
-            Players[0]:print('‚ ‚È‚½‚ÍŒÎ‚Ì—d¸‚ªƒGƒNƒXƒJƒŠƒo[‚ğó‚¯æ‚é‚Ì‚ğ‘Ò‚½‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB');
+            Players[0]:print('ã‚ãªãŸã¯æ¹–ã®å¦–ç²¾ãŒã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒãƒ¼ã‚’å—ã‘å–ã‚‹ã®ã‚’å¾…ãŸãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚');
             message_wait = 30;
 	 end
 	 Players[0].items["wand"] = 1;
@@ -471,7 +471,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
          (polygon.index ~= cottage3) and (polygon.index ~= cottage4) and
          (polygon.index ~= cottage5) then
          if message_wait <= 0 then
-            Players[0]:print('‚ ‚È‚½‚Íƒ}[ƒŠƒ“‚É‚±‚Ìô•¶‚ğ“Š‚°‚È‚¯‚ê‚Î‚È‚è‚Ü‚¹‚ñB');
+            Players[0]:print('ã‚ãªãŸã¯ãƒãƒ¼ãƒªãƒ³ã«ã“ã®å‘ªæ–‡ã‚’æŠ•ã’ãªã‘ã‚Œã°ãªã‚Šã¾ã›ã‚“ã€‚');
             message_wait = 30;
 	 end
          Players[0].items["wand"] = 1;
@@ -484,20 +484,20 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
       Players[0].items["spear"] = 0;
       if (not teleport_wand_enchanted) then
          if message_wait <= 0 then
-            Players[0]:print('ƒeƒŒƒ|[ƒg‚Ìñ‚Í—Í‚ğ’~‚¦‚Ä‚¢‚Ü‚·...');
+            Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã®æ–ã¯åŠ›ã‚’è“„ãˆã¦ã„ã¾ã™...');
             message_wait = 30;
 	 end
 	 Players[0].items["spear"] = 1;
          return;
       end;
       if (not merlin_done) then
-         Players[0]:print('ƒ}[ƒŠƒ“‚ª˜b‚µ‚Ä‚¢‚éŠÔ‚ÉƒeƒŒƒ|[ƒg‚·‚é‚Ì‚Í¸—ç‚Å‚·B');
+         Players[0]:print('ãƒãƒ¼ãƒªãƒ³ãŒè©±ã—ã¦ã„ã‚‹é–“ã«ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã™ã‚‹ã®ã¯å¤±ç¤¼ã§ã™ã€‚');
 	 Players[0].items["spear"] = 1;
          return;
       end;
       if (sword_countdown > 0) then
          if message_wait <= 0 then
-            Players[0]:print('‚ ‚È‚½‚ÍŒÎ‚Ì—d¸‚ªƒGƒNƒXƒJƒŠƒo[‚ğó‚¯æ‚é‚Ì‚ğ‘Ò‚½‚È‚­‚Ä‚Í‚È‚è‚Ü‚¹‚ñB');
+            Players[0]:print('ã‚ãªãŸã¯æ¹–ã®å¦–ç²¾ãŒã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒãƒ¼ã‚’å—ã‘å–ã‚‹ã®ã‚’å¾…ãŸãªãã¦ã¯ãªã‚Šã¾ã›ã‚“ã€‚');
             message_wait = 30;
 	 end
          Players[0].items["spear"] = 1;
@@ -528,7 +528,7 @@ function level_monster_killed(monster, player, projectile)
    if (monster.type == "throne") then
       if (not player_enchanted) then
          player_enchanted = true;
-         Players[0]:print('‚ ‚È‚½‚ÍŒå‚ç‚ê‚Ü‚µ‚½');
+         Players[0]:print('ã‚ãªãŸã¯æ‚Ÿã‚‰ã‚Œã¾ã—ãŸ');
       end
       if enchant_fade then
          Players[0]:fade_screen("tint blue");

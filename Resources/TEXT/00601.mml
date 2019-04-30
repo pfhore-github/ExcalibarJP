@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="Shift_JIS" ?>
 <marathon>
-<!-- ジュラ紀 -->
+<!-- 繧ｸ繝･繝ｩ邏 -->
 <opengl>
 
 <texture coll="7" bitmap="53" normal_image="emrtextures/items/invisible.jpg" 
@@ -21,8 +20,8 @@ opac_type="1"/>
 <interface motion_sensor="true"/>
 
 <stringset index="150">
-<string index="17">バナナ</string>
-<string index="18">バナナ</string>
+<string index="17">繝舌リ繝�</string>
+<string index="18">繝舌リ繝�</string>
 </stringset>
 
 <items>

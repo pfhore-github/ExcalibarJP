@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="Shift_JIS" ?>
 <marathon>
 <opengl>
 
@@ -30,11 +29,11 @@ opac_type="1"/>
 </motion_sensor>
 
 <stringset index="137">
-<string index="5">ラドン・フェーザーPX5</string>
+<string index="5">繝ｩ繝峨Φ繝ｻ繝輔ぉ繝ｼ繧ｶ繝ｼPX5</string>
 </stringset>
 
 <stringset index="150">
-<string index="19">ラドン・フェーザーPX5</string>
+<string index="19">繝ｩ繝峨Φ繝ｻ繝輔ぉ繝ｼ繧ｶ繝ｼPX5</string>
 </stringset>
 
 <interface> 

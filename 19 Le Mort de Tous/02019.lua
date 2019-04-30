@@ -42,15 +42,15 @@ function Triggers.projectile_detonated(type, owner, polygon, x, y, z)
       height =  polygon.ceiling.height - floor;
       poly_type = polygon.type;
       if height < 0.8 then
-	 Players[0]:print("Žô•¶Ž¸”sF–Ú“I’n‚ÍƒeƒŒƒ|[ƒg‚·‚é‚É‚Í‹·‚·‚¬‚Ü‚·");
+	 Players[0]:print("å‘ªæ–‡å¤±æ•—ï¼šç›®çš„åœ°ã¯ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã™ã‚‹ã«ã¯ç‹­ã™ãŽã¾ã™");
 	 Players[0]:play_sound(5, 1);
 	 Players[0]:fade_screen("bright");
       elseif poly_type == "monster impassable" then
-	 Players[0]:print("Žô•¶Ž¸”sFƒeƒŒƒ|[ƒgÀ•W‚ÍÇ‚ª‚ê‚Ä‚¢‚Ü‚·");
+	 Players[0]:print("å‘ªæ–‡å¤±æ•—ï¼šãƒ†ãƒ¬ãƒãƒ¼ãƒˆåº§æ¨™ã¯å¡žãŒã‚Œã¦ã„ã¾ã™");
 	 Players[0]:play_sound(5, 1);
 	 Players[0]:fade_screen("bright");
       elseif poly_type == "platform" then
-	 Players[0]:print("Žô•¶Ž¸”sF–Ú“I’n‚ÍƒeƒŒƒ|[ƒg‚·‚é‚É‚Í•sˆÀ’è‚Å‚·");
+	 Players[0]:print("å‘ªæ–‡å¤±æ•—ï¼šç›®çš„åœ°ã¯ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã™ã‚‹ã«ã¯ä¸å®‰å®šã§ã™");
 	 Players[0]:play_sound(5, 1);
 	 Players[0]:fade_screen("bright");
       else
@@ -59,7 +59,7 @@ function Triggers.projectile_detonated(type, owner, polygon, x, y, z)
          Players[0]:fade_screen("cinematic fade out");
          Players[0]:fade_screen("cinematic fade in");
          if Players[0].head_below_media then
-            Players[0]:print("Žô•¶ŒxF—nŠâ‚ÖƒeƒŒƒ|[ƒg‚·‚é‚Ì‚Íˆ«‚¢l‚¦‚¾‚Á‚½‚©‚à‚µ‚ê‚Ü‚¹‚ñ");
+            Players[0]:print("å‘ªæ–‡è­¦å‘Šï¼šæº¶å²©ã¸ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã™ã‚‹ã®ã¯æ‚ªã„è€ƒãˆã ã£ãŸã‹ã‚‚ã—ã‚Œã¾ã›ã‚“");
 	 end
       end
    end

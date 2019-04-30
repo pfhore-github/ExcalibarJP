@@ -83,7 +83,7 @@ function level_idle ()
    end
    if danger_compass then
       e = enemies_left(Players[0]);
-      Players[0].overlays[0].text =  "c‚è‚Ì“G‚Í"..e;
+      Players[0].overlays[0].text =  "æ®‹ã‚Šã®æ•µã¯"..e;
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10);
    elseif counter_light.active then

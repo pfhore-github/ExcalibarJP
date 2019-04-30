@@ -109,11 +109,11 @@ function level_idle ()
    if danger_compass then
       e = enemies_left(Players[0], 8);
       if (e <= min_left) and (not task_complete) then
-         Players[0]:print('“G‚Í‚¢‚È‚­‚È‚è‚Ü‚µ‚½I');
+         Players[0]:print('æ•µã¯ã„ãªããªã‚Šã¾ã—ãŸï¼');
          Players[0]:play_sound(233, 1);
          task_complete = true;
       end
-      Players[0].overlays[0].text = "Žc‚è‚Ì“G‚Í "..e;
+      Players[0].overlays[0].text = "æ®‹ã‚Šã®æ•µã¯ "..e;
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 239);
    end
@@ -144,9 +144,9 @@ function level_idle ()
       last_poly = player_poly;
       if (player_poly == wand_poly) and wand_chamber_active and (not wand_poly_active) then
          if has_wand then
-            Players[0]:print("‚·‚Å‚É–‚–@‚Ìñ‚ðŽ‚Á‚Ä‚¢‚Ü‚·B‚Ü‚½Œã‚Å—ˆ‚Ä‰º‚³‚¢...");
+            Players[0]:print("ã™ã§ã«é­”æ³•ã®æ–ã‚’æŒã£ã¦ã„ã¾ã™ã€‚ã¾ãŸå¾Œã§æ¥ã¦ä¸‹ã•ã„...");
          elseif scroll_cnt < wand_scrolls then
-            Players[0]:print("–‚–@‚Ìñ‚ðŽg‚¤‚Ì‚É\\•ª‚ÈŠª‚«•¨‚ðŽ‚Á‚Ä‚¢‚Ü‚¹‚ñB");
+            Players[0]:print("é­”æ³•ã®æ–ã‚’ä½¿ã†ã®ã«å\åˆ†ãªå·»ãç‰©ã‚’æŒã£ã¦ã„ã¾ã›ã‚“ã€‚");
 	 	end
       end
       if (player_poly == wand_poly) and wand_poly_active then
@@ -209,7 +209,7 @@ end
 
 function mordred_dies()
    mordred_dead = true;
-   Players[0]:print('ƒ‚[ƒhƒŒƒbƒh‚Í“|‚ê‚Ü‚µ‚½I');
+   Players[0]:print('ãƒ¢ãƒ¼ãƒ‰ãƒ¬ãƒƒãƒ‰ã¯å€’ã‚Œã¾ã—ãŸï¼');
    Players[0]:play_sound(62, 1);
    Players[0]:fade_screen(0, "long bright");
    Items.new(card_poly.x, card_poly.y, 512, card_poly, "sap card");

@@ -1,4 +1,4 @@
-monsters_name["cave bob"]="サイコなサム";
-monsters_name["white knight"]="マニアなマンディ";
+monsters_name["cave bob"]="繧ｵ繧､繧ｳ縺ｪ繧ｵ繝";
+monsters_name["white knight"]="繝槭ル繧｢縺ｪ繝槭Φ繝�繧｣";
 monsters_name["minor spam"]="Pee Wee";
 

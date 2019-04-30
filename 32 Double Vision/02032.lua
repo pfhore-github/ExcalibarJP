@@ -61,14 +61,14 @@ function level_got_item(item, player)
       set_terminal_text_number(380, 1227, 4);
       set_terminal_text_number(384, 1220, 4);
       Lights[19].active = false;  --[[ just turn off term on line 1220 ]]
-      Players[0]:print('Tiny‚Í‚ ‚È‚½‚ÌƒRƒ“ƒsƒ…[ƒ^‚ÖƒAƒbƒvƒ[ƒh‚³‚ê‚Ü‚µ‚½B');
+      Players[0]:print('Tinyã¯ã‚ãªãŸã®ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ã¸ã‚¢ãƒƒãƒ—ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã¾ã—ãŸã€‚');
    end
 end
 
 function timer_color(e)
    if (e <= min_left) then 
       if not task_done then
-         Players[0]:print('‚ ‚È‚½‚Í‚±‚ÌƒGƒŠƒA‚ğ—£‚ê‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B');
+         Players[0]:print('ã‚ãªãŸã¯ã“ã®ã‚¨ãƒªã‚¢ã‚’é›¢ã‚Œã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚');
          Players[0]:play_sound(254, 1);
          task_done = true;
       end
@@ -88,7 +88,7 @@ function level_idle ()
    end
    if danger_compass then
       e = enemies_left(0, 4);  --[[ ignores 4 enemies that are off-grid on poly 594 ]]
-      Players[0].overlays[0].text = "c‚è‚Ì“G‚Í"..e;
+      Players[0].overlays[0].text = "æ®‹ã‚Šã®æ•µã¯"..e;
       Players[0].overlays[0].color = timer_color(e);
       idle_danger(2, 10, 594);
    end

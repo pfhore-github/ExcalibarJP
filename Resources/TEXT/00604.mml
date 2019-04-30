@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="Shift_JIS" ?>
 <marathon>
 <opengl>
 
@@ -29,18 +28,18 @@ opac_type="1"/>
 <interface motion_sensor="true"/>
 
 <stringset index="137">
-<string index="2">�ł̐΋|</string>
-<string index="7">�h���S���Ή����ˊ�</string>
+<string index="2">毒の石弓</string>
+<string index="7">ドラゴン火炎放射器</string>
 </stringset>
 
 <stringset index="150">
-<string index="5">�ł̐΋|</string>
-<string index="6">�Ŗ�p�b�N</string>
-<string index="7">�Ŗ�p�b�N</string>
-<string index="27">�h���S���Ή����ˊ�</string>
-<string index="28">�h���S���Ή����ˊ�</string>
-<string index="42">�i�p�[����</string>
-<string index="43">�i�p�[����</string>
+<string index="5">毒の石弓</string>
+<string index="6">毒矢パック</string>
+<string index="7">毒矢パック</string>
+<string index="27">ドラゴン火炎放射器</string>
+<string index="28">ドラゴン火炎放射器</string>
+<string index="42">ナパーム缶</string>
+<string index="43">ナパーム缶</string>
 </stringset>
 
 <items>

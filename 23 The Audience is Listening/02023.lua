@@ -61,7 +61,7 @@ function level_idle ()
          if (explosions == 4) then
             detaching = false;
             detached = true;
-            Players[0]:print('ƒV[ƒ‹ƒh‰ñ•œ');
+            Players[0]:print('ã‚·ãƒ¼ãƒ«ãƒ‰å›å¾©');
             Lights[46].active = false;
          else
             explosions = explosions + 1;
@@ -95,7 +95,7 @@ function level_idle ()
    end
    if (gat_status == 1) and (Tags[3].active) then
       gat_status = 2;
-      Players[0]:print('ƒVƒƒƒgƒ‹ƒxƒC•ª—£‹N“®');
+      Players[0]:print('ã‚·ãƒ£ãƒˆãƒ«ãƒ™ã‚¤åˆ†é›¢èµ·å‹•');
    end
    if (gat_timer >= gat_cycle) and (gat_status == 1) then
       gat_timer = 0;

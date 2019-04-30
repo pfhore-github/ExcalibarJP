@@ -1,11 +1,11 @@
 -- Lua for net game, second(or 3rd) execute
 local degrees = {
-	[3]={msg="”C–±’†", adj="‚RlŽE‚µ"},
-	[5]={msg="ŽEl‹S", adj="ŽEl‹S"},
-	[10]={msg="‹¥–\\“I", adj="‹¥–\\«"},
-	[15]={msg="ˆÐˆ³“I", adj="Žx”z"},
-	[20]={msg="’âŽ~•s”\\‚Ì‚æ‚¤", adj="’âŽ~•s”\\«"},
-	[25]={msg="_‚Ì‚æ‚¤", adj="_‚Ì‚æ‚¤‚Èó‘Ô"}
+	[3]={msg="ä»»å‹™ä¸­", adj="ï¼“äººæ®ºã—"},
+	[5]={msg="æ®ºäººé¬¼", adj="æ®ºäººé¬¼"},
+	[10]={msg="å‡¶æš´\çš„", adj="å‡¶æš´\æ€§"},
+	[15]={msg="å¨åœ§çš„", adj="æ”¯é…"},
+	[20]={msg="åœæ­¢ä¸èƒ½\ã®ã‚ˆã†", adj="åœæ­¢ä¸èƒ½\æ€§"},
+	[25]={msg="ç¥žã®ã‚ˆã†", adj="ç¥žã®ã‚ˆã†ãªçŠ¶æ…‹"}
 };
 function master_init(rs)
 	for p in Players() do
@@ -13,45 +13,45 @@ function master_init(rs)
 	end
 end
 local damages = {
-["explosion"]={"ŠO‚É‚«”ò‚Î‚µ‚½", "ŠO‚É‚«”ò‚Î‚³‚ê‚½"},
-["zap"]={"ÕŒ‚‚ð—^‚¦‚½", "ÕŒ‚‚ðŽó‚¯‚½"},
-["projectile"]={"Œ‚‚Á‚½", "Œ‚‚½‚ê‚½"},
-["absorbed"]={"–³“G‚È‚Ì‚ÉŽE‚µ‚½?!", "–³“G‚È‚Ì‚ÉŽ€‚ñ‚¾?!"},
-["fire"]={"—Z‚©‚µ‚½", "—Z‚¯‚½"},
-["rip"]={"‚©‚ç”‚ª‚µ‚½", "”‚ª‚ê‚½"},
-["healing"]={"–‚–@‚ð‚©‚¯‚½", "–‚–@‚ª‚©‚©‚Á‚½"},
-["trex"]={"Šš‚Ý•t‚¢‚½", "Šš‚Ý‚Â‚©‚ê‚½"},
-["spell"]={"Žô‚Á‚½", "Žô‚í‚ê‚½"},
-["excalibur"]={"”j‰ó‚µ‚½", "”j‰ó‚³‚ê‚½"},
-["plasma"]={"ŽE‚µ‚½", "ŽE‚³‚ê‚½"},
-["swing"]={"“M‚ê‚³‚¹‚½", "“M‚ê‚½"},
-["teleporter"]={"ƒeƒŒƒ|[ƒg‚³‚¹‚½", "ƒeƒŒƒ|[ƒg‚µ‚½"},
-["cold"]={"“€‚ç‚¹‚½", "“€‚Á‚½"},
-["poison"]={"“Å‚ðˆù‚Ü‚¹‚½", "“Å‚ðˆù‚ñ‚¾"},
-["laser"]={"Ä‚¢‚½", "Ä‚©‚ê‚½"},
-["crushing"]={"‚Ô‚Â‚¯‚½", "‚Ô‚Â‚¯‚ç‚ê‚½"},
-["lava"]={"Ä‚¢‚½","Ä‚©‚ê‚½"},
-["suffocation"]={"’‚‘§Ž€‚³‚¹‚½", "’‚‘§‚µ‚½"},
-["electrocute"]={"Š´“d‚³‚¹‚½", "Š´“d‚µ‚½"},
-["drain"]={"‹zŽû‚µ‚½", "‹zŽû‚³‚ê‚½"},
-["oxygen drain"]={"‹zŽû‚µ‚½", "‹zŽû‚³‚ê‚½"},
-["micromissile"]={"ŠO‚É‚«”ò‚Î‚µ‚½", "ŠO‚É‚«”ò‚Î‚³‚ê‚½"},
-["arrows"]={"Œ‚‚Á‚½", "Œ‚‚½‚ê‚½"}
+["explosion"]={"å¤–ã«å¹ãé£›ã°ã—ãŸ", "å¤–ã«å¹ãé£›ã°ã•ã‚ŒãŸ"},
+["zap"]={"è¡æ’ƒã‚’ä¸ŽãˆãŸ", "è¡æ’ƒã‚’å—ã‘ãŸ"},
+["projectile"]={"æ’ƒã£ãŸ", "æ’ƒãŸã‚ŒãŸ"},
+["absorbed"]={"ç„¡æ•µãªã®ã«æ®ºã—ãŸ?!", "ç„¡æ•µãªã®ã«æ­»ã‚“ã ?!"},
+["fire"]={"èžã‹ã—ãŸ", "èžã‘ãŸ"},
+["rip"]={"ã‹ã‚‰å‰¥ãŒã—ãŸ", "å‰¥ãŒã‚ŒãŸ"},
+["healing"]={"é­”æ³•ã‚’ã‹ã‘ãŸ", "é­”æ³•ãŒã‹ã‹ã£ãŸ"},
+["trex"]={"å™›ã¿ä»˜ã„ãŸ", "å™›ã¿ã¤ã‹ã‚ŒãŸ"},
+["spell"]={"å‘ªã£ãŸ", "å‘ªã‚ã‚ŒãŸ"},
+["excalibur"]={"ç ´å£Šã—ãŸ", "ç ´å£Šã•ã‚ŒãŸ"},
+["plasma"]={"æ®ºã—ãŸ", "æ®ºã•ã‚ŒãŸ"},
+["swing"]={"æººã‚Œã•ã›ãŸ", "æººã‚ŒãŸ"},
+["teleporter"]={"ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã•ã›ãŸ", "ãƒ†ãƒ¬ãƒãƒ¼ãƒˆã—ãŸ"},
+["cold"]={"å‡ã‚‰ã›ãŸ", "å‡ã£ãŸ"},
+["poison"]={"æ¯’ã‚’é£²ã¾ã›ãŸ", "æ¯’ã‚’é£²ã‚“ã "},
+["laser"]={"ç„¼ã„ãŸ", "ç„¼ã‹ã‚ŒãŸ"},
+["crushing"]={"ã¶ã¤ã‘ãŸ", "ã¶ã¤ã‘ã‚‰ã‚ŒãŸ"},
+["lava"]={"ç„¼ã„ãŸ","ç„¼ã‹ã‚ŒãŸ"},
+["suffocation"]={"çª’æ¯æ­»ã•ã›ãŸ", "çª’æ¯ã—ãŸ"},
+["electrocute"]={"æ„Ÿé›»ã•ã›ãŸ", "æ„Ÿé›»ã—ãŸ"},
+["drain"]={"å¸åŽã—ãŸ", "å¸åŽã•ã‚ŒãŸ"},
+["oxygen drain"]={"å¸åŽã—ãŸ", "å¸åŽã•ã‚ŒãŸ"},
+["micromissile"]={"å¤–ã«å¹ãé£›ã°ã—ãŸ", "å¤–ã«å¹ãé£›ã°ã•ã‚ŒãŸ"},
+["arrows"]={"æ’ƒã£ãŸ", "æ’ƒãŸã‚ŒãŸ"}
 }
 local function verb(noun, verb)
-	verb = damages[verb] or {"ŽE‚µ‚½", "ŽE‚³‚ê‚½"}
+	verb = damages[verb] or {"æ®ºã—ãŸ", "æ®ºã•ã‚ŒãŸ"}
 	local verb1 = verb[1]
 	if (noun == "" or noun == nil) then
-		if (verb1 == "‚«”ò‚Î‚µ‚½") then
-			verb1 = "‚«”ò‚ñ‚¾"
-		elseif (verb1 == "ŽE‚µ‚½") then
-			verb1 = "Ž€‚ñ‚¾"
+		if (verb1 == "å¹ãé£›ã°ã—ãŸ") then
+			verb1 = "å¹ãé£›ã‚“ã "
+		elseif (verb1 == "æ®ºã—ãŸ") then
+			verb1 = "æ­»ã‚“ã "
 		else
 			verb1 = verb[2]
 		end
 		return verb1;
 	end
-	return noun .. "‚ð" .. verb1
+	return noun .. "ã‚’" .. verb1
 end
 
 function Triggers.player_damaged(victim, victor, monster, type, amount, projectile)
@@ -63,21 +63,21 @@ function Triggers.player_damaged(victim, victor, monster, type, amount, projecti
 		if (projectile) then
 			local proj = projectiles[projectile.type];
 	 		if(proj) then
-		 		by = proj .."‚É‚æ‚Á‚Ä"
+		 		by = proj .."ã«ã‚ˆã£ã¦"
 			end
 		end
 		--[[ suicide --]]
 		if (victor ~= nil and victim == victor) then
-	 		Players.print(victor.name .. "‚ª" .. by .. verb("Ž©•ª", type))
+	 		Players.print(victor.name .. "ãŒ" .. by .. verb("è‡ªåˆ†", type))
 		elseif (victor ~= nil) then
 	 		--[[ PK --]]
-	 		Players.print(victor.name .. "‚ª" .. by .. verb(victim.name, type))
+	 		Players.print(victor.name .. "ãŒ" .. by .. verb(victim.name, type))
 	 	elseif (monster  ~= nil) then
 			 --[[ monster --]]
-		 	Players.print(monsters_name[monster.type.mnemonic] .. "‚ª" .. by .. verb(victim.name, type))
+		 	Players.print(monsters_name[monster.type.mnemonic] .. "ãŒ" .. by .. verb(victim.name, type))
 	 	else
 			 --[[ environment --]]
-		 	Players.print(victor.name .. "‚Í" .. by .. verb(nil, type))
+		 	Players.print(victor.name .. "ã¯" .. by .. verb(nil, type))
 	 end
 	 --[[ give victor a kill and output a message? --]]
 	 if (victim ~= victor and victor) then
@@ -85,8 +85,8 @@ function Triggers.player_damaged(victim, victor, monster, type, amount, projecti
 		 if(victim._kills > 0) then
 	  for n=25,5,-5 do
 		  if (n <= victim._kills) then
-		Players.print(victim.name .. "‚Ì" .. degrees[n].adj .. 
-					"‚Í" .. victor.name .. "‚É‚æ‚Á‚Ä‚Æ‚ß‚ç‚ê‚½")
+		Players.print(victim.name .. "ã®" .. degrees[n].adj .. 
+					"ã¯" .. victor.name .. "ã«ã‚ˆã£ã¦ã¨ã‚ã‚‰ã‚ŒãŸ")
 		break
 		  end
 	  end
@@ -96,14 +96,14 @@ function Triggers.player_damaged(victim, victor, monster, type, amount, projecti
 	  deg = deg.msg 
 		 end
 		 if (deg) then
-	  Players.print(victor.name .. "‚Í" .. deg .. "‚¾!")
+	  Players.print(victor.name .. "ã¯" .. deg .. "ã !")
 		 end
 	 elseif (victim ~= victor and monster) then
 		 if(victim._kills > 0) then
 	  for n=25,5,-5 do
 		  if(n <= victim._kills) then
-		Players.print(victim.name .. "‚Ì" .. degrees[n].adj .. 
-					"‚Í" .. monsters_name[monster.type] .. victor.name .. "‚É‚æ‚Á‚Ä‚Æ‚ß‚ç‚ê‚½")
+		Players.print(victim.name .. "ã®" .. degrees[n].adj .. 
+					"ã¯" .. monsters_name[monster.type] .. victor.name .. "ã«ã‚ˆã£ã¦ã¨ã‚ã‚‰ã‚ŒãŸ")
 		break
 		  end
 	  end
@@ -112,8 +112,8 @@ function Triggers.player_damaged(victim, victor, monster, type, amount, projecti
 		 if (victim._kills > 0) then
 	  for n=25,5,-5 do
 		  if(n <= victim._kills) then
-		Players.print(victim.name .. "‚Ì" .. degrees[n].adj .. 
-					"‚Í‘‚­‚àI‚í‚Á‚½B")
+		Players.print(victim.name .. "ã®" .. degrees[n].adj .. 
+					"ã¯æ—©ãã‚‚çµ‚ã‚ã£ãŸã€‚")
 		break
 		  end
 	  end
@@ -140,25 +140,25 @@ function Triggers.monster_killed(victim, victor, projectile)
 	if (projectile ) then
 		local proj = projectiles[projectile.type]
 		if(proj) then
-			by =  proj .. "‚É‚æ‚Á‚Ä" 
+			by =  proj .. "ã«ã‚ˆã£ã¦" 
 		end
 	end
 	
 	--[[ PK --]]
 	if (victor) then
-		Players.print(victor.name .. "‚Í" .. by .. verb(monsters_name[victim.type.mnemonic], type))
+		Players.print(victor.name .. "ã¯" .. by .. verb(monsters_name[victim.type.mnemonic], type))
 	elseif (monstah ~= nil and monstah) then
 		local victor = monstah
 		--[[ suicide --]]
 		if (victim == victor) then
-			Players.print(monsters_name[victor.type.mnemonic] .. "‚Í" .. by .. verb("Ž©•ª", type))
+			Players.print(monsters_name[victor.type.mnemonic] .. "ã¯" .. by .. verb("è‡ªåˆ†", type))
 		--[[ monster --]]
 		else
 			Players.print(verb(monsters_name[victim.type.mnemonic], type))
-			Players.print(monsters_name[victor.type.mnemonic] .. "‚Í" .. by .. verb(monsters_name[victim.type.mnemonic], type))
+			Players.print(monsters_name[victor.type.mnemonic] .. "ã¯" .. by .. verb(monsters_name[victim.type.mnemonic], type))
 		end
 	else
-		Players.print(monsters_name[victim.type] .. "‚Í" .. by .. verb(nil, type))
+		Players.print(monsters_name[victim.type] .. "ã¯" .. by .. verb(nil, type))
 	end
 	--[[ give victor a kill and output a message --]]
 	if(victor) then
@@ -170,7 +170,7 @@ function Triggers.monster_killed(victim, victor, projectile)
 			deg = deg.msg 
 		end
 		if (deg) then
-			Players.print(victor.name .. "‚Í" .. deg .. "‚¾!")
+			Players.print(victor.name .. "ã¯" .. deg .. "ã !")
 			victor:play_sound(233, 1);
 		end
 	end

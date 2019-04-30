@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="Shift_JIS" ?>
 <marathon>
 
 <texture_loading>
@@ -87,7 +86,7 @@ normal_mask="emrtextures/teleporter-mask.jpg" opac_type="1"
 </stringset>
 
 <stringset index="150">
-<string index="41">ホバーバイクのコントロール</string>
+<string index="41">繝帙ヰ繝ｼ繝舌う繧ｯ縺ｮ繧ｳ繝ｳ繝医Ο繝ｼ繝ｫ</string>
 </stringset>
 
 <overhead_map>

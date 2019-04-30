@@ -68,7 +68,7 @@ function Triggers.projectile_detonated(type, owner, polygon, x, y, z)
       floor = polygon.floor.height;
       height = polygon.ceiling.height - floor;
       if height < 0.8 then
-	 Players[0]:print("Žô•¶Ž¸”sF–Ú“I’n‚Íƒ‚ƒ“ƒXƒ^[‚É‚Í‹·‚·‚¬‚é");
+	 Players[0]:print("å‘ªæ–‡å¤±æ•—ï¼šç›®çš„åœ°ã¯ãƒ¢ãƒ³ã‚¹ã‚¿ãƒ¼ã«ã¯ç‹­ã™ãŽã‚‹");
 	 Players[0]:play_sound(5, 1);
 	 Players[0]:fade_screen("bright");
       else

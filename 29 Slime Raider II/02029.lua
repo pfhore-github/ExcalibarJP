@@ -82,7 +82,7 @@ function level_idle()
       click_timer = click_timer + 1;
       timebomb_counter = timebomb_counter + 1;
       if (math.modf(timebomb_counter, 30) == 0) then
-         Players[0]:print("時限爆弾カウントダウン: "..
+         Players[0]:print("譎る剞辷�蠑ｾ繧ｫ繧ｦ繝ｳ繝医ム繧ｦ繝ｳ: "..
                       1+math.floor((timebomb_wait-timebomb_counter)/30));
       end
       if (timebomb_counter >= timebomb_wait) then
@@ -119,7 +119,7 @@ function level_projectile_detonated(type, owner, polygon, x, y, z)
      	 Players[0]:play_sound(209, 1);
     end
    if ((type == "timebomb place") and timebomb_current and (not timebomb_active)) then
-      Players[0]:print('最初に二次引き金を引いてタイマーを起動してください');
+      Players[0]:print('譛蛻昴↓莠梧ｬ｡蠑輔″驥代ｒ蠑輔＞縺ｦ繧ｿ繧､繝槭�ｼ繧定ｵｷ蜍輔＠縺ｦ縺上□縺輔＞');
       Players[0].items["timebomb"] = Players[0].items["timebomb"] - 1;
       Players[0].items["timebomb"] = Players[0].items["timebomb"] + 1;
       Players[0].weapons["bomb"]:select();

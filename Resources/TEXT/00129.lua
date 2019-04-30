@@ -1,96 +1,96 @@
--- ”Ä—pƒXƒNƒŠƒvƒg
+-- æ±ç”¨ã‚¹ã‚¯ãƒªãƒ—ãƒˆ
 Triggers = {};
 
 
 monsters_name = {
 ["spewie"]="SPEWIE",
-["barrel"]="’M",
-["exploding barrel"]="”š”­‚µ‚Ä‚é’M",
-["novice sorcerer"]="ƒ}ƒCƒi[–‚–@g‚¢",
-["magus sorcerer"]="ƒƒWƒƒ[–‚–@g‚¢",
-["shadow sorcerer"]="—ì‘Ì–‚–@g‚¢",
-["master wizard"]="ƒ‚[ƒxƒA",
-["future bob"]="˜A‡ŒRím",
-["soldier"]="ˆ«‚Ì•ºm",
-["minor archer"]="Ëè",
-["major archer"]="‹à”¯‚ÌËè",
-["cave bob"]="ƒOƒƒbƒO",
-["white knight"]="”’”n‚Ì‹Rm",
-["ranger"]="ƒŒƒ“ƒWƒƒ[",
-["clone"]="ƒtƒHƒ‰ƒWƒFEƒNƒ[ƒ“",
-["minor dinobug"]="ƒ_ƒCƒmƒoƒO",
-["major dinobug"]="“f‚­ƒ_ƒCƒmƒoƒN",
-["minor raptor"]="ƒ‰ƒvƒgƒ‹",
-["major raptor"]="ƒƒX‚Ìƒ‰ƒvƒgƒ‹",
-["dimorph"]="ƒ_ƒCƒ‚ƒ‹ƒtƒHƒhƒ“",
-["skull snake"]="Š[œÖ",
-["fire beast"]="—ƒ‚Ì‚ ‚é‰Î‰Šb",
-["hover gat"]="‹ó”ò‚Ô‹R•º",
-["bike cop"]="ƒoƒCƒNŒxŠ¯",
-["trex"]="ƒeƒBƒ‰ƒmƒTƒEƒ‹ƒX",
-["cleric"]="ˆ«‚Ì–qt",
-["lesser knight"]="ˆÅ‚Ì‹Rm",
-["black knight"]="•‚¢‹Rm",
+["barrel"]="æ¨½",
+["exploding barrel"]="çˆ†ç™ºã—ã¦ã‚‹æ¨½",
+["novice sorcerer"]="ãƒã‚¤ãƒŠãƒ¼é­”æ³•ä½¿ã„",
+["magus sorcerer"]="ãƒ¡ã‚¸ãƒ£ãƒ¼é­”æ³•ä½¿ã„",
+["shadow sorcerer"]="éœŠä½“é­”æ³•ä½¿ã„",
+["master wizard"]="ãƒ¢ãƒ¼ãƒ™ã‚¢",
+["future bob"]="é€£åˆè»æˆ¦å£«",
+["soldier"]="æ‚ªã®å…µå£«",
+["minor archer"]="å°„æ‰‹",
+["major archer"]="é‡‘é«ªã®å°„æ‰‹",
+["cave bob"]="ã‚°ãƒ­ãƒƒã‚°",
+["white knight"]="ç™½é¦¬ã®é¨å£«",
+["ranger"]="ãƒ¬ãƒ³ã‚¸ãƒ£ãƒ¼",
+["clone"]="ãƒ•ã‚©ãƒ©ã‚¸ã‚§ãƒ»ã‚¯ãƒ­ãƒ¼ãƒ³",
+["minor dinobug"]="ãƒ€ã‚¤ãƒãƒã‚°",
+["major dinobug"]="åããƒ€ã‚¤ãƒãƒã‚¯",
+["minor raptor"]="ãƒ©ãƒ—ãƒˆãƒ«",
+["major raptor"]="ãƒ¡ã‚¹ã®ãƒ©ãƒ—ãƒˆãƒ«",
+["dimorph"]="ãƒ€ã‚¤ãƒ¢ãƒ«ãƒ•ã‚©ãƒ‰ãƒ³",
+["skull snake"]="éª¸éª¨è›‡",
+["fire beast"]="ç¿¼ã®ã‚ã‚‹ç«ç‚ç£",
+["hover gat"]="ç©ºé£›ã¶é¨å…µ",
+["bike cop"]="ãƒã‚¤ã‚¯è­¦å®˜",
+["trex"]="ãƒ†ã‚£ãƒ©ãƒã‚µã‚¦ãƒ«ã‚¹",
+["cleric"]="æ‚ªã®ç‰§å¸«",
+["lesser knight"]="é—‡ã®é¨å£«",
+["black knight"]="é»’ã„é¨å£«",
 ["minor gat"]="GAT",
-["major gat"]="ƒƒWƒƒ[GAT",
-["morgana"]="ƒ‚ƒ‹ƒKƒi",
-["mordred"]="ƒ‚[ƒhƒŒƒbƒh",
-["spider"]="ƒ‚ƒ‹ƒKƒi‚Ì’ã@•º",
-["piranha"]="ƒsƒ‰ƒjƒA",
-["evil tree"]="P‚¤–Ø",
-["throne"]="‰¤Ài”j‰óÒIj",
-["wooden table"]="ƒe[ƒuƒ‹i”j‰óÒIj",
-["minor spam"]="ƒXƒpƒ€ƒƒJ",
-["major spam"]="ƒ~ƒTƒCƒ‹ƒXƒpƒ€ƒƒJ",
-["wooden chair"]="ˆÖqi”j‰óÒIj",
-["maint bob"]="®”õm",
-["metal bar"]="”j‰ó‰Â”\\‚È–_",
-["raptor eggs"]="ƒ‰ƒvƒgƒ‹‚Ì—‘",
-["torch"]="”R‚¦‚Ä‚¢‚é‚½‚¢‚Ü‚Â",
-["fire"]="’n–‚Ì‰Š",
-["laser turret"]="çŒìÒ‚Ì‚â‚®‚ç"
+["major gat"]="ãƒ¡ã‚¸ãƒ£ãƒ¼GAT",
+["morgana"]="ãƒ¢ãƒ«ã‚¬ãƒŠ",
+["mordred"]="ãƒ¢ãƒ¼ãƒ‰ãƒ¬ãƒƒãƒ‰",
+["spider"]="ãƒ¢ãƒ«ã‚¬ãƒŠã®åµå¯Ÿå…µ",
+["piranha"]="ãƒ”ãƒ©ãƒ‹ã‚¢",
+["evil tree"]="è¥²ã†æœ¨",
+["throne"]="ç‹åº§ï¼ˆç ´å£Šè€…ï¼ï¼‰",
+["wooden table"]="ãƒ†ãƒ¼ãƒ–ãƒ«ï¼ˆç ´å£Šè€…ï¼ï¼‰",
+["minor spam"]="ã‚¹ãƒ‘ãƒ ãƒ¡ã‚«",
+["major spam"]="ãƒŸã‚µã‚¤ãƒ«ã‚¹ãƒ‘ãƒ ãƒ¡ã‚«",
+["wooden chair"]="æ¤…å­ï¼ˆç ´å£Šè€…ï¼ï¼‰",
+["maint bob"]="æ•´å‚™å£«",
+["metal bar"]="ç ´å£Šå¯èƒ½\ãªæ£’",
+["raptor eggs"]="ãƒ©ãƒ—ãƒˆãƒ«ã®åµ",
+["torch"]="ç‡ƒãˆã¦ã„ã‚‹ãŸã„ã¾ã¤",
+["fire"]="åœ°ç„ã®ç‚",
+["laser turret"]="å®ˆè­·è€…ã®ã‚„ãã‚‰"
 }
 
 projectiles = {
-["missile"]="ƒnƒCƒeƒNƒ~ƒTƒCƒ‹",
-["grenade"]="ƒOƒŒƒl[ƒh",
-["snyper bullet"]="ƒXƒiƒCƒp[",
-["dachron bullet"]="ƒ_ƒNƒƒ“",
-["white eye bolt"]="–Ú‚Ì“dŒõ",
-["sword melee"]="Œ•",
-["green eye bolt"]="–Ú‚Ì“dŒõ",
-["fireblast"]="‰Š",
-["fireball"]="‰Î‚Ì‹Ê",
-["freeze"]="—â‚½‚¢—â‹C",
-["healing"]="ƒoƒ“ƒhƒGƒCƒh",
-["excalibur"]="–‚–@‚ÌŒ•",
-["lightning"]="—‹Œõ",
-["plasma"]="ƒvƒ‰ƒYƒ}",
-["blades"]="íœ",
-["bone"]="œ",
-["rock"]="Šâ",
-["guided micromissile"]="—U“±ƒ}ƒCƒNƒƒ~ƒTƒCƒ‹",
-["evil arrow"]="–î",
-["crossbow bolt"]="Î‹|",
-["knife"]="ƒiƒCƒt",
-["venom bite"]="—L“Å‚ÈŠš‚İ",
-["venom spit"]="—L“Å‚È‰˜•¨",
-["claw rip"]="’ä“‚Ì‚æ‚¤‚È‚©‚¬‚Ã‚ß",
-["laser turret"]="ƒŒ[ƒU[ƒr[ƒ€",
-["micromissile"]="ƒ}ƒCƒNƒƒ~ƒTƒCƒ‹",
-["drain"]="ƒGƒlƒ‹ƒM[‹zû",
-["photon"]="ŒõqƒOƒŒƒl[ƒh",
-["trex chomp"]="‘å‚«‚ÈŠš‚İ•t‚«",
-["spear"]="‚â‚è",
-["sting"]="“Ë‚«h‚µ",
-["ball"]="ƒ{[ƒ‹",
-["electrical short"]="’Z‚¢“dŒ‚",
-["electrical blast"]="“dŒ‚‚Ì”š”­",
-["overload"]="‹l‚ß‰ß‚¬",
-["raptor bite"]="UŒ‚“I‚ÈŠš‚İ",
-["phaser"]="ƒtƒF[ƒU[",
-["morgana spell"]="ˆ«‚Ìô•¶",
-["special"]="“ä‚Ìô•¶"
+["missile"]="ãƒã‚¤ãƒ†ã‚¯ãƒŸã‚µã‚¤ãƒ«",
+["grenade"]="ã‚°ãƒ¬ãƒãƒ¼ãƒ‰",
+["snyper bullet"]="ã‚¹ãƒŠã‚¤ãƒ‘ãƒ¼",
+["dachron bullet"]="ãƒ€ã‚¯ãƒ­ãƒ³",
+["white eye bolt"]="ç›®ã®é›»å…‰",
+["sword melee"]="å‰£",
+["green eye bolt"]="ç›®ã®é›»å…‰",
+["fireblast"]="ç‚",
+["fireball"]="ç«ã®ç‰",
+["freeze"]="å†·ãŸã„å†·æ°—",
+["healing"]="ãƒãƒ³ãƒ‰ã‚¨ã‚¤ãƒ‰",
+["excalibur"]="é­”æ³•ã®å‰£",
+["lightning"]="é›·å…‰",
+["plasma"]="ãƒ—ãƒ©ã‚ºãƒ",
+["blades"]="å‰Šé™¤",
+["bone"]="éª¨",
+["rock"]="å²©",
+["guided micromissile"]="èª˜å°ãƒã‚¤ã‚¯ãƒ­ãƒŸã‚µã‚¤ãƒ«",
+["evil arrow"]="çŸ¢",
+["crossbow bolt"]="çŸ³å¼“",
+["knife"]="ãƒŠã‚¤ãƒ•",
+["venom bite"]="æœ‰æ¯’ãªå™›ã¿",
+["venom spit"]="æœ‰æ¯’ãªæ±šç‰©",
+["claw rip"]="å‰ƒåˆ€ã®ã‚ˆã†ãªã‹ãã¥ã‚",
+["laser turret"]="ãƒ¬ãƒ¼ã‚¶ãƒ¼ãƒ“ãƒ¼ãƒ ",
+["micromissile"]="ãƒã‚¤ã‚¯ãƒ­ãƒŸã‚µã‚¤ãƒ«",
+["drain"]="ã‚¨ãƒãƒ«ã‚®ãƒ¼å¸å",
+["photon"]="å…‰å­ã‚°ãƒ¬ãƒãƒ¼ãƒ‰",
+["trex chomp"]="å¤§ããªå™›ã¿ä»˜ã",
+["spear"]="ã‚„ã‚Š",
+["sting"]="çªãåˆºã—",
+["ball"]="ãƒœãƒ¼ãƒ«",
+["electrical short"]="çŸ­ã„é›»æ’ƒ",
+["electrical blast"]="é›»æ’ƒã®çˆ†ç™º",
+["overload"]="è©°ã‚éã",
+["raptor bite"]="æ”»æ’ƒçš„ãªå™›ã¿",
+["phaser"]="ãƒ•ã‚§ãƒ¼ã‚¶ãƒ¼",
+["morgana spell"]="æ‚ªã®å‘ªæ–‡",
+["special"]="è¬ã®å‘ªæ–‡"
 }
 
 
@@ -183,7 +183,7 @@ end
 function random_select(num, base)
    local ret, reg = {}, {};
    if num > base then
-      Players:print('RANDOM_SELECT();‚Ö‚ÌŠÔˆá‚Á‚½ŒÄ‚Ño‚µ: '..num..' > '..base);
+      Players:print('RANDOM_SELECT();ã¸ã®é–“é•ã£ãŸå‘¼ã³å‡ºã—: '..num..' > '..base);
       num = base;
    end
    while (# ret < num) do
@@ -349,26 +349,26 @@ function idle_danger(dangerdist, range, ignore_poly, x_divide, display_stat)
 	 if display_stat then
 	    local msg;
 	    if (mindist <= dangerdist) and in_range then
-	       msg = 'ŠëŒ¯';
+	       msg = 'å±é™º';
 	       if (dangers.tick < dangers.tick_count / 2) then
 		  p.overlays[0].color = "red";
 	       else
 		  p.overlays[0].color = "dark red";
 	       end
 	    elseif (mindist <= range/2) and in_range then
-	       msg = 'Ú‹ß';
+	       msg = 'æ¥è¿‘';
 	       p.overlays[0].color = "yellow";
 	    elseif in_range then
-	       msg = '”ÍˆÍ“à';
+	       msg = 'ç¯„å›²å†…';
 	       p.overlays[0].color = "white";
 	    elseif mcnt > 0 then
-	       msg = '”ÍˆÍŠO';
+	       msg = 'ç¯„å›²å¤–';
 	       p.overlays[0].color = "cyan";
 	    else
-	       msg = '“G–³‚µ';
+	       msg = 'æ•µç„¡ã—';
 	       p.overlays[0].color = "green";
 	    end
-	    p.overlays[0].text = '“GƒZƒ“ƒT[: '.. msg;
+	    p.overlays[0].text = 'æ•µã‚»ãƒ³ã‚µãƒ¼: '.. msg;
 	    p.overlays[1].text = math.floor(mindist*100)/100;
 	 end
 	 if (mindist <= dangerdist) then  --[[ danger mode, flashing indicator--]]

@@ -36,7 +36,7 @@ end
 function level_monster_killed(victim, victor, projectile)
 	if (victim.type  == "black knight") then
 		bad_grog_dead = true;
-		Players[0]:print("ƒ]Eƒcƒ“ƒo‚ÍE‚³‚ê‚½I");
+		Players[0]:print("ã‚¾ãƒ»ãƒ„ãƒ³ãƒã¯æ®ºã•ã‚ŒãŸï¼");
 		s.control_panel.permutation = 3;
 	end
 end

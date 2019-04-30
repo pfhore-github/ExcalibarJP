@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="Shift_JIS" ?>
 <marathon>
 <opengl>
 
@@ -15,11 +14,11 @@
 </scenery>
 
 <stringset index="137">
-<string index="9">�X�̔j�Ђ̏�</string>
+<string index="9">氷の破片の杖</string>
 </stringset>
 
 <stringset index="150">
-<string index="41">�X�̔j�Ђ̏�</string>
+<string index="41">氷の破片の杖</string>
 </stringset>
 
 <sounds>

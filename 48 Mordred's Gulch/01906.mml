@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="Shift_JIS" ?>
 <marathon>
 <texture_loading>
 <texture_env index="4" which="2" coll="17"/>
@@ -33,10 +32,10 @@ opac_type="1"
 
 <!-- STR# Resource: "Item names" -->
 <stringset index="150">
-<string index="29">�̊�</string>
-<string index="30">�̊�</string>
-<string index="31">�Ԃ̊�</string>
-<string index="32">�Ԃ̊�</string>
+<string index="29">青の旗</string>
+<string index="30">青の旗</string>
+<string index="31">赤の旗</string>
+<string index="32">赤の旗</string>
 </stringset>
 
 <sounds>

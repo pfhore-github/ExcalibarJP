@@ -60,7 +60,7 @@ function bell_time()
    if min > 59 then
       min = 59;
    end
-   Players[0].overlays[0].text = "ƒ^ƒ[ "..string.format("%02i",hour)..":"..string.format("%02i",min);
+   Players[0].overlays[0].text = "ã‚¿ãƒ¯ãƒ¼ "..string.format("%02i",hour)..":"..string.format("%02i",min);
    Players[0].overlays[0].color = "blue";
 end
 

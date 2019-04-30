@@ -38,7 +38,7 @@ function level_idle ()
 	end
 	n  = Players[0].items["magic scroll"];
 	if (n >= 4) and (not elemental_scrolls) then
-		Players[0]:print('‚·‚×‚Ä‚Ì‚S‚Â‚ÌŠî–{‚ÌŠª‚«•¨‚ğE‚Á‚½I');
+		Players[0]:print('ã™ã¹ã¦ã®ï¼”ã¤ã®åŸºæœ¬ã®å·»ãç‰©ã‚’æ‹¾ã£ãŸï¼');
 		Players[0]:play_sound(233, 1);
 		elemental_scrolls = true;
 		if (Players[0].life < 150) then

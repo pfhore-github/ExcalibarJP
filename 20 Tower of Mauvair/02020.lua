@@ -33,7 +33,7 @@ function level_idle ()
       open_wait = false;
       if (not clear_teleport) then
 	 clear_teleport = true;
-	 Players[0]:print('ƒV[ƒNƒGƒ“ƒXŠ®—¹');
+	 Players[0]:print('ã‚·ãƒ¼ã‚¯ã‚¨ãƒ³ã‚¹å®Œäº†');
       end
       if (player_poly == return_poly) then
 	 Players[0]:teleport(teleport_poly);
@@ -57,7 +57,7 @@ function level_idle ()
    if ((player_poly == teleport_poly) and Lights[teleport_light].active and 
     (not start_teleport) and clear_teleport and
  (teleport_platform.ceiling_height < 0.2)) then
-      Players[0]:print('ƒeƒŒƒ|[ƒg[“d’†...');
+      Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ãƒˆå……é›»ä¸­...');
       start_teleport = true;
       prev_count = -1;
    end
@@ -72,7 +72,7 @@ function level_idle ()
       timer = 0;
       start_teleport = false;
       clear_teleport = false;  
-      Players[0]:print('ƒeƒŒƒ|[ƒg’†...');
+      Players[0]:print('ãƒ†ãƒ¬ãƒãƒ¼ãƒˆä¸­...');
       Players[0]:teleport(teleport_dest + Game.global_random (6));
    end
 end

@@ -56,9 +56,9 @@ function level_idle ()
    end
    h = main_platform.floor_height;
    if h < last_h then
-      dir = '‰º';
+      dir = 'ä¸‹';
    elseif h > last_h then
-      dir = 'ã';
+      dir = 'ä¸Š';
    end
    last_h = h;
    if last_floor == -1 then
@@ -84,9 +84,9 @@ function level_idle ()
       play_elevator_sound(poly, 145);
    end
    if elevator_active then
-      Players[0].overlays[0].text = "Œ»İ:" .. floor .. "ŠK"
+      Players[0].overlays[0].text = "ç¾åœ¨:" .. floor .. "éš"
       Players[0].overlays[0].color = "cyan";
-      Players[0].overlays[1].text = "•ûŒü:" .. dir
+      Players[0].overlays[1].text = "æ–¹å‘:" .. dir
       if dir == 'UP' then
 	 Players[0].overlays[0].color = "dark green";
       else
