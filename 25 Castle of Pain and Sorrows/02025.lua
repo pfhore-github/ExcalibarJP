@@ -100,7 +100,7 @@ function level_idle ()
 	 if has_wand then
 	    Players[0]:print("すでに巨大足の杖を持っています。後で来て下さい...");
 	 elseif scroll_cnt < stomp_scrolls then
-	    Players[0]:print("巨大足の杖に十\分な巻き物を持っていません。");
+	    Players[0]:print("巨大足の杖に十分な巻き物を持っていません。");
 	 end
       end
       if (player_poly == stomp_poly) and stomp_poly_active then

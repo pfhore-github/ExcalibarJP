@@ -146,7 +146,7 @@ function level_idle ()
          if has_wand then
             Players[0]:print("すでに魔法の杖を持っています。また後で来て下さい...");
          elseif scroll_cnt < wand_scrolls then
-            Players[0]:print("魔法の杖を使うのに十\分な巻き物を持っていません。");
+            Players[0]:print("魔法の杖を使うのに十分な巻き物を持っていません。");
 	 	end
       end
       if (player_poly == wand_poly) and wand_poly_active then
